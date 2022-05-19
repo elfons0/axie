@@ -19,16 +19,16 @@ Agregar un nuevo elemento homepage para colocar la ubicación donde estará aloj
 
 `  "homepage":"https://elfons0.github.io/axie",`
 
-#### 4.2 predeploy y deploy
+#### 4.2 prepare y deploy
 Agregar nuevos elementos en la sección de script, esto para ejecutar nuestro build y nuestro deploy desde consola
 
 `  "scripts": {
-"predeploy": "npm run build",
+"prepare": "npm run build",
 "deploy": "gh-pages -d build", ...`
 
 ### Paso 5
 Todo listo para hacer el despliegue en react hacia github pages.
 
-`PS > npm run predeploy`
+`PS > npm run prepare`
 
 `PS > npm run deploy`
