@@ -119,3 +119,30 @@ label{
     height: 100px;
     display: table-cell;
 }
+
+@media screen and (max-width: 350px) {
+ 
+  .card{
+    width: 150px;
+  }
+
+  .Card-div{
+    width: 150px;
+    height: 230px;
+  }
+
+  .card-description {
+    top: -120px;
+    left: 35px;
+    font-size: 7pt;
+    width: 110px;
+    height: 100px;
+  }
+
+  .card-title {
+    top: -107px;
+    left: 61px;
+    font-size: 8pt;
+  }
+
+}

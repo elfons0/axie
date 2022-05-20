@@ -5,25 +5,26 @@ import Card from './Card';
 import cards from "../data/origincards.json"
 
 const allitems={ value: 'all',  label: '(all)'  };
+const noSort = { value: "none", label : "(none)"};
 
 const bodyOptions = [
     allitems,
-    { value: 'aqua',  label: 'aqua'  },
-    { value: 'beast',  label: 'beast' },
-    { value: 'bird', label: 'bird' },
-    { value: 'bug', label: 'bug' },
-    { value: 'plant',  label: 'plant'  },
-    { value: 'reptile', label: 'reptile' }
+    { value: 'aqua',  label: 'Aqua'  },
+    { value: 'beast',  label: 'Beast' },
+    { value: 'bird', label: 'Bird' },
+    { value: 'bug', label: 'Bug' },
+    { value: 'plant',  label: 'Plant'  },
+    { value: 'reptile', label: 'Reptile' }
   ];
 
   const partsOptions = [
     allitems,
-    { value: 'back',  label: 'back'  },
-    { value: 'horn',  label: 'horn' },
-    { value: 'mouth', label: 'mouth' },
-    { value: 'tail', label: 'tail' },
-    { value: 'ears', label: 'ears' },
-    { value: 'eyes', label: 'eyes' }
+    { value: 'back',  label: 'Back'  },
+    { value: 'horn',  label: 'Horn' },
+    { value: 'mouth', label: 'Mouth' },
+    { value: 'tail', label: 'Tail' },
+    { value: 'ears', label: 'Ears' },
+    { value: 'eyes', label: 'Eyes' }
   ];
 
 const energyOptions = [
@@ -33,33 +34,70 @@ const energyOptions = [
     { value: '2', label: '2' }
   ];
 
+  const attackOptions = [
+    allitems,
+    { value: 'Melee', label: 'Melee' },
+    { value: 'Ranged', label: 'Ranged' }
+  ];
+
+  const sortOptions = [
+    noSort,
+    { value: 'attack', label: 'By Attack' },
+    { value: 'defense', label: 'By Defense' },
+    { value: 'healing', label: 'By Healing' }
+  ];
+
+
 export default class CardList extends Component {
 
-    state = { cardlist : [], selectedBody : allitems, selectedEnergy : allitems, selectedPart : allitems };
+    state = { cardlist : [], 
+      selectedBody : allitems, 
+      selectedEnergy : allitems, 
+      selectedPart : allitems,
+      selectedAttack : allitems,
+      selectedSort: noSort };
    
     handleChangeBody = (selectedBody) => {
-        const {selectedEnergy, selectedPart} =  this.state
+        const {selectedEnergy, selectedPart, selectedAttack, selectedSort} =  this.state
         this.setState({ selectedBody } );
-        this.filter(selectedBody, selectedEnergy, selectedPart);
+        this.filter(selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort);
       };
 
       handleChangeEnergy = (selectedEnergy) => {
-        const {selectedBody, selectedPart} =  this.state
+        const {selectedBody, selectedPart, selectedAttack, selectedSort} =  this.state
         this.setState({ selectedEnergy } );
-        this.filter(selectedBody, selectedEnergy, selectedPart);
+        this.filter(selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort);
       };
 
       handleChangePart = (selectedPart) => {
-        const {selectedBody, selectedEnergy} =  this.state
+        const {selectedBody, selectedEnergy, selectedAttack, selectedSort} =  this.state
         this.setState({ selectedPart } );
-        this.filter(selectedBody, selectedEnergy, selectedPart);
+        this.filter(selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort);
       };   
 
+      handleChangeAttack = (selectedAttack) => {
+        const {selectedBody, selectedEnergy, selectedPart, selectedSort} =  this.state
+        this.setState({ selectedAttack } );
+        this.filter(selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort);
+      }; 
+
+      handleChangeSort = (selectedSort) => {
+        const {selectedBody, selectedEnergy, selectedPart, selectedAttack} =  this.state
+        this.setState({ selectedSort } );
+        this.filter(selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort);
+      }; 
+
     reset = () => {
-      this.setState({cardlist: cards, selectedBody : allitems, selectedEnergy: allitems, selectedPart: allitems});  
+      this.setState({cardlist: cards, 
+        selectedBody : allitems, 
+        selectedEnergy: allitems,
+        selectedPart: allitems,
+        selectedAttack : allitems,
+        selectedSort: noSort
+      });  
     }
 
-    filter = (selectedBody, selectedEnergy, selectedPart) => {
+    filter = (selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort) => {
 
       let filteredList = cards
 
@@ -72,7 +110,25 @@ export default class CardList extends Component {
       if(selectedPart.value !== 'all'){
         filteredList = filteredList.filter((card) => card.type === selectedPart.value);
       }
+      if(selectedAttack.value !== 'all'){
+        filteredList = filteredList.filter((card) => card.abilityType.includes(selectedAttack.value));
+      }
 
+      switch (selectedSort.value) {
+        case "attack":
+          filteredList = filteredList.sort((a, b) => a.defaultAttack < b.defaultAttack ? 1:-1);
+          break;
+         case "defense":          
+          filteredList = filteredList.sort((a, b) => a.defaultDefense < b.defaultDefense ? 1:-1);
+          break;
+        case "healing":          
+          filteredList = filteredList.sort((a, b) => a.healing < b.healing ? 1:-1);
+          break;
+        default:
+          break;
+      }
+
+      
       this.setState({cardlist: filteredList});
     }
 
@@ -82,7 +138,7 @@ export default class CardList extends Component {
 
     render(){
       
-        const { cardlist, selectedBody, selectedEnergy, selectedPart } = this.state;         
+        const { cardlist, selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort } = this.state;         
 
         return (
         <div>
@@ -119,6 +175,26 @@ export default class CardList extends Component {
                     value={selectedEnergy}
                     onChange={this.handleChangeEnergy}
                     options={energyOptions}
+                />
+              </div>
+              <div className='filterItem'>
+                <label htmlFor='attack'>Attack</label>
+                <Select
+                    id='attack'
+                    className='select'
+                    value={selectedAttack}
+                    onChange={this.handleChangeAttack}
+                    options={attackOptions}
+                />
+              </div>
+              <div className='filterItem'>
+                <label htmlFor='sort'>Sort</label>
+                <Select
+                    id='sort'
+                    className='select'
+                    value={selectedSort}
+                    onChange={this.handleChangeSort}
+                    options={sortOptions}
                 />
               </div>
                 <button className='button' onClick={this.reset}>reset</button>
