@@ -122,7 +122,8 @@ export default class CardList extends Component {
             </div>
             <div>
             {
-                cardlist.map(({id, partName, skillName, defaultEnergy, description, skillName}) => ( 
+                cardlist.map(({id, partName, skillName, defaultEnergy, description}) => ( 
+                  
                   <Card
                     key={id}
                     nature={id}
@@ -130,7 +131,6 @@ export default class CardList extends Component {
                     name={skillName}
                     energy={defaultEnergy}
                     description={description}
-                    skillName = {skillName}
                   />  
                 ))
             }
