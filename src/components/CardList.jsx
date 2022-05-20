@@ -153,6 +153,7 @@ export default class CardList extends Component {
                     value={selectedBody}
                     onChange={this.handleChangeBody}
                     options={bodyOptions}
+isSearchable={false}
                 />
               </div>
              
@@ -164,6 +165,7 @@ export default class CardList extends Component {
                     value={selectedPart}
                     onChange={this.handleChangePart}
                     options={partsOptions}
+isSearchable={false}
                 />
               </div>
 
@@ -175,6 +177,7 @@ export default class CardList extends Component {
                     value={selectedEnergy}
                     onChange={this.handleChangeEnergy}
                     options={energyOptions}
+isSearchable={false}
                 />
               </div>
               <div className='filterItem'>
@@ -185,6 +188,7 @@ export default class CardList extends Component {
                     value={selectedAttack}
                     onChange={this.handleChangeAttack}
                     options={attackOptions}
+isSearchable={false}
                 />
               </div>
               <div className='filterItem'>
@@ -195,6 +199,7 @@ export default class CardList extends Component {
                     value={selectedSort}
                     onChange={this.handleChangeSort}
                     options={sortOptions}
+isSearchable={false}
                 />
               </div>
                 <button className='button' onClick={this.reset}>reset</button>
