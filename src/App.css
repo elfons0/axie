@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
   pointer-events: none;
+  float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +16,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +29,13 @@
   color: #61dafb;
 }
 
+.Card-div{
+  float: left;
+  height: 300px;
+  width: 200px;
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.filter{
+  width: 100%;
+  display: block;
+  min-height: 65px;
+  z-index: 10;
+}
+
+.filterItem{
+  width: 300px;
+  float: left;
+}
+
+.select{
+  width: 200px;
+  float: left;
+}
+
+label{
+  margin: 10px;
+  width: 50px;
+  float: left;
+}
+
+.button{
+  margin-left: 15px;
+  padding: 10px;
+  float: left;
+}
+
+.card{
+  width: 200px;
+  margin: 5px;
+  z-index: -1;
+}
+
+.card-energy{
+  position: relative;
+  top: -272px;
+  left: -67px;
+  font-size: 25pt;
+  font-weight: bold;
+  color: white;
+}
+
+.card-title{
+  position: relative;
+  color: white;
+  top: -304px;
+  left: 13px;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.card-description{
+  position: relative;
+  color: white;
+  top: -175px;
+  left: 40px;
+  font-size: 10pt;
+  width: 145px;
+  vertical-align: middle;
+  height: 100px;
+  display: table-cell;
 }
