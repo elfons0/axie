@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Select from 'react-select'
 import Card from './Card';
 
-import cards from "../data/cards.json"
+import cards from "../data/origincards.json"
 
 const allitems={ value: 'all',  label: '(all)'  };
 
@@ -21,13 +21,15 @@ const bodyOptions = [
     { value: 'back',  label: 'back'  },
     { value: 'horn',  label: 'horn' },
     { value: 'mouth', label: 'mouth' },
-    { value: 'tail', label: 'tail' }
+    { value: 'tail', label: 'tail' },
+    { value: 'ears', label: 'ears' },
+    { value: 'eyes', label: 'eyes' }
   ];
 
 const energyOptions = [
     allitems,
-    { value: '0',  label: '0'  },
-    { value: '1',  label: '1' },
+    { value: '0', label: '0' },
+    { value: '1', label: '1' },
     { value: '2', label: '2' }
   ];
 
@@ -62,13 +64,13 @@ export default class CardList extends Component {
       let filteredList = cards
 
       if(selectedBody.value !== 'all'){
-        filteredList = filteredList.filter((card) => card.id.includes(selectedBody.value));
+        filteredList = filteredList.filter((card) => card.cardId.includes(selectedBody.value));
       }
       if(selectedEnergy.value !== 'all'){
         filteredList = filteredList.filter((card) => Number(card.defaultEnergy) === Number(selectedEnergy.value));
       }
       if(selectedPart.value !== 'all'){
-        filteredList = filteredList.filter((card) => card.id.includes(selectedPart.value));
+        filteredList = filteredList.filter((card) => card.type === selectedPart.value);
       }
 
       this.setState({cardlist: filteredList});
@@ -97,16 +99,7 @@ export default class CardList extends Component {
                     options={bodyOptions}
                 />
               </div>
-              <div className='filterItem'>
-                <label htmlFor='energy'>Energy</label>
-                <Select
-                    id='energy'
-                    className='select'
-                    value={selectedEnergy}
-                    onChange={this.handleChangeEnergy}
-                    options={energyOptions}
-                />
-              </div>
+             
               <div className='filterItem'>
                 <label htmlFor='part'>Part</label>
                 <Select
@@ -117,20 +110,29 @@ export default class CardList extends Component {
                     options={partsOptions}
                 />
               </div>
+
+              <div className='filterItem'>
+                <label htmlFor='energy'>Energy</label>
+                <Select
+                    id='energy'
+                    className='select'
+                    value={selectedEnergy}
+                    onChange={this.handleChangeEnergy}
+                    options={energyOptions}
+                />
+              </div>
                 <button className='button' onClick={this.reset}>reset</button>
 
             </div>
             <div>
             {
-                cardlist.map(({id, partName, skillName, defaultEnergy, description}) => ( 
+                cardlist.map(({cardId, name, description, cardImage}) => ( 
                   
                   <Card
-                    key={id}
-                    nature={id}
-                    part={partName}
-                    name={skillName}
-                    energy={defaultEnergy}
+                    key={cardId}
+                    name={name}
                     description={description}
+                    cardImage={cardImage}
                   />  
                 ))
             }

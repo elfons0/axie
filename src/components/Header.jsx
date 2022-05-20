@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../logo.svg';
+import logo from '../Axielogo.png';
 
 
 export default class Header extends Component {
@@ -9,7 +9,6 @@ export default class Header extends Component {
             
             <p>
              <img src={logo} className="App-logo" alt="logo" />
-              <span>Edit <code>src/App.js</code> and save to reload.</span>
             </p>
            
           </header>

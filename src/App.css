@@ -8,20 +8,14 @@ body{
 }
 
 .App-logo {
-  height: 50px;
+  height: 80px;
   pointer-events: none;
   float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 80px;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +35,13 @@ body{
   padding: 10px;
 }
 
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -49,6 +50,7 @@ body{
     transform: rotate(360deg);
   }
 }
+*/
 
 .filter{
   width: 100%;
@@ -98,21 +100,22 @@ label{
 
 .card-title{
   position: relative;
-  color: white;
-  top: -304px;
-  left: 13px;
-  font-size: 13pt;
-  font-weight: bold;
+    color: white;
+    top: -140px;
+    left: 80px;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
 }
 
 .card-description{
-  position: relative;
-  color: white;
-  top: -175px;
-  left: 40px;
-  font-size: 10pt;
-  width: 145px;
-  vertical-align: middle;
-  height: 100px;
-  display: table-cell;
+    position: relative;
+    color: white;
+    top: -140px;
+    left: 40px;
+    font-size: 8pt;
+    width: 145px;
+    vertical-align: middle;
+    height: 100px;
+    display: table-cell;
 }
