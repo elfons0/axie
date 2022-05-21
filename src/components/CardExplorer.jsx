@@ -36,8 +36,11 @@ const energyOptions = [
 
 const attackOptions = [
   allitems,
-  { value: "Melee", label: "Melee" },
-  { value: "Ranged", label: "Ranged" },
+  { value: "AttackMelee", label: "Attack (Melee)" },
+  { value: "AttackRanged", label: "Attack (Ranged)" },
+  { value: "Skill", label: "Skill" },
+  { value: "Secret", label: "Secret" },
+  { value: "Power" , label: "Power" }
 ];
 
 const sortOptions = [
@@ -208,7 +211,7 @@ export default class CardExplorer extends Component {
         <h1> Card Explorer </h1>
         <div className="filter">
           <div className="filterItem">
-            <label htmlFor="body">Type</label>
+            <label htmlFor="body">Class</label>
             <Select
               id="body"
               className="select"
@@ -243,7 +246,7 @@ export default class CardExplorer extends Component {
             />
           </div>
           <div className="filterItem">
-            <label htmlFor="attack">Attack</label>
+            <label htmlFor="attack">Type</label>
             <Select
               id="attack"
               className="select"
