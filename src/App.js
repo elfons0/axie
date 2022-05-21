@@ -1,12 +1,12 @@
-import Header from './components/Header';
-import CardList from './components/CardList';
-import './App.css';
+import Header from "./components/Header";
+import CardExplorer from "./components/CardExplorer";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CardList />
+      <CardExplorer />
     </div>
   );
 }

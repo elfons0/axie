@@ -52,6 +52,11 @@ body{
 }
 */
 
+.title{
+  font-size: 45pt;
+  padding: 10px;
+}
+
 .filter{
   width: 100%;
   display: table-cell;
@@ -143,6 +148,12 @@ label{
     top: -107px;
     left: 61px;
     font-size: 8pt;
+  }
+
+  .title{
+    font-size: 35pt;
+    position: relative;
+    top: 15px;
   }
 
 }
