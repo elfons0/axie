@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/axie/static/css/main.50554ff1.css",
-    "main.js": "/axie/static/js/main.305644ff.js",
+    "main.css": "/axie/static/css/main.d1885e8d.css",
+    "main.js": "/axie/static/js/main.51f5a7bc.js",
     "static/js/787.a1c6ae46.chunk.js": "/axie/static/js/787.a1c6ae46.chunk.js",
     "static/media/Axielogo.png": "/axie/static/media/Axielogo.5b83360808b10cbf846f.png",
     "index.html": "/axie/index.html",
-    "main.50554ff1.css.map": "/axie/static/css/main.50554ff1.css.map",
-    "main.305644ff.js.map": "/axie/static/js/main.305644ff.js.map",
+    "main.d1885e8d.css.map": "/axie/static/css/main.d1885e8d.css.map",
+    "main.51f5a7bc.js.map": "/axie/static/js/main.51f5a7bc.js.map",
     "787.a1c6ae46.chunk.js.map": "/axie/static/js/787.a1c6ae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50554ff1.css",
-    "static/js/main.305644ff.js"
+    "static/css/main.d1885e8d.css",
+    "static/js/main.51f5a7bc.js"
   ]
 }
