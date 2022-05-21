@@ -81,10 +81,12 @@ label{
   float: left;
 }
 
-.button{
+.reset-button{
   margin-left: 15px;
+  margin-right: 15px;
   padding: 10px;
-  float: left;
+  float: right;
+  border-radius: 6px;
 }
 
 .card{

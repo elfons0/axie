@@ -165,17 +165,20 @@ export default class CardExplorer extends Component {
 
     switch (selectedSort.value) {
       case "attack":
-        filteredList = filteredList.sort((a, b) =>
+        filteredList = filteredList.filter((card) =>
+        card.defaultAttack > 0).sort((a, b) =>
           a.defaultAttack < b.defaultAttack ? 1 : -1
         );
         break;
       case "defense":
-        filteredList = filteredList.sort((a, b) =>
+        filteredList = filteredList.filter((card) =>
+        card.defaultDefense > 0).sort((a, b) =>
           a.defaultDefense < b.defaultDefense ? 1 : -1
         );
         break;
       case "healing":
-        filteredList = filteredList.sort((a, b) =>
+        filteredList = filteredList.filter((card) =>
+        card.healing > 0).sort((a, b) =>
           a.healing < b.healing ? 1 : -1
         );
         break;
@@ -261,8 +264,8 @@ export default class CardExplorer extends Component {
               isSearchable={false}
             />
           </div>
-          <button className="button" onClick={this.reset}>
-            reset
+          <button className="reset-button" onClick={this.reset}>
+            Reset
           </button>
         </div>
         <div>
