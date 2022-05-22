@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/axiedatabase/static/css/main.e53af2ff.css",
-    "main.js": "/axiedatabase/static/js/main.030bb322.js",
+    "main.css": "/axiedatabase/static/css/main.8b9cc4e4.css",
+    "main.js": "/axiedatabase/static/js/main.8fd66e03.js",
     "static/js/787.a1c6ae46.chunk.js": "/axiedatabase/static/js/787.a1c6ae46.chunk.js",
     "static/media/Axielogo.png": "/axiedatabase/static/media/Axielogo.5b83360808b10cbf846f.png",
+    "static/media/feature_mission.png": "/axiedatabase/static/media/feature_mission.805ea937d24eccd52dd3.png",
+    "static/media/feature_collection.png": "/axiedatabase/static/media/feature_collection.4e0a2cddc8c5c7173c67.png",
+    "static/media/feature_charm.png": "/axiedatabase/static/media/feature_charm.62586bf67473e19976a2.png",
+    "static/media/feature_rune.png": "/axiedatabase/static/media/feature_rune.1c21892e1bb1d4f69f2d.png",
+    "static/media/feature_chat.png": "/axiedatabase/static/media/feature_chat.99a9e18d602164745358.png",
+    "static/media/feature_crafting.png": "/axiedatabase/static/media/feature_crafting.6b965d93afa6a35233ba.png",
     "index.html": "/axiedatabase/index.html",
-    "main.e53af2ff.css.map": "/axiedatabase/static/css/main.e53af2ff.css.map",
-    "main.030bb322.js.map": "/axiedatabase/static/js/main.030bb322.js.map",
+    "main.8b9cc4e4.css.map": "/axiedatabase/static/css/main.8b9cc4e4.css.map",
+    "main.8fd66e03.js.map": "/axiedatabase/static/js/main.8fd66e03.js.map",
     "787.a1c6ae46.chunk.js.map": "/axiedatabase/static/js/787.a1c6ae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e53af2ff.css",
-    "static/js/main.030bb322.js"
+    "static/css/main.8b9cc4e4.css",
+    "static/js/main.8fd66e03.js"
   ]
 }
