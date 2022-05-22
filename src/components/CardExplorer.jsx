@@ -37,9 +37,9 @@ const energyOptions = [
 const attackOptions = [
   allitems,
   { value: "AttackMelee", label: "Attack (Melee)" },
-  { value: "AttackRanged", label: "Attack (Ranged)" },
-  { value: "Skill", label: "Skill" },
+  { value: "AttackRanged", label: "Attack (Ranged)" },  
   { value: "Secret", label: "Secret" },
+  { value: "Skill", label: "Skill" },
   { value: "Power" , label: "Power" }
 ];
 
