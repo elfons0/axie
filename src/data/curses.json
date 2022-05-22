@@ -1,0 +1,63 @@
+[
+    {
+      "id": "tool-blackmail-02",
+      "name": "Blackmail",
+      "abilities": [
+        "skill",
+        "banish"
+      ],
+      "description": "Taunt"
+    },
+    {
+      "id": "tool-burn-02",
+      "name": "Burn",
+      "abilities": [
+        "unplayable",
+        "ethereal"
+      ],
+      "description": "Unplayable"
+    },
+    {
+      "id": "tool-confused-02",
+      "name": "Confused",
+      "abilities": [
+        "unplayable",
+        "ethereal"
+      ],
+      "description": "Unplayable"
+    },
+    {
+      "id": "tool-daze-02",
+      "name": "Daze",
+      "abilities": [
+        "unplayable"
+      ],
+      "description": "Unplayable"
+    },
+    {
+      "id": "tool-goo-02",
+      "name": "Goo",
+      "abilities": [
+        "banish"
+      ],
+      "description": "Banish"
+    },
+    {
+      "id": "tool-jinx-02",
+      "name": "Jinx",
+      "abilities": [
+        "unplayable",
+        "ethereal"
+      ],
+      "description": "Unplayable"
+    },
+    {
+      "id": "tool-void-02",
+      "name": "Void",
+      "abilities": [
+        "unplayable",
+        "ethereal"
+      ],
+      "description": "Unplayable"
+    }
+  ]

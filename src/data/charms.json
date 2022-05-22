@@ -1,0 +1,681 @@
+[
+    {
+      "id": "ancient-root",
+      "class": "plant",
+      "name": "Ancient Root",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "aquatic-energy-drink-s",
+      "class": "aquatic",
+      "name": "Aquatic Energy Drink S",
+      "value": 4,
+      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
+    },
+    {
+      "id": "aquatic-talisman-power-4",
+      "class": "aquatic",
+      "name": "Aquatic Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
+    },
+    {
+      "id": "aquatic-talisman-power-5",
+      "class": "aquatic",
+      "name": "Aquatic Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
+    },
+    {
+      "id": "aquatic-talisman-vitality-4",
+      "class": "aquatic",
+      "name": "Aquatic Talisman of Vitality IV",
+      "value": 2,
+      "description": "(Enhance any card) Axie's max HP +20"
+    },
+    {
+      "id": "aquatic-talisman-vitality-5",
+      "class": "aquatic",
+      "name": "Aquatic Talisman of Vitality V",
+      "value": 3,
+      "description": "(Enhance any card) Axie's max HP +35"
+    },
+    {
+      "id": "arid-spell",
+      "class": "dusk",
+      "name": "Arid Spell",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies Doubt for 2 turns."
+    },
+    {
+      "id": "backup-disk",
+      "class": "mech",
+      "name": "Backup Disk",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "beans-blessing",
+      "class": "dawn",
+      "name": "Bean's Blessing",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 2 Healing Boost."
+    },
+    {
+      "id": "beast-energy-drink-m",
+      "class": "beast",
+      "name": "Beast Energy Drink M",
+      "value": 4,
+      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
+    },
+    {
+      "id": "beast-energy-drink-s",
+      "class": "beast",
+      "name": "Beast Energy Drink S",
+      "value": 4,
+      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
+    },
+    {
+      "id": "beast-talisman-power-4",
+      "class": "beast",
+      "name": "Beast Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
+    },
+    {
+      "id": "beast-talisman-power-5",
+      "class": "beast",
+      "name": "Beast Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
+    },
+    {
+      "id": "beast-talisman-vitality-4",
+      "class": "beast",
+      "name": "Beast Talisman of Vitality IV",
+      "value": 2,
+      "description": "(Enhance any card) Axie's max HP +20"
+    },
+    {
+      "id": "beast-talisman-vitality-5",
+      "class": "beast",
+      "name": "Beast Talisman of Vitality V",
+      "value": 3,
+      "description": "(Enhance any card) Axie's max HP +35"
+    },
+    {
+      "id": "bird-energy-drink-s",
+      "class": "bird",
+      "name": "Bird Energy Drink S",
+      "value": 4,
+      "description": "(Enhance any Abilities) Add Ethereal. Card's base stat +10%."
+    },
+    {
+      "id": "bird-talisman-focus-4",
+      "class": "bird",
+      "name": "Bird Talisman of Focus IV",
+      "value": 2,
+      "description": "(Enhance Multihit Attack Ability) ATK +3"
+    },
+    {
+      "id": "bird-talisman-focus-5",
+      "class": "bird",
+      "name": "Bird Talisman of Focus V",
+      "value": 3,
+      "description": "(Enhance Multihit Attack Ability) ATK +4"
+    },
+    {
+      "id": "bird-talisman-power-4",
+      "class": "bird",
+      "name": "Bird Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance Non-Multihit Attack Ability) ATK +6"
+    },
+    {
+      "id": "bird-talisman-power-5",
+      "class": "bird",
+      "name": "Bird Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance Non-Multihit Attack Ability) ATK +10"
+    },
+    {
+      "id": "bubble-paste",
+      "class": "aquatic",
+      "name": "Bubble Paste",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 1 Bubble."
+    },
+    {
+      "id": "bug-energy-drink-m",
+      "class": "bug",
+      "name": "Bug Energy Drink M",
+      "value": 4,
+      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
+    },
+    {
+      "id": "bug-talisman-endurance-4",
+      "class": "bug",
+      "name": "Bug Talisman of Endurance IV",
+      "value": 2,
+      "description": "(Enhance a Shielding card) Shield Stat +6"
+    },
+    {
+      "id": "bug-talisman-endurance-5",
+      "class": "bug",
+      "name": "Bug Talisman of Endurance V",
+      "value": 3,
+      "description": "(Enhance a Shielding card) Shield Stat +10"
+    },
+    {
+      "id": "bug-talisman-power-4",
+      "class": "bug",
+      "name": "Bug Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
+    },
+    {
+      "id": "bug-talisman-power-5",
+      "class": "bug",
+      "name": "Bug Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
+    },
+    {
+      "id": "endurance-1",
+      "class": "neutral",
+      "name": "Charm of Endurance I",
+      "value": 1,
+      "description": "(Enhance a Shielding card) Shield Stat +2"
+    },
+    {
+      "id": "endurance-2",
+      "class": "neutral",
+      "name": "Charm of Endurance II",
+      "value": 2,
+      "description": "(Enhance a Shielding card) Shield Stat +4"
+    },
+    {
+      "id": "endurance-3",
+      "class": "neutral",
+      "name": "Charm of Endurance III",
+      "value": 3,
+      "description": "(Enhance a Shielding card) Shield stat +7"
+    },
+    {
+      "id": "faith-1",
+      "class": "neutral",
+      "name": "Charm of Faith I",
+      "value": 1,
+      "description": "(Enhance a Healing card) Heal Stat +2"
+    },
+    {
+      "id": "faith-2",
+      "class": "neutral",
+      "name": "Charm of Faith II",
+      "value": 2,
+      "description": "(Enhance a Healing card) Heal Stat +4"
+    },
+    {
+      "id": "faith-3",
+      "class": "neutral",
+      "name": "Charm of Faith III",
+      "value": 3,
+      "description": "(Enhance a Healing card) Heal stat +7"
+    },
+    {
+      "id": "focus-1",
+      "class": "neutral",
+      "name": "Charm of Focus I",
+      "value": 1,
+      "description": "(Enhance a Multihit Attack card) ATK +1"
+    },
+    {
+      "id": "focus-2",
+      "class": "neutral",
+      "name": "Charm of Focus II",
+      "value": 2,
+      "description": "(Enhance a Multihit Attack card) ATK +2"
+    },
+    {
+      "id": "focus-3",
+      "class": "neutral",
+      "name": "Charm of Focus III",
+      "value": 3,
+      "description": "(Enhance a Multihit Attack card) ATK +3"
+    },
+    {
+      "id": "power-1",
+      "class": "neutral",
+      "name": "Charm of Power I",
+      "value": 1,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +2"
+    },
+    {
+      "id": "power-2",
+      "class": "neutral",
+      "name": "Charm of Power II",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +4"
+    },
+    {
+      "id": "power-3",
+      "class": "neutral",
+      "name": "Charm of Power III",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit attack card) ATK +7"
+    },
+    {
+      "id": "vitality-1",
+      "class": "neutral",
+      "name": "Charm of Vitality I",
+      "value": 1,
+      "description": "Axie's HP +5"
+    },
+    {
+      "id": "vitality-2",
+      "class": "neutral",
+      "name": "Charm of Vitality II",
+      "value": 2,
+      "description": "Axie's HP +15"
+    },
+    {
+      "id": "vitality-3",
+      "class": "neutral",
+      "name": "Charm of Vitality III",
+      "value": 3,
+      "description": "(Enhance any card) Axie's HP +25"
+    },
+    {
+      "id": "cursed-doll",
+      "class": "dusk",
+      "name": "Cursed Doll",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "dawn-energy-drink-s",
+      "class": "dawn",
+      "name": "Dawn Energy Drink S",
+      "value": 4,
+      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
+    },
+    {
+      "id": "dawn-talisman-faith-4",
+      "class": "dawn",
+      "name": "Dawn Talisman of Faith IV",
+      "value": 2,
+      "description": "(Enhance a Healing card) Heal Stat +6"
+    },
+    {
+      "id": "dawn-talisman-faith-5",
+      "class": "dawn",
+      "name": "Dawn Talisman of Faith V",
+      "value": 3,
+      "description": "(Enhance a Healing card) Heal Stat +10"
+    },
+    {
+      "id": "dawn-talisman-focus-4",
+      "class": "dawn",
+      "name": "Dawn Talisman of Focus IV",
+      "value": 2,
+      "description": "(Enhance a Multihit Attack card) ATK +3"
+    },
+    {
+      "id": "dawn-talisman-focus-5",
+      "class": "dawn",
+      "name": "Dawn Talisman of Focus V",
+      "value": 3,
+      "description": "(Enhance a Multihit Attack card) ATK +4"
+    },
+    {
+      "id": "discount-coupon",
+      "class": "neutral",
+      "name": "Discount Coupon",
+      "value": 5,
+      "description": "(Enhance any card) -1 energy cost. Card's base stat -40%."
+    },
+    {
+      "id": "dusk-energy-drink-m",
+      "class": "dusk",
+      "name": "Dusk Energy Drink M",
+      "value": 4,
+      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
+    },
+    {
+      "id": "dusk-talisman-focus-4",
+      "class": "dusk",
+      "name": "Dusk Talisman of Focus IV",
+      "value": 2,
+      "description": "(Enhance a Multihit Attack card) ATK +3"
+    },
+    {
+      "id": "dusk-talisman-focus-5",
+      "class": "dusk",
+      "name": "Dusk Talisman of Focus V",
+      "value": 3,
+      "description": "(Enhance a Multihit Attack card) ATK +4"
+    },
+    {
+      "id": "dusk-talisman-power-4",
+      "class": "dusk",
+      "name": "Dusk Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
+    },
+    {
+      "id": "dusk-talisman-power-5",
+      "class": "dusk",
+      "name": "Dusk Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
+    },
+    {
+      "id": "earth-stamp",
+      "class": "neutral",
+      "name": "Earth Stamp",
+      "value": 3,
+      "description": "(Enhance Single Target Attack Abilities) Change ability target to the frontmost one."
+    },
+    {
+      "id": "energy-drink-m",
+      "class": "neutral",
+      "name": "Energy Drink M",
+      "value": 5,
+      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
+    },
+    {
+      "id": "energy-drink-s",
+      "class": "neutral",
+      "name": "Energy Drink S",
+      "value": 5,
+      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
+    },
+    {
+      "id": "feather-fan",
+      "class": "bird",
+      "name": "Feather Fan",
+      "value": 4,
+      "description": "(Enhance any Abilities) All teammates gain 1 Feather."
+    },
+    {
+      "id": "flamingo-hammer",
+      "class": "bird",
+      "name": "Flamingo Hammer",
+      "value": 5,
+      "description": "(Enhance Attack Abilities) Attack applies Fragile for 2 turns."
+    },
+    {
+      "id": "gecko-mask",
+      "class": "reptile",
+      "name": "Gecko Mask",
+      "value": 4,
+      "description": "(Enhance any card) Taunt all Enemies for 2 turns."
+    },
+    {
+      "id": "hackers-drive",
+      "class": "mech",
+      "name": "Hacker's Drive",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies Disarmed for 2 turns to the frontmost enemy."
+    },
+    {
+      "id": "hidden-razor",
+      "class": "beast",
+      "name": "Hidden Razor",
+      "value": 5,
+      "description": "(Enhance an Attack card) Attacks apply Bleed for 2 turns."
+    },
+    {
+      "id": "lazy-snail",
+      "class": "bug",
+      "name": "Lazy Snail",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies Weak for 2 turns."
+    },
+    {
+      "id": "leafy-pot",
+      "class": "plant",
+      "name": "Leafy Pot",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 1 Leaf."
+    },
+    {
+      "id": "mask-of-frenzy",
+      "class": "beast",
+      "name": "Mask of Frenzy",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 1 Rage."
+    },
+    {
+      "id": "mech-talisman-endurance-4",
+      "class": "mech",
+      "name": "Mech Talisman of Endurance IV",
+      "value": 2,
+      "description": "(Enhance a Shielding card) Shield Stat +6"
+    },
+    {
+      "id": "mech-talisman-endurance-5",
+      "class": "mech",
+      "name": "Mech Talisman of Endurance V",
+      "value": 3,
+      "description": "(Enhance a Shielding card) Shield Stat +10"
+    },
+    {
+      "id": "mech-talisman-power-4",
+      "class": "mech",
+      "name": "Mech Talisman of Power IV",
+      "value": 2,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
+    },
+    {
+      "id": "mech-talisman-power-5",
+      "class": "mech",
+      "name": "Mech Talisman of Power V",
+      "value": 3,
+      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
+    },
+    {
+      "id": "moon-stamp",
+      "class": "neutral",
+      "name": "Moon Stamp",
+      "value": 4,
+      "description": "(Enhance Single Target Attack Abilities) Change ability target to the second frontmost one."
+    },
+    {
+      "id": "paralyze-jelly-fish",
+      "class": "aquatic",
+      "name": "Paralyze Jelly Fish",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies Vulnerable for 2 turns."
+    },
+    {
+      "id": "plant-talisman-endurance-4",
+      "class": "plant",
+      "name": "Plant Talisman of Endurance IV",
+      "value": 2,
+      "description": "(Enhance any Shielding card) Shield Stat +6"
+    },
+    {
+      "id": "plant-talisman-endurance-5",
+      "class": "plant",
+      "name": "Plant Talisman of Endurance V",
+      "value": 3,
+      "description": "(Enhance any Shielding card) Shield Stat +10"
+    },
+    {
+      "id": "plant-talisman-faith-4",
+      "class": "plant",
+      "name": "Plant Talisman of Faith IV",
+      "value": 2,
+      "description": "(Enhance any Healing card) Heal Stat +6"
+    },
+    {
+      "id": "plant-talisman-faith-5",
+      "class": "plant",
+      "name": "Plant Talisman of Faith V",
+      "value": 3,
+      "description": "(Enhance any Healing card) Heal Stat +10"
+    },
+    {
+      "id": "power-spell",
+      "class": "dusk",
+      "name": "Power Spell",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 2 Damage Boost."
+    },
+    {
+      "id": "pre-order-tag",
+      "class": "neutral",
+      "name": "Pre-Order Tag",
+      "value": 5,
+      "description": "(Enhance any card) Add Innate."
+    },
+    {
+      "id": "protection-cartridge",
+      "class": "mech",
+      "name": "Protection Cartridge",
+      "value": 4,
+      "description": "(Enhance any card) All teammates gain 2 Shield Boost."
+    },
+    {
+      "id": "red-sage",
+      "class": "plant",
+      "name": "Red Sage",
+      "value": 5,
+      "description": "(Enhance shield and healing cards) Add Cleanse."
+    },
+    {
+      "id": "reptile-energy-drink-m",
+      "class": "reptile",
+      "name": "Reptile Energy Drink M",
+      "value": 4,
+      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
+    },
+    {
+      "id": "reptile-talisman-faith-4",
+      "class": "reptile",
+      "name": "Reptile Talisman of Faith IV",
+      "value": 2,
+      "description": "(Enhance a Healing card) Heal Stat +6"
+    },
+    {
+      "id": "reptile-talisman-faith-5",
+      "class": "reptile",
+      "name": "Reptile Talisman of Faith V",
+      "value": 3,
+      "description": "(Enhance a Healing card) Heal Stat +10"
+    },
+    {
+      "id": "reptile-talisman-vitality-4",
+      "class": "reptile",
+      "name": "Reptile Talisman of Vitality IV",
+      "value": 2,
+      "description": "(Enhance any card) Axie's HP +20"
+    },
+    {
+      "id": "reptile-talisman-vitality-5",
+      "class": "reptile",
+      "name": "Reptile Talisman of Vitality V",
+      "value": 3,
+      "description": "(Enhance any card) Axie's HP +35"
+    },
+    {
+      "id": "rocket-stamp",
+      "class": "neutral",
+      "name": "Rocket Stamp",
+      "value": 5,
+      "description": "(Enhance single-target attack cards) This card can target any enemy."
+    },
+    {
+      "id": "scotch-tape",
+      "class": "neutral",
+      "name": "Scotch Tape",
+      "value": 5,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "secret-chip",
+      "class": "mech",
+      "name": "Secret Chip",
+      "value": 4,
+      "description": "(Enhance any card) Add Innate."
+    },
+    {
+      "id": "secret-cocoon",
+      "class": "bug",
+      "name": "Secret Cocoon",
+      "value": 4,
+      "description": "(Enhance any card) Add Innate."
+    },
+    {
+      "id": "secret-egg",
+      "class": "bird",
+      "name": "Secret Egg",
+      "value": 4,
+      "description": "(Enhance any Abilities) Add Innate."
+    },
+    {
+      "id": "secret-sprout",
+      "class": "plant",
+      "name": "Secret Sprout",
+      "value": 4,
+      "description": "(Enhance any card) Add Innate."
+    },
+    {
+      "id": "silent-incense",
+      "class": "dawn",
+      "name": "Silent Insence",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies Silence for 2 turns to the frontmost enemy."
+    },
+    {
+      "id": "sticky-lizard",
+      "class": "reptile",
+      "name": "Sticky Lizard",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "sticky-octopus",
+      "class": "aquatic",
+      "name": "Sticky Octopus",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    },
+    {
+      "id": "sun-stamp",
+      "class": "neutral",
+      "name": "Sun Stamp",
+      "value": 4,
+      "description": "(Enhance single-target attack cards) This card targets the furthest enemy."
+    },
+    {
+      "id": "tricksters-card",
+      "class": "bug",
+      "name": "Trickster's Card",
+      "value": 4,
+      "description": "(Enhance any card) Draw 1 Card"
+    },
+    {
+      "id": "vipers-venom",
+      "class": "reptile",
+      "name": "Viper's Venom",
+      "value": 5,
+      "description": "(Enhance any Attack card) Attack applies 2 Poison."
+    },
+    {
+      "id": "white-sage",
+      "class": "plant",
+      "name": "White Sage",
+      "value": 5,
+      "description": "(Enhance shield and healing cards) Add Cleanse. Card's base stat -100%."
+    },
+    {
+      "id": "wooden-idol",
+      "class": "dawn",
+      "name": "Wooden Idol",
+      "value": 4,
+      "description": "(Enhance any card) Add Retain."
+    }
+  ]

@@ -1,0 +1,64 @@
+[
+    {
+      "id": "tool-forestbreath-02",
+      "energyCost": 1,
+      "name": "Forest Breath",
+      "value": 50,
+      "effect": "heal",
+      "description": "Retain.Target an ally. Cleanse.",
+      "abilities": [
+        "skill",
+        "retain"
+      ]
+    },
+    {
+      "id": "tool-forestwrath-02",
+      "energyCost": 1,
+      "name": "Forest Wrath",
+      "value": 30,
+      "effect": "damage",
+      "description": "Attack all enemies. Deal 10 bonus pure DMG per debuffed allies.",
+      "abilities": [
+        "attack"
+      ]
+    },
+    {
+      "id": "tool-lumbershield-02",
+      "energyCost": 0,
+      "name": "Lumber Shield",
+      "value": 12,
+      "effect": "shield",
+      "description": "Retain. Target any ally. Banish.",
+      "abilities": [
+        "skill",
+        "retain",
+        "banish"
+      ]
+    },
+    {
+      "id": "tool-purewater-02",
+      "energyCost": 0,
+      "name": "Pure Water",
+      "value": 6,
+      "effect": "heal",
+      "description": "Retain. Target any ally. Banish.",
+      "abilities": [
+        "skill",
+        "retain",
+        "banish"
+      ]
+    },
+    {
+      "id": "tool-strawberry-02",
+      "energyCost": 0,
+      "name": "Strawberry",
+      "value": 60,
+      "effect": "heal",
+      "description": "Retain. Target any ally. Banish.",
+      "abilities": [
+        "skill",
+        "retain",
+        "banish"
+      ]
+    }
+  ]
