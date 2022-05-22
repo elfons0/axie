@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Select from "react-select";
 
 import runes from "../data/runes.json";
+import Rune from "./Rune";
 
 const allitems = { value: "all", label: "(all)" };
 
@@ -18,7 +19,7 @@ const bodyOptions = [
 
 export default class RuneExplorer extends Component {
   state = {
-    cardlist: [],
+    runelist: [],
     selectedBody: allitems
   };
 
@@ -82,13 +83,12 @@ export default class RuneExplorer extends Component {
         </div>
         <div>
           {runelist.map(({ id, type, name, description }) => (
-            <ul>
-              <li>{id}</li>
-              <li>{type}</li>
-              <li>{name}</li>
-              <li>{description}</li>
-            </ul>
-       
+            <Rune
+              id={id}
+              type={type}
+              name={name}
+              description={description}
+            />       
           ))}
         </div>
       </div>

@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #0a212c;
   color: aquamarine;
 }
@@ -28,7 +28,14 @@ body{
   color: #61dafb;
 }
 
-.Card-div{
+.Card-div {
+  float: left;
+  height: 300px;
+  width: 200px;
+  padding: 10px;
+}
+
+.rune-div {
   float: left;
   height: 300px;
   width: 200px;
@@ -52,36 +59,36 @@ body{
 }
 */
 
-.title{
+.title {
   font-size: 45pt;
   padding: 10px;
 }
 
-.filter{
+.filter {
   width: 100%;
   display: table-cell;
   min-height: 65px;
   z-index: 10;
 }
 
-.filterItem{
+.filterItem {
   width: 300px;
   float: left;
 }
 
-.select{
+.select {
   width: 200px;
   float: left;
   color: #0a212c;
 }
 
-label{
+label {
   margin: 10px;
   width: 50px;
   float: left;
 }
 
-.reset-button{
+.reset-button {
   margin-left: 15px;
   margin-right: 15px;
   padding: 10px;
@@ -89,13 +96,19 @@ label{
   border-radius: 6px;
 }
 
-.card{
+.card {
   width: 200px;
   margin: 5px;
   z-index: -1;
 }
 
-.card-energy{
+.runeCard {
+  width: 200px;
+  margin: 5px;
+  z-index: -1;
+}
+
+.card-energy {
   position: relative;
   top: -272px;
   left: -67px;
@@ -105,26 +118,55 @@ label{
   text-shadow: 0 0 5px #000;
 }
 
-.card-title{
+.card-title {
   position: relative;
-    color: white;
-    top: -140px;
-    left: 80px;
-    font-size: 10pt;
-    font-weight: bold;
-    text-align: left;
+  color: white;
+  top: -140px;
+  left: 80px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: left;
 }
 
-.card-description{
-    position: relative;
-    color: white;
-    top: -140px;
-    left: 40px;
-    font-size: 8pt;
-    width: 145px;
-    vertical-align: middle;
-    height: 100px;
-    display: table-cell;
+.card-description {
+  position: relative;
+  color: white;
+  top: -140px;
+  left: 40px;
+  font-size: 8pt;
+  width: 145px;
+  vertical-align: middle;
+  height: 100px;
+  display: table-cell;
+}
+
+.rune-title {
+  position: relative;
+  color: white;
+  top: -210px;
+  left: 6px;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rune-description {
+  position: relative;
+  color: white;
+  top: -215px;
+  left: 30px;
+  font-size: 8pt;
+  width: 150px;
+  vertical-align: middle;
+  height: 100px;
+  display: table-cell;
+}
+
+.rune-icon {
+  position: relative;
+  top: -476px;
+  left: -62px;
+  width: 37px;
 }
 
 .navigator a {
@@ -138,18 +180,23 @@ label{
   color: aquamarine;
 }
 
-.menu-img{
+.menu-img {
   height: 30px;
 }
 
+.rune {
+  position: relative;
+  width: 85px;
+  top: -244px;
+  left: 6px;
+}
 
 @media screen and (max-width: 500px) {
- 
-  .card{
+  .card {
     width: 150px;
   }
 
-  .Card-div{
+  .Card-div {
     width: 150px;
     height: 230px;
   }
@@ -168,7 +215,7 @@ label{
     font-size: 8pt;
   }
 
-  .title{
+  .title {
     font-size: 32pt;
     position: relative;
     top: 15px;
@@ -178,8 +225,7 @@ label{
     margin: 15px;
   }
 
-  .menu-img{
+  .menu-img {
     height: 20px;
   }
-
 }
