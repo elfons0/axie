@@ -127,6 +127,22 @@ label{
     display: table-cell;
 }
 
+.navigator a {
+  color: rgb(247, 228, 209);
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigator a:hover {
+  color: aquamarine;
+}
+
+.menu-img{
+  height: 30px;
+}
+
+
 @media screen and (max-width: 500px) {
  
   .card{
@@ -156,6 +172,14 @@ label{
     font-size: 32pt;
     position: relative;
     top: 15px;
+  }
+
+  .navigator a {
+    margin: 15px;
+  }
+
+  .menu-img{
+    height: 20px;
   }
 
 }

@@ -9,7 +9,7 @@ const noSort = { value: "none", label: "(none)" };
 
 const bodyOptions = [
   allitems,
-  { value: "aquatic", label: "Aqua" },
+  { value: "aqua", label: "Aqua" },
   { value: "beast", label: "Beast" },
   { value: "bird", label: "Bird" },
   { value: "bug", label: "Bug" },
@@ -50,7 +50,7 @@ const sortOptions = [
   { value: "healing", label: "By Healing" },
 ];
 
-export default class CardExplorer extends Component {
+export default class RuneExplorer extends Component {
   state = {
     cardlist: [],
     selectedBody: allitems,
@@ -208,7 +208,7 @@ export default class CardExplorer extends Component {
 
     return (
       <div>
-        <h1> Card Explorer </h1>
+        <h1> Rune Explorer </h1>
         <div className="filter">
           <div className="filterItem">
             <label htmlFor="body">Class</label>
