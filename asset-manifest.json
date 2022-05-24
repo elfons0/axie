@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/axiedatabase/static/css/main.f3ba4780.css",
-    "main.js": "/axiedatabase/static/js/main.cc6bb09d.js",
+    "main.css": "/axiedatabase/static/css/main.077677ed.css",
+    "main.js": "/axiedatabase/static/js/main.89d588d5.js",
     "static/js/787.a1c6ae46.chunk.js": "/axiedatabase/static/js/787.a1c6ae46.chunk.js",
-    "static/media/rune.png": "/axiedatabase/static/media/rune.6e9d8cfb62bc14c83124.png",
+    "static/media/rune.png": "/axiedatabase/static/media/rune.cc6d50d5b0db474eb874.png",
     "static/media/rune_beast_hybrid_1.png": "/axiedatabase/static/media/rune_beast_hybrid_1.9510beaf6fbb7a3794d3.png",
     "static/media/rune_aquatic_defensive_1.png": "/axiedatabase/static/media/rune_aquatic_defensive_1.94b668c081bd9207c839.png",
     "static/media/rune_dawn_utility_1.png": "/axiedatabase/static/media/rune_dawn_utility_1.2ba02d48ab61881d15cd.png",
@@ -49,19 +49,29 @@
     "static/media/rune_mech_utility_1.png": "/axiedatabase/static/media/rune_mech_utility_1.80fed3caf7d38c5ae6db.png",
     "static/media/rune_neutral_defensive_2.png": "/axiedatabase/static/media/rune_neutral_defensive_2.24d6889c473cffdbc327.png",
     "static/media/Axielogo.png": "/axiedatabase/static/media/Axielogo.5b83360808b10cbf846f.png",
+    "static/media/Dawn.png": "/axiedatabase/static/media/Dawn.983718545eafc06968fd.png",
+    "static/media/Reptile.png": "/axiedatabase/static/media/Reptile.d7bd13ddfc44a4bcdae7.png",
+    "static/media/Bird.png": "/axiedatabase/static/media/Bird.5f2f5139281aa53ddbfd.png",
+    "static/media/Bug.png": "/axiedatabase/static/media/Bug.6ce4d9ae4c65e10e79ed.png",
+    "static/media/Aquatic.png": "/axiedatabase/static/media/Aquatic.0aa5f6e620e5691cba1b.png",
+    "static/media/Dusk.png": "/axiedatabase/static/media/Dusk.dba14c015919578abfa5.png",
+    "static/media/Beast.png": "/axiedatabase/static/media/Beast.15252fbaf16b096142a2.png",
+    "static/media/Mech.png": "/axiedatabase/static/media/Mech.906fcf097a3e52fe17b2.png",
+    "static/media/Plant.png": "/axiedatabase/static/media/Plant.58a2e0330249f29b4133.png",
     "static/media/feature_mission.png": "/axiedatabase/static/media/feature_mission.805ea937d24eccd52dd3.png",
     "static/media/feature_collection.png": "/axiedatabase/static/media/feature_collection.4e0a2cddc8c5c7173c67.png",
     "static/media/feature_charm.png": "/axiedatabase/static/media/feature_charm.62586bf67473e19976a2.png",
+    "static/media/Neutral.png": "/axiedatabase/static/media/Neutral.641d3587ee8b3598c0fc.png",
     "static/media/feature_rune.png": "/axiedatabase/static/media/feature_rune.1c21892e1bb1d4f69f2d.png",
     "static/media/feature_chat.png": "/axiedatabase/static/media/feature_chat.99a9e18d602164745358.png",
     "static/media/feature_crafting.png": "/axiedatabase/static/media/feature_crafting.6b965d93afa6a35233ba.png",
     "index.html": "/axiedatabase/index.html",
-    "main.f3ba4780.css.map": "/axiedatabase/static/css/main.f3ba4780.css.map",
-    "main.cc6bb09d.js.map": "/axiedatabase/static/js/main.cc6bb09d.js.map",
+    "main.077677ed.css.map": "/axiedatabase/static/css/main.077677ed.css.map",
+    "main.89d588d5.js.map": "/axiedatabase/static/js/main.89d588d5.js.map",
     "787.a1c6ae46.chunk.js.map": "/axiedatabase/static/js/787.a1c6ae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3ba4780.css",
-    "static/js/main.cc6bb09d.js"
+    "static/css/main.077677ed.css",
+    "static/js/main.89d588d5.js"
   ]
 }
