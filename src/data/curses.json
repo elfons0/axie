@@ -1,63 +1,79 @@
 [
-    {
-      "id": "tool-blackmail-02",
-      "name": "Blackmail",
-      "abilities": [
-        "skill",
-        "banish"
-      ],
-      "description": "Taunt"
-    },
-    {
-      "id": "tool-burn-02",
-      "name": "Burn",
-      "abilities": [
-        "unplayable",
-        "ethereal"
-      ],
-      "description": "Unplayable"
-    },
-    {
-      "id": "tool-confused-02",
-      "name": "Confused",
-      "abilities": [
-        "unplayable",
-        "ethereal"
-      ],
-      "description": "Unplayable"
-    },
-    {
-      "id": "tool-daze-02",
-      "name": "Daze",
-      "abilities": [
-        "unplayable"
-      ],
-      "description": "Unplayable"
-    },
-    {
-      "id": "tool-goo-02",
-      "name": "Goo",
-      "abilities": [
-        "banish"
-      ],
-      "description": "Banish"
-    },
-    {
-      "id": "tool-jinx-02",
-      "name": "Jinx",
-      "abilities": [
-        "unplayable",
-        "ethereal"
-      ],
-      "description": "Unplayable"
-    },
-    {
-      "id": "tool-void-02",
-      "name": "Void",
-      "abilities": [
-        "unplayable",
-        "ethereal"
-      ],
-      "description": "Unplayable"
-    }
-  ]
+  {
+    "id": 4,
+    "name": "Blackmail",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "Apply {Taunt} to your furthest Axie for 2 turns. If this is not used, put it onto the top of your draw pile. <Banish>.",
+    "tags": "skill,banish",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-blackmail-02.png"
+  },
+  {
+    "id": 7,
+    "name": "Burn",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Unplayable>. <Ethereal>. At the end of your turn, all allies take 8 damage.",
+    "tags": "unplayable,ethereal",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-burn-02.png"
+  },
+  {
+    "id": 8,
+    "name": "Confused",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Unplayable>. <Ethereal>.",
+    "tags": "unplayable,ethereal",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-confused-02.png"
+  },
+  {
+    "id": 9,
+    "name": "Daze",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Unplayable>.",
+    "tags": "unplayable",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-dazed-02.png"
+  },
+  {
+    "id": 6,
+    "name": "Goo",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Banish>.",
+    "tags": "banish",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-goo-02.png"
+  },
+  {
+    "id": 5,
+    "name": "Jinx",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Unplayable>. <Ethereal>. At the end of your turn, your furthest Axie takes 15 damage.",
+    "tags": "unplayable,ethereal",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-jinx-02.png"
+  },
+  {
+    "id": 11,
+    "name": "Void",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "X",
+    "description": "<Unplayable>. <Ethereal>. When you draw 1 or more [Void], lose 1 Energy.",
+    "tags": "unplayable,ethereal",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-void-02.png"
+  }
+]
