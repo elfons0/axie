@@ -1,64 +1,57 @@
 [
-    {
-      "id": "tool-forestbreath-02",
-      "energyCost": 1,
-      "name": "Forest Breath",
-      "value": 50,
-      "effect": "heal",
-      "description": "Retain.Target an ally. Cleanse.",
-      "abilities": [
-        "skill",
-        "retain"
-      ]
-    },
-    {
-      "id": "tool-forestwrath-02",
-      "energyCost": 1,
-      "name": "Forest Wrath",
-      "value": 30,
-      "effect": "damage",
-      "description": "Attack all enemies. Deal 10 bonus pure DMG per debuffed allies.",
-      "abilities": [
-        "attack"
-      ]
-    },
-    {
-      "id": "tool-lumbershield-02",
-      "energyCost": 0,
-      "name": "Lumber Shield",
-      "value": 12,
-      "effect": "shield",
-      "description": "Retain. Target any ally. Banish.",
-      "abilities": [
-        "skill",
-        "retain",
-        "banish"
-      ]
-    },
-    {
-      "id": "tool-purewater-02",
-      "energyCost": 0,
-      "name": "Pure Water",
-      "value": 6,
-      "effect": "heal",
-      "description": "Retain. Target any ally. Banish.",
-      "abilities": [
-        "skill",
-        "retain",
-        "banish"
-      ]
-    },
-    {
-      "id": "tool-strawberry-02",
-      "energyCost": 0,
-      "name": "Strawberry",
-      "value": 60,
-      "effect": "heal",
-      "description": "Retain. Target any ally. Banish.",
-      "abilities": [
-        "skill",
-        "retain",
-        "banish"
-      ]
-    }
-  ]
+  {
+    "id": 13,
+    "name": "Forest Breath",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 50,
+    "cardEnergy": "1",
+    "description": "<Retain>.Target an ally. <Cleanse>.",
+    "tags": "skill,retain_effect",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-forestbreath-02.png"
+  },
+  {
+    "id": 14,
+    "name": "Forest Wrath",
+    "cardDamage": 30,
+    "cardShield": 0,
+    "cardHeal": 0,
+    "cardEnergy": "1",
+    "description": "Attack all enemies. Deal 10 bonus pure DMG per debuffed allies.",
+    "tags": "attack",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-forestwrath-02.png"
+  },
+  {
+    "id": 1,
+    "name": "Lumber Shield",
+    "cardDamage": 0,
+    "cardShield": 12,
+    "cardHeal": 0,
+    "cardEnergy": "0",
+    "description": "<Retain>. Target any ally. <Banish>.",
+    "tags": "skill,retain_effect,banish",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-lumbershield-02.png"
+  },
+  {
+    "id": 3,
+    "name": "Pure Water",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 6,
+    "cardEnergy": "0",
+    "description": "<Retain>. Target any ally. <Banish>.",
+    "tags": "skill,retain_effect,banish",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-purewater-02.png"
+  },
+  {
+    "id": 2,
+    "name": "Strawberry",
+    "cardDamage": 0,
+    "cardShield": 0,
+    "cardHeal": 60,
+    "cardEnergy": "0",
+    "description": "<Retain>. Target any ally. <Banish>.",
+    "tags": "skill,retain_effect,banish",
+    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-strawberry-02.png"
+  }
+]

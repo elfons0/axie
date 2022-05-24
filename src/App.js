@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import CardExplorer from "./components/CardExplorer";
 import RuneExplorer from "./components/RuneExplorer";
+import ToolCardExplorer from "./components/ToolCardExplorer";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Blank from "./components/Blank";
@@ -18,7 +20,7 @@ function App() {
             <Route path="/runes" element={<RuneExplorer lang={lang} />} />
             <Route path="/charms" element={<Blank />} />
             <Route path="/curses" element={<Blank />} />
-            <Route path="/tools" element={<Blank />} />
+            <Route path="/tools" element={<ToolCardExplorer />} />
             <Route path="/effects" element={<Blank />} />
           </Routes>
         </div>
