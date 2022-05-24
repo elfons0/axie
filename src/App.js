@@ -16,12 +16,12 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-            <Route path="/" element={<CardExplorer lang={lang}/>} />
-            <Route path="/runes" element={<RuneExplorer lang={lang} />} />
-            <Route path="/charms" element={<Blank />} />
-            <Route path="/curses" element={<Blank />} />
-            <Route path="/tools" element={<ToolCardExplorer />} />
-            <Route path="/effects" element={<Blank />} />
+            <Route path="/axiedatabase/cards" element={<CardExplorer lang={lang}/>} />
+            <Route path="/axiedatabase/runes" element={<RuneExplorer lang={lang} />} />
+            <Route path="/axiedatabase/charms" element={<Blank />} />
+            <Route path="/axiedatabase/curses" element={<Blank />} />
+            <Route path="/axiedatabase/tools" element={<ToolCardExplorer />} />
+            <Route path="/axiedatabase/effects" element={<Blank />} />
           </Routes>
         </div>
       </BrowserRouter>

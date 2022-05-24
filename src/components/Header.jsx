@@ -19,12 +19,12 @@ export default class Header extends Component {
           <span className="title">Database</span>
         </p>
         <nav className="navigator">
-          <Link to="/">CARDS <img src={card_img} className="menu-img" alt="" /></Link>
-          <Link to="/runes">RUNES <img src={rune_img} className="menu-img" alt="" /></Link>
-          <Link to="/charms">CHARMS <img src={charm_img} className="menu-img" alt="" /></Link>
-          <Link to="/curses">CURSES <img src={curse_img} className="menu-img" alt="" /></Link>
-          <Link to="/tools">TOOLS <img src={tools_img} className="menu-img" alt="" /></Link>
-          <Link to="/effects">EFFECTS <img src={effects_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/cards">CARDS <img src={card_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/runes">RUNES <img src={rune_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/charms">CHARMS <img src={charm_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/curses">CURSES <img src={curse_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/tools">TOOLS <img src={tools_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/effects">EFFECTS <img src={effects_img} className="menu-img" alt="" /></Link>
         </nav>
       </header>
     );
