@@ -17,35 +17,61 @@ const bodyOptions = [
   { value: "reptile", label: "Reptile" },
 ];
 
+const rarityOptions = [
+  allitems,
+  { value: "Common", label: "Common" },  
+  { value: "Rare", label: "Rare" },
+  { value: "Epic", label: "Epic" },
+  { value: "Mystic", label: "Mystic" }
+];
+
 export default class RuneExplorer extends Component {
   state = {
     runelist: [],
-    selectedBody: allitems
+    selectedBody: allitems,
+    selectedRarity: allitems
   };
 
   handleChangeBody = (selectedBody) => {
+    const {selectedRarity} = this.state;
     this.setState({ selectedBody });
     this.filter(
-      selectedBody
+      selectedBody,
+      selectedRarity
     );
   };
 
+  handleChangeRarity = (selectedRarity) => {
+    const {selectedBody} = this.state;
+    this.setState({ selectedRarity });
+    this.filter(
+      selectedBody,
+      selectedRarity
+    );
+  };
 
   reset = () => {
     this.setState({
       runelist: runes,
-      selectedBody: allitems
+      selectedBody: allitems,
+      selectedRarity: allitems
     });
   };
 
   filter = (
-    selectedBody
+    selectedBody, selectedRarity
   ) => {
     let filteredList = runes;
 
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((rune) =>
         rune.type.includes(selectedBody.value)
+      );
+    }
+
+    if (selectedRarity.value !== "all") {
+      filteredList = filteredList.filter((rune) =>
+        rune.rarity.includes(selectedRarity.value)
       );
     }
   
@@ -59,7 +85,8 @@ export default class RuneExplorer extends Component {
   render() {
     const {
       runelist,
-      selectedBody
+      selectedBody,
+      selectedRarity,
     } = this.state;
 
     return (
@@ -77,17 +104,30 @@ export default class RuneExplorer extends Component {
               isSearchable={false}
             />
           </div>
+          <div className="filterItem">
+            <label htmlFor="rarity">Rarity</label>
+            <Select
+              id="rarity"
+              className="select"
+              value={selectedRarity}
+              onChange={this.handleChangeRarity}
+              options={rarityOptions}
+              isSearchable={false}
+            />
+          </div>
           <button className="reset-button" onClick={this.reset}>
             Reset
           </button>
         </div>
         <div>
-          {runelist.map(({ id, type, name, description }) => (
+          {runelist.map(({ id, image, type,  name, effect, rarity }) => (
             <Rune
-              id={id}
+              key={id}
+              image={image}
               type={type}
               name={name}
-              description={description}
+              rarity={rarity}
+              description={effect}
             />       
           ))}
         </div>

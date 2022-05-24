@@ -148,15 +148,16 @@ label {
   font-size: 10pt;
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px 1px white;
 }
 
 .rune-description {
   position: relative;
   color: white;
   top: -215px;
-  left: 30px;
+  left: 20px;
   font-size: 8pt;
-  width: 150px;
+  width: 170px;
   vertical-align: middle;
   height: 100px;
   display: table-cell;
@@ -188,7 +189,37 @@ label {
   position: relative;
   width: 85px;
   top: -244px;
-  left: 6px;
+  left: 29px;
+}
+
+.runeicon{
+  width: 45px;
+  position: relative;
+  top: -314px;
+  left: -103px;
+}
+
+.rune-letter{
+  position: relative;
+  top: -480px;
+  left: 72px;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+.rune-Common{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.rune-Rare{
+  color: greenyellow;
+  text-shadow: 1px 1px 1px black;
+}
+.rune-Epic{
+  color: blue;
+}
+.rune-Mystic{
+  color: darkviolet;
 }
 
 @media screen and (max-width: 500px) {
@@ -214,6 +245,42 @@ label {
     left: 61px;
     font-size: 8pt;
   }
+
+  .runeCard {
+    width: 150px;
+  }
+  
+  .rune {
+    width: 65px;
+    top: -185px;
+    left: 24px;
+  }
+
+  .rune-div {
+    width: 150px;
+    height: 230px;
+  }
+
+  .rune-description {
+    top: -195px;
+    left: 15px;
+    font-size: 7pt;
+    width: 130px;
+    height: 100px;
+  }
+
+  .rune-title {
+    top: -185px;
+    left: 7px;
+    font-size: 8pt;
+  }
+
+  .runeicon {
+    width: 35px;
+    position: relative;
+    top: -239px;
+    left: -77px;
+}
 
   .title {
     font-size: 32pt;
