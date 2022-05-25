@@ -332,4 +332,12 @@ label {
   .menu-img {
     height: 20px;
   }
+
+  .effect-div{
+    width: 160px;
+  }
+  
+  .effect-description{
+    width: 160px;
+  }
 }
