@@ -79,7 +79,7 @@
   {
     "id": 2,
     "name": "Fury",
-    "type": "Transform/Buff",
+    "type": "Buff Transform",
     "description": "Gain 1 Energy when transforms. Deal double damage and last for 1 turn.",
     "image": "buff_fury.png"
   },

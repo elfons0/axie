@@ -233,7 +233,7 @@ label {
 
 .effect-title {
   position: relative;
-  color: white;
+  color: dodgerblue;
   font-size: 10pt;
   font-weight: bold;
   text-align: center;
@@ -250,7 +250,7 @@ label {
 }
 
 .effect-Buff{
-  color: dodgerblue;
+  color: yellowgreen;
 }
 .effect-Debuff{
   color: indianred;
@@ -336,7 +336,7 @@ label {
   .effect-div{
     width: 160px;
   }
-  
+
   .effect-description{
     width: 160px;
   }
