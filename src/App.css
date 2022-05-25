@@ -228,13 +228,13 @@ label {
 
 .effect {
   position: relative;
-  width: 85px;
+  height: 85px;
 }
 
 .effect-title {
   position: relative;
   color: dodgerblue;
-  font-size: 10pt;
+  font-size: 12pt;
   font-weight: bold;
   text-align: center;
 }
@@ -242,9 +242,10 @@ label {
 .effect-description {
   position: relative;
   color: white;
-  font-size: 8pt;
+  font-size: 9pt;
   width: 170px;
-  vertical-align: middle;
+  vertical-align: top;
+  padding-top: 5px;
   height: 75px;
   display: table-cell;
 }
