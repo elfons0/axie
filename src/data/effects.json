@@ -196,6 +196,34 @@
     "image": "Banish.png"
   },
   {
+    "id": 32,
+    "name": "Ethereal",
+    "type": "Card Property",
+    "description": "When your turn ends, if the card is still in your hand, banish it. Banished cards are removed from your deck until the end of battle.",
+    "image": "Ethereal.png"
+  },
+  {
+    "id": 34,
+    "name": "Innate",
+    "type": "Card Property",
+    "description": "Start each battle with this card in your hand.",
+    "image": "Innate.png"
+  },
+  {
+    "id": 35,
+    "name": "Retain",
+    "type": "Card Property",
+    "description": "Do not discard the card at the end of your turn.",
+    "image": "Retain.png"
+  },
+  {
+    "id": 36,
+    "name": "Unplayable",
+    "type": "Card Property",
+    "description": "The card cannot be played.",
+    "image": "Unplayable.png"
+  },
+  {
     "id": 29,
     "name": "Cleanse",
     "type": "Card Property",
@@ -217,32 +245,11 @@
     "image": "secret_buff.png"
   },
   {
-    "id": 32,
-    "name": "Ethereal",
-    "type": "Card Property",
-    "description": "When your turn ends, if the card is still in your hand, banish it. Banished cards are removed from your deck until the end of battle.",
-    "image": "Ethereal.png"
-  },
-  {
     "id": 33,
     "name": "Initial",
     "type": "Card Property",
     "description": "The first card played in a turn.",
     "image": "secret_buff.png"
-  },
-  {
-    "id": 34,
-    "name": "Innate",
-    "type": "Card Property",
-    "description": "Start each battle with this card in your hand.",
-    "image": "Innate.png"
-  },
-  {
-    "id": 35,
-    "name": "Retain",
-    "type": "Card Property",
-    "description": "Do not discard the card at the end of your turn.",
-    "image": "Retain.png"
   },
   {
     "id": 37,
@@ -257,12 +264,5 @@
     "type": "Card Property",
     "description": "Only 1 Axie per team can have this Effect activated.",
     "image": "secret_buff.png"
-  },
-  {
-    "id": 36,
-    "name": "Unplayable",
-    "type": "Card Property",
-    "description": "The card cannot be played.",
-    "image": "Unplayable.png"
   }
 ]

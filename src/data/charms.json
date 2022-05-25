@@ -1,681 +1,973 @@
 [
-    {
-      "id": "ancient-root",
-      "class": "plant",
-      "name": "Ancient Root",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "aquatic-energy-drink-s",
-      "class": "aquatic",
-      "name": "Aquatic Energy Drink S",
-      "value": 4,
-      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
-    },
-    {
-      "id": "aquatic-talisman-power-4",
-      "class": "aquatic",
-      "name": "Aquatic Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
-    },
-    {
-      "id": "aquatic-talisman-power-5",
-      "class": "aquatic",
-      "name": "Aquatic Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
-    },
-    {
-      "id": "aquatic-talisman-vitality-4",
-      "class": "aquatic",
-      "name": "Aquatic Talisman of Vitality IV",
-      "value": 2,
-      "description": "(Enhance any card) Axie's max HP +20"
-    },
-    {
-      "id": "aquatic-talisman-vitality-5",
-      "class": "aquatic",
-      "name": "Aquatic Talisman of Vitality V",
-      "value": 3,
-      "description": "(Enhance any card) Axie's max HP +35"
-    },
-    {
-      "id": "arid-spell",
-      "class": "dusk",
-      "name": "Arid Spell",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies Doubt for 2 turns."
-    },
-    {
-      "id": "backup-disk",
-      "class": "mech",
-      "name": "Backup Disk",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "beans-blessing",
-      "class": "dawn",
-      "name": "Bean's Blessing",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 2 Healing Boost."
-    },
-    {
-      "id": "beast-energy-drink-m",
-      "class": "beast",
-      "name": "Beast Energy Drink M",
-      "value": 4,
-      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
-    },
-    {
-      "id": "beast-energy-drink-s",
-      "class": "beast",
-      "name": "Beast Energy Drink S",
-      "value": 4,
-      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
-    },
-    {
-      "id": "beast-talisman-power-4",
-      "class": "beast",
-      "name": "Beast Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
-    },
-    {
-      "id": "beast-talisman-power-5",
-      "class": "beast",
-      "name": "Beast Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
-    },
-    {
-      "id": "beast-talisman-vitality-4",
-      "class": "beast",
-      "name": "Beast Talisman of Vitality IV",
-      "value": 2,
-      "description": "(Enhance any card) Axie's max HP +20"
-    },
-    {
-      "id": "beast-talisman-vitality-5",
-      "class": "beast",
-      "name": "Beast Talisman of Vitality V",
-      "value": 3,
-      "description": "(Enhance any card) Axie's max HP +35"
-    },
-    {
-      "id": "bird-energy-drink-s",
-      "class": "bird",
-      "name": "Bird Energy Drink S",
-      "value": 4,
-      "description": "(Enhance any Abilities) Add Ethereal. Card's base stat +10%."
-    },
-    {
-      "id": "bird-talisman-focus-4",
-      "class": "bird",
-      "name": "Bird Talisman of Focus IV",
-      "value": 2,
-      "description": "(Enhance Multihit Attack Ability) ATK +3"
-    },
-    {
-      "id": "bird-talisman-focus-5",
-      "class": "bird",
-      "name": "Bird Talisman of Focus V",
-      "value": 3,
-      "description": "(Enhance Multihit Attack Ability) ATK +4"
-    },
-    {
-      "id": "bird-talisman-power-4",
-      "class": "bird",
-      "name": "Bird Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance Non-Multihit Attack Ability) ATK +6"
-    },
-    {
-      "id": "bird-talisman-power-5",
-      "class": "bird",
-      "name": "Bird Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance Non-Multihit Attack Ability) ATK +10"
-    },
-    {
-      "id": "bubble-paste",
-      "class": "aquatic",
-      "name": "Bubble Paste",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 1 Bubble."
-    },
-    {
-      "id": "bug-energy-drink-m",
-      "class": "bug",
-      "name": "Bug Energy Drink M",
-      "value": 4,
-      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
-    },
-    {
-      "id": "bug-talisman-endurance-4",
-      "class": "bug",
-      "name": "Bug Talisman of Endurance IV",
-      "value": 2,
-      "description": "(Enhance a Shielding card) Shield Stat +6"
-    },
-    {
-      "id": "bug-talisman-endurance-5",
-      "class": "bug",
-      "name": "Bug Talisman of Endurance V",
-      "value": 3,
-      "description": "(Enhance a Shielding card) Shield Stat +10"
-    },
-    {
-      "id": "bug-talisman-power-4",
-      "class": "bug",
-      "name": "Bug Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
-    },
-    {
-      "id": "bug-talisman-power-5",
-      "class": "bug",
-      "name": "Bug Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
-    },
-    {
-      "id": "endurance-1",
-      "class": "neutral",
-      "name": "Charm of Endurance I",
-      "value": 1,
-      "description": "(Enhance a Shielding card) Shield Stat +2"
-    },
-    {
-      "id": "endurance-2",
-      "class": "neutral",
-      "name": "Charm of Endurance II",
-      "value": 2,
-      "description": "(Enhance a Shielding card) Shield Stat +4"
-    },
-    {
-      "id": "endurance-3",
-      "class": "neutral",
-      "name": "Charm of Endurance III",
-      "value": 3,
-      "description": "(Enhance a Shielding card) Shield stat +7"
-    },
-    {
-      "id": "faith-1",
-      "class": "neutral",
-      "name": "Charm of Faith I",
-      "value": 1,
-      "description": "(Enhance a Healing card) Heal Stat +2"
-    },
-    {
-      "id": "faith-2",
-      "class": "neutral",
-      "name": "Charm of Faith II",
-      "value": 2,
-      "description": "(Enhance a Healing card) Heal Stat +4"
-    },
-    {
-      "id": "faith-3",
-      "class": "neutral",
-      "name": "Charm of Faith III",
-      "value": 3,
-      "description": "(Enhance a Healing card) Heal stat +7"
-    },
-    {
-      "id": "focus-1",
-      "class": "neutral",
-      "name": "Charm of Focus I",
-      "value": 1,
-      "description": "(Enhance a Multihit Attack card) ATK +1"
-    },
-    {
-      "id": "focus-2",
-      "class": "neutral",
-      "name": "Charm of Focus II",
-      "value": 2,
-      "description": "(Enhance a Multihit Attack card) ATK +2"
-    },
-    {
-      "id": "focus-3",
-      "class": "neutral",
-      "name": "Charm of Focus III",
-      "value": 3,
-      "description": "(Enhance a Multihit Attack card) ATK +3"
-    },
-    {
-      "id": "power-1",
-      "class": "neutral",
-      "name": "Charm of Power I",
-      "value": 1,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +2"
-    },
-    {
-      "id": "power-2",
-      "class": "neutral",
-      "name": "Charm of Power II",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +4"
-    },
-    {
-      "id": "power-3",
-      "class": "neutral",
-      "name": "Charm of Power III",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit attack card) ATK +7"
-    },
-    {
-      "id": "vitality-1",
-      "class": "neutral",
-      "name": "Charm of Vitality I",
-      "value": 1,
-      "description": "Axie's HP +5"
-    },
-    {
-      "id": "vitality-2",
-      "class": "neutral",
-      "name": "Charm of Vitality II",
-      "value": 2,
-      "description": "Axie's HP +15"
-    },
-    {
-      "id": "vitality-3",
-      "class": "neutral",
-      "name": "Charm of Vitality III",
-      "value": 3,
-      "description": "(Enhance any card) Axie's HP +25"
-    },
-    {
-      "id": "cursed-doll",
-      "class": "dusk",
-      "name": "Cursed Doll",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "dawn-energy-drink-s",
-      "class": "dawn",
-      "name": "Dawn Energy Drink S",
-      "value": 4,
-      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
-    },
-    {
-      "id": "dawn-talisman-faith-4",
-      "class": "dawn",
-      "name": "Dawn Talisman of Faith IV",
-      "value": 2,
-      "description": "(Enhance a Healing card) Heal Stat +6"
-    },
-    {
-      "id": "dawn-talisman-faith-5",
-      "class": "dawn",
-      "name": "Dawn Talisman of Faith V",
-      "value": 3,
-      "description": "(Enhance a Healing card) Heal Stat +10"
-    },
-    {
-      "id": "dawn-talisman-focus-4",
-      "class": "dawn",
-      "name": "Dawn Talisman of Focus IV",
-      "value": 2,
-      "description": "(Enhance a Multihit Attack card) ATK +3"
-    },
-    {
-      "id": "dawn-talisman-focus-5",
-      "class": "dawn",
-      "name": "Dawn Talisman of Focus V",
-      "value": 3,
-      "description": "(Enhance a Multihit Attack card) ATK +4"
-    },
-    {
-      "id": "discount-coupon",
-      "class": "neutral",
-      "name": "Discount Coupon",
-      "value": 5,
-      "description": "(Enhance any card) -1 energy cost. Card's base stat -40%."
-    },
-    {
-      "id": "dusk-energy-drink-m",
-      "class": "dusk",
-      "name": "Dusk Energy Drink M",
-      "value": 4,
-      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
-    },
-    {
-      "id": "dusk-talisman-focus-4",
-      "class": "dusk",
-      "name": "Dusk Talisman of Focus IV",
-      "value": 2,
-      "description": "(Enhance a Multihit Attack card) ATK +3"
-    },
-    {
-      "id": "dusk-talisman-focus-5",
-      "class": "dusk",
-      "name": "Dusk Talisman of Focus V",
-      "value": 3,
-      "description": "(Enhance a Multihit Attack card) ATK +4"
-    },
-    {
-      "id": "dusk-talisman-power-4",
-      "class": "dusk",
-      "name": "Dusk Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
-    },
-    {
-      "id": "dusk-talisman-power-5",
-      "class": "dusk",
-      "name": "Dusk Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
-    },
-    {
-      "id": "earth-stamp",
-      "class": "neutral",
-      "name": "Earth Stamp",
-      "value": 3,
-      "description": "(Enhance Single Target Attack Abilities) Change ability target to the frontmost one."
-    },
-    {
-      "id": "energy-drink-m",
-      "class": "neutral",
-      "name": "Energy Drink M",
-      "value": 5,
-      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
-    },
-    {
-      "id": "energy-drink-s",
-      "class": "neutral",
-      "name": "Energy Drink S",
-      "value": 5,
-      "description": "(Enhance any card) Add Ethereal. Card's base stat +10%."
-    },
-    {
-      "id": "feather-fan",
-      "class": "bird",
-      "name": "Feather Fan",
-      "value": 4,
-      "description": "(Enhance any Abilities) All teammates gain 1 Feather."
-    },
-    {
-      "id": "flamingo-hammer",
-      "class": "bird",
-      "name": "Flamingo Hammer",
-      "value": 5,
-      "description": "(Enhance Attack Abilities) Attack applies Fragile for 2 turns."
-    },
-    {
-      "id": "gecko-mask",
-      "class": "reptile",
-      "name": "Gecko Mask",
-      "value": 4,
-      "description": "(Enhance any card) Taunt all Enemies for 2 turns."
-    },
-    {
-      "id": "hackers-drive",
-      "class": "mech",
-      "name": "Hacker's Drive",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies Disarmed for 2 turns to the frontmost enemy."
-    },
-    {
-      "id": "hidden-razor",
-      "class": "beast",
-      "name": "Hidden Razor",
-      "value": 5,
-      "description": "(Enhance an Attack card) Attacks apply Bleed for 2 turns."
-    },
-    {
-      "id": "lazy-snail",
-      "class": "bug",
-      "name": "Lazy Snail",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies Weak for 2 turns."
-    },
-    {
-      "id": "leafy-pot",
-      "class": "plant",
-      "name": "Leafy Pot",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 1 Leaf."
-    },
-    {
-      "id": "mask-of-frenzy",
-      "class": "beast",
-      "name": "Mask of Frenzy",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 1 Rage."
-    },
-    {
-      "id": "mech-talisman-endurance-4",
-      "class": "mech",
-      "name": "Mech Talisman of Endurance IV",
-      "value": 2,
-      "description": "(Enhance a Shielding card) Shield Stat +6"
-    },
-    {
-      "id": "mech-talisman-endurance-5",
-      "class": "mech",
-      "name": "Mech Talisman of Endurance V",
-      "value": 3,
-      "description": "(Enhance a Shielding card) Shield Stat +10"
-    },
-    {
-      "id": "mech-talisman-power-4",
-      "class": "mech",
-      "name": "Mech Talisman of Power IV",
-      "value": 2,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +6"
-    },
-    {
-      "id": "mech-talisman-power-5",
-      "class": "mech",
-      "name": "Mech Talisman of Power V",
-      "value": 3,
-      "description": "(Enhance a Non-Multihit Attack card) ATK +10"
-    },
-    {
-      "id": "moon-stamp",
-      "class": "neutral",
-      "name": "Moon Stamp",
-      "value": 4,
-      "description": "(Enhance Single Target Attack Abilities) Change ability target to the second frontmost one."
-    },
-    {
-      "id": "paralyze-jelly-fish",
-      "class": "aquatic",
-      "name": "Paralyze Jelly Fish",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies Vulnerable for 2 turns."
-    },
-    {
-      "id": "plant-talisman-endurance-4",
-      "class": "plant",
-      "name": "Plant Talisman of Endurance IV",
-      "value": 2,
-      "description": "(Enhance any Shielding card) Shield Stat +6"
-    },
-    {
-      "id": "plant-talisman-endurance-5",
-      "class": "plant",
-      "name": "Plant Talisman of Endurance V",
-      "value": 3,
-      "description": "(Enhance any Shielding card) Shield Stat +10"
-    },
-    {
-      "id": "plant-talisman-faith-4",
-      "class": "plant",
-      "name": "Plant Talisman of Faith IV",
-      "value": 2,
-      "description": "(Enhance any Healing card) Heal Stat +6"
-    },
-    {
-      "id": "plant-talisman-faith-5",
-      "class": "plant",
-      "name": "Plant Talisman of Faith V",
-      "value": 3,
-      "description": "(Enhance any Healing card) Heal Stat +10"
-    },
-    {
-      "id": "power-spell",
-      "class": "dusk",
-      "name": "Power Spell",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 2 Damage Boost."
-    },
-    {
-      "id": "pre-order-tag",
-      "class": "neutral",
-      "name": "Pre-Order Tag",
-      "value": 5,
-      "description": "(Enhance any card) Add Innate."
-    },
-    {
-      "id": "protection-cartridge",
-      "class": "mech",
-      "name": "Protection Cartridge",
-      "value": 4,
-      "description": "(Enhance any card) All teammates gain 2 Shield Boost."
-    },
-    {
-      "id": "red-sage",
-      "class": "plant",
-      "name": "Red Sage",
-      "value": 5,
-      "description": "(Enhance shield and healing cards) Add Cleanse."
-    },
-    {
-      "id": "reptile-energy-drink-m",
-      "class": "reptile",
-      "name": "Reptile Energy Drink M",
-      "value": 4,
-      "description": "(Enhance any card) Add Banish. Card's base stat +20%."
-    },
-    {
-      "id": "reptile-talisman-faith-4",
-      "class": "reptile",
-      "name": "Reptile Talisman of Faith IV",
-      "value": 2,
-      "description": "(Enhance a Healing card) Heal Stat +6"
-    },
-    {
-      "id": "reptile-talisman-faith-5",
-      "class": "reptile",
-      "name": "Reptile Talisman of Faith V",
-      "value": 3,
-      "description": "(Enhance a Healing card) Heal Stat +10"
-    },
-    {
-      "id": "reptile-talisman-vitality-4",
-      "class": "reptile",
-      "name": "Reptile Talisman of Vitality IV",
-      "value": 2,
-      "description": "(Enhance any card) Axie's HP +20"
-    },
-    {
-      "id": "reptile-talisman-vitality-5",
-      "class": "reptile",
-      "name": "Reptile Talisman of Vitality V",
-      "value": 3,
-      "description": "(Enhance any card) Axie's HP +35"
-    },
-    {
-      "id": "rocket-stamp",
-      "class": "neutral",
-      "name": "Rocket Stamp",
-      "value": 5,
-      "description": "(Enhance single-target attack cards) This card can target any enemy."
-    },
-    {
-      "id": "scotch-tape",
-      "class": "neutral",
-      "name": "Scotch Tape",
-      "value": 5,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "secret-chip",
-      "class": "mech",
-      "name": "Secret Chip",
-      "value": 4,
-      "description": "(Enhance any card) Add Innate."
-    },
-    {
-      "id": "secret-cocoon",
-      "class": "bug",
-      "name": "Secret Cocoon",
-      "value": 4,
-      "description": "(Enhance any card) Add Innate."
-    },
-    {
-      "id": "secret-egg",
-      "class": "bird",
-      "name": "Secret Egg",
-      "value": 4,
-      "description": "(Enhance any Abilities) Add Innate."
-    },
-    {
-      "id": "secret-sprout",
-      "class": "plant",
-      "name": "Secret Sprout",
-      "value": 4,
-      "description": "(Enhance any card) Add Innate."
-    },
-    {
-      "id": "silent-incense",
-      "class": "dawn",
-      "name": "Silent Insence",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies Silence for 2 turns to the frontmost enemy."
-    },
-    {
-      "id": "sticky-lizard",
-      "class": "reptile",
-      "name": "Sticky Lizard",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "sticky-octopus",
-      "class": "aquatic",
-      "name": "Sticky Octopus",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    },
-    {
-      "id": "sun-stamp",
-      "class": "neutral",
-      "name": "Sun Stamp",
-      "value": 4,
-      "description": "(Enhance single-target attack cards) This card targets the furthest enemy."
-    },
-    {
-      "id": "tricksters-card",
-      "class": "bug",
-      "name": "Trickster's Card",
-      "value": 4,
-      "description": "(Enhance any card) Draw 1 Card"
-    },
-    {
-      "id": "vipers-venom",
-      "class": "reptile",
-      "name": "Viper's Venom",
-      "value": 5,
-      "description": "(Enhance any Attack card) Attack applies 2 Poison."
-    },
-    {
-      "id": "white-sage",
-      "class": "plant",
-      "name": "White Sage",
-      "value": 5,
-      "description": "(Enhance shield and healing cards) Add Cleanse. Card's base stat -100%."
-    },
-    {
-      "id": "wooden-idol",
-      "class": "dawn",
-      "name": "Wooden Idol",
-      "value": 4,
-      "description": "(Enhance any card) Add Retain."
-    }
-  ]
+  {
+    "id": 10,
+    "name": "Charm of Endurance I",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Common",
+    "effect": "(Enhance a Shielding card)\nShield Stat +2",
+    "potentialCost": 1,
+    "image": "endurance-1.png"
+  },
+  {
+    "id": 13,
+    "name": "Charm of Faith I",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Common",
+    "effect": "(Enhance a Healing card)\nHeal Stat +2",
+    "potentialCost": 1,
+    "image": "faith-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Charm of Focus I",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Common",
+    "effect": "(Enhance a Multihit Attack card)\nATK +1",
+    "potentialCost": 1,
+    "image": "focus-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Charm of Power I",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Common",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +2",
+    "potentialCost": 1,
+    "image": "power-1.png"
+  },
+  {
+    "id": 1,
+    "name": "Charm of Vitality I",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Common",
+    "effect": "Axie's HP +4",
+    "potentialCost": 1,
+    "image": "vitality-1.png"
+  },
+  {
+    "id": 11,
+    "name": "Charm of Endurance II",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance a Shielding card)\nShield Stat +4",
+    "potentialCost": 2,
+    "image": "endurance-2.png"
+  },
+  {
+    "id": 14,
+    "name": "Charm of Faith II",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance a Healing card)\nHeal Stat +4",
+    "potentialCost": 2,
+    "image": "faith-2.png"
+  },
+  {
+    "id": 8,
+    "name": "Charm of Focus II",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance a Multihit Attack card)\nATK +2",
+    "potentialCost": 2,
+    "image": "focus-2.png"
+  },
+  {
+    "id": 5,
+    "name": "Charm of Power II",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +4",
+    "potentialCost": 2,
+    "image": "power-2.png"
+  },
+  {
+    "id": 2,
+    "name": "Charm of Vitality II",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "Axie's HP +8",
+    "potentialCost": 2,
+    "image": "vitality-2.png"
+  },
+  {
+    "id": 12,
+    "name": "Charm of Endurance III",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance a Shielding card)\nShield stat +7",
+    "potentialCost": 3,
+    "image": "endurance-3.png"
+  },
+  {
+    "id": 15,
+    "name": "Charm of Faith III",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance a Healing card)\nHeal stat +7",
+    "potentialCost": 3,
+    "image": "faith-3.png"
+  },
+  {
+    "id": 9,
+    "name": "Charm of Focus III",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance a Multihit Attack card)\nATK +3",
+    "potentialCost": 3,
+    "image": "focus-3.png"
+  },
+  {
+    "id": 6,
+    "name": "Charm of Power III",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit attack card)\nATK +7",
+    "potentialCost": 3,
+    "image": "power-3.png"
+  },
+  {
+    "id": 3,
+    "name": "Charm of Vitality III",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAxie's HP +12",
+    "potentialCost": 3,
+    "image": "vitality-3.png"
+  },
+  {
+    "id": 17,
+    "name": "Moon Stamp",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance Single Target Attack Abilities)\r\nChange ability target to the second frontmost one.",
+    "potentialCost": 4,
+    "image": "moon-stamp.png"
+  },
+  {
+    "id": 18,
+    "name": "Sun Stamp",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Epic",
+    "effect": "(Enhance single-target attack cards)\nThis card targets the furthest enemy.",
+    "potentialCost": 4,
+    "image": "sun-stamp.png"
+  },
+  {
+    "id": 20,
+    "name": "Discount Coupon",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\n-1 energy cost. Card's base stat -40%.",
+    "potentialCost": 5,
+    "image": "discount-coupon.png"
+  },
+  {
+    "id": 23,
+    "name": "Energy Drink M",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "potentialCost": 5,
+    "image": "energy-drink-m.png"
+  },
+  {
+    "id": 24,
+    "name": "Energy Drink S",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd Ethereal. Card's base stat +10%.",
+    "potentialCost": 5,
+    "image": "energy-drink-s.png"
+  },
+  {
+    "id": 21,
+    "name": "Pre-Order Tag",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "potentialCost": 5,
+    "image": "pre-order-tag.png"
+  },
+  {
+    "id": 19,
+    "name": "Rocket Stamp",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance single-target attack cards)\nThis card can target any enemy.",
+    "potentialCost": 5,
+    "image": "rocket-stamp.png"
+  },
+  {
+    "id": 22,
+    "name": "Scotch Tape",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 5,
+    "image": "scotch-tape.png"
+  },
+ 
+  {
+    "id": 16,
+    "name": "Earth Stamp",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance Single Target Attack Abilities)\nChange ability target to the frontmost one.",
+    "potentialCost": 3,
+    "image": "earth-stamp.png"
+  },
+  {
+    "id": 44,
+    "name": "Aquatic Talisman of Power V",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+    "potentialCost": 3,
+    "image": "aquatic-talisman-power-5.png"
+  },
+  {
+    "id": 42,
+    "name": "Aquatic Talisman of Vitality V",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAxie's max HP +18",
+    "potentialCost": 3,
+    "image": "aquatic-talisman-vitality-5.png"
+  },
+  {
+    "id": 47,
+    "name": "Bubble Paste",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Bubble}.",
+    "potentialCost": 4,
+    "image": "bubble-paste.png"
+  },
+  {
+    "id": 45,
+    "name": "Aquatic Energy Drink S",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "potentialCost": 4,
+    "image": "aquatic-energy-drink-s.png"
+  },
+  {
+    "id": 46,
+    "name": "Sticky Octopus",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "sticky-octopus.png"
+  },
+  {
+    "id": 48,
+    "name": "Paralyze Jelly Fish",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 2 turns.",
+    "potentialCost": 5,
+    "image": "paralyze-jelly-fish.png"
+  },
+  {
+    "id": 43,
+    "name": "Aquatic Talisman of Power IV",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "aquatic-talisman-power-4.png"
+  },
+  {
+    "id": 41,
+    "name": "Aquatic Talisman of Vitality IV",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any card)\nAxie's max HP +12",
+    "potentialCost": 2,
+    "image": "aquatic-talisman-vitality-4.png"
+  },
+  {
+    "id": 34,
+    "name": "Beast Talisman of Power V",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+    "potentialCost": 3,
+    "image": "beast-talisman-power-5.png"
+  },
+  {
+    "id": 36,
+    "name": "Beast Talisman of Vitality V",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAxie's max HP +18",
+    "potentialCost": 3,
+    "image": "beast-talisman-vitality-5.png"
+  },
+  {
+    "id": 39,
+    "name": "Mask of Frenzy",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Attack cards)\nAll teammates gain 1 {Rage}.",
+    "potentialCost": 4,
+    "image": "mask-of-frenzy.png"
+  },
+  {
+    "id": 37,
+    "name": "Beast Energy Drink M",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "potentialCost": 4,
+    "image": "beast-energy-drink-m.png"
+  },
+  {
+    "id": 38,
+    "name": "Beast Energy Drink S",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "potentialCost": 4,
+    "image": "beast-energy-drink-s.png"
+  },
+  {
+    "id": 40,
+    "name": "Hidden Razor",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 2 turns.",
+    "potentialCost": 5,
+    "image": "hidden-razor.png"
+  },
+  {
+    "id": 33,
+    "name": "Beast Talisman of Power IV",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "beast-talisman-power-4.png"
+  },
+  {
+    "id": 35,
+    "name": "Beast Talisman of Vitality IV",
+    "type": "Beast",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any card)\nAxie's max HP +12",
+    "potentialCost": 2,
+    "image": "beast-talisman-vitality-4.png"
+  },
+  {
+    "id": 60,
+    "name": "Bird Talisman of Focus V",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Multihit Attack Ability)\r\nATK +4",
+    "potentialCost": 3,
+    "image": "bird-talisman-focus-5.png"
+  },
+  {
+    "id": 58,
+    "name": "Bird Talisman of Power V",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +10",
+    "potentialCost": 3,
+    "image": "bird-talisman-power-5.png"
+  },
+  {
+    "id": 63,
+    "name": "Feather Fan",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Attack cards)\nAll teammates gain 1 Feather.",
+    "potentialCost": 4,
+    "image": "feather-fan.png"
+  },
+  {
+    "id": 62,
+    "name": "Bird Energy Drink S",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Abilities)\r\nAdd Ethereal. Card's base stat +10%.",
+    "potentialCost": 4,
+    "image": "bird-energy-drink-s.png"
+  },
+  {
+    "id": 61,
+    "name": "Secret Egg",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Abilities)\r\nAdd Innate.",
+    "potentialCost": 4,
+    "image": "secret-egg.png"
+  },
+  {
+    "id": 64,
+    "name": "Flamingo Hammer",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance Attack Abilities)\r\nAttack applies Fragile for 2 turns.",
+    "potentialCost": 5,
+    "image": "flamingo-hammer.png"
+  },
+  {
+    "id": 59,
+    "name": "Bird Talisman of Focus IV",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance Multihit Attack Ability)\r\nATK +3",
+    "potentialCost": 2,
+    "image": "bird-talisman-focus-4.png"
+  },
+  {
+    "id": 57,
+    "name": "Bird Talisman of Power IV",
+    "type": "Bird",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +6",
+    "potentialCost": 2,
+    "image": "bird-talisman-power-4.png"
+  },
+  {
+    "id": 50,
+    "name": "Bug Talisman of Endurance V",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Shielding card)\nShield Stat +10",
+    "potentialCost": 3,
+    "image": "bug-talisman-endurance-5.png"
+  },
+  {
+    "id": 52,
+    "name": "Bug Talisman of Power V",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+    "potentialCost": 3,
+    "image": "bug-talisman-power-5.png"
+  },
+  {
+    "id": 55,
+    "name": "Trickster's Card",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Skill cards)\nDraw 1 Card",
+    "potentialCost": 4,
+    "image": "tricksters-card.png"
+  },
+  {
+    "id": 54,
+    "name": "Bug Energy Drink M",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "potentialCost": 4,
+    "image": "bug-energy-drink-m.png"
+  },
+  {
+    "id": 53,
+    "name": "Secret Cocoon",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "potentialCost": 4,
+    "image": "secret-cocoon.png"
+  },
+  {
+    "id": 56,
+    "name": "Lazy Snail",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies {Weak} for 2 turns.",
+    "potentialCost": 5,
+    "image": "lazy-snail.png"
+  },
+  {
+    "id": 49,
+    "name": "Bug Talisman of Endurance IV",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Shielding card)\nShield Stat +6",
+    "potentialCost": 2,
+    "image": "bug-talisman-endurance-4.png"
+  },
+  {
+    "id": 51,
+    "name": "Bug Talisman of Power IV",
+    "type": "Bug",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "bug-talisman-power-4.png"
+  },
+  {
+    "id": 84,
+    "name": "Dawn Talisman of Faith V",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Healing card)\nHeal Stat +10",
+    "potentialCost": 3,
+    "image": "dawn-talisman-faith-5.png"
+  },
+  {
+    "id": 82,
+    "name": "Dawn Talisman of Focus V",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Multihit Attack card)\nATK +4",
+    "potentialCost": 3,
+    "image": "dawn-talisman-focus-5.png"
+  },
+  {
+    "id": 87,
+    "name": "Bean's Blessing",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAll teammates gain 2 {Healing Boost}.",
+    "potentialCost": 4,
+    "image": "beans-blessing.png"
+  },
+  {
+    "id": 86,
+    "name": "Dawn Energy Drink S",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "potentialCost": 4,
+    "image": "dawn-energy-drink-s.png"
+  },
+  {
+    "id": 85,
+    "name": "Wooden Idol",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "wooden-idol.png"
+  },
+  {
+    "id": 88,
+    "name": "Silent Insence",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies {Silence} for 2 turns to the frontmost enemy.",
+    "potentialCost": 5,
+    "image": "silent-incense.png"
+  },
+  {
+    "id": 83,
+    "name": "Dawn Talisman of Faith IV",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Healing card)\nHeal Stat +6",
+    "potentialCost": 2,
+    "image": "dawn-talisman-faith-4.png"
+  },
+  {
+    "id": 81,
+    "name": "Dawn Talisman of Focus IV",
+    "type": "Dawn",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Multihit Attack card)\nATK +3",
+    "potentialCost": 2,
+    "image": "dawn-talisman-focus-4.png"
+  },
+  {
+    "id": 92,
+    "name": "Dusk Talisman of Focus V",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Multihit Attack card)\nATK +4",
+    "potentialCost": 3,
+    "image": "dusk-talisman-focus-5.png"
+  },
+  {
+    "id": 90,
+    "name": "Dusk Talisman of Power V",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+    "potentialCost": 3,
+    "image": "dusk-talisman-power-5.png"
+  },
+  {
+    "id": 95,
+    "name": "Power Spell",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAll teammates gain 2 {Damage Boost}.",
+    "potentialCost": 4,
+    "image": "power-spell.png"
+  },
+  {
+    "id": 93,
+    "name": "Cursed Doll",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "cursed-doll.png"
+  },
+  {
+    "id": 94,
+    "name": "Dusk Energy Drink M",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "potentialCost": 4,
+    "image": "dusk-energy-drink-m.png"
+  },
+  {
+    "id": 96,
+    "name": "Arid Spell",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies {Doubt} for 2 turns.",
+    "potentialCost": 5,
+    "image": "arid-spell.png"
+  },
+  {
+    "id": 91,
+    "name": "Dusk Talisman of Focus IV",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Multihit Attack card)\nATK +3",
+    "potentialCost": 2,
+    "image": "dusk-talisman-focus-4.png"
+  },
+  {
+    "id": 89,
+    "name": "Dusk Talisman of Power IV",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "dusk-talisman-power-4.png"
+  },
+  {
+    "id": 76,
+    "name": "Mech Talisman of Endurance V",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Shielding card)\nShield Stat +10",
+    "potentialCost": 3,
+    "image": "mech-talisman-endurance-5.png"
+  },
+  {
+    "id": 74,
+    "name": "Mech Talisman of Power V",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+    "potentialCost": 3,
+    "image": "mech-talisman-power-5.png"
+  },
+  {
+    "id": 79,
+    "name": "Protection Cartridge",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAll teammates gain 2 {Shield Boost}.",
+    "potentialCost": 4,
+    "image": "protection-cartridge.png"
+  },
+  {
+    "id": 77,
+    "name": "Backup Disk",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "backup-disk.png"
+  },
+  {
+    "id": 78,
+    "name": "Secret Chip",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "potentialCost": 4,
+    "image": "secret-chip.png"
+  },
+  {
+    "id": 80,
+    "name": "Hacker's Drive",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies {Disarmed} for 2 turns to the frontmost enemy.",
+    "potentialCost": 5,
+    "image": "hackers-drive.png"
+  },
+  {
+    "id": 75,
+    "name": "Mech Talisman of Endurance IV",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Shielding card)\nShield Stat +6",
+    "potentialCost": 2,
+    "image": "mech-talisman-endurance-4.png"
+  },
+  {
+    "id": 73,
+    "name": "Mech Talisman of Power IV",
+    "type": "Mech",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "mech-talisman-power-4.png"
+  },
+  {
+    "id": 26,
+    "name": "Plant Talisman of Endurance V",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any Shielding card)\nShield Stat +10",
+    "potentialCost": 3,
+    "image": "plant-talisman-endurance-5.png"
+  },
+  {
+    "id": 28,
+    "name": "Plant Talisman of Faith V",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any Healing card)\nHeal Stat +10",
+    "potentialCost": 3,
+    "image": "plant-talisman-faith-5.png"
+  },
+  {
+    "id": 31,
+    "name": "Leafy Pot",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Leaf}.",
+    "potentialCost": 4,
+    "image": "leafy-pot.png"
+  },
+  {
+    "id": 30,
+    "name": "Ancient Root",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "ancient-root.png"
+  },
+  {
+    "id": 29,
+    "name": "Secret Sprout",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "potentialCost": 4,
+    "image": "secret-sprout.png"
+  },
+  {
+    "id": 97,
+    "name": "Red Sage",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance shield and healing cards)\r\nAdd {Cleanse}.",
+    "potentialCost": 5,
+    "image": "red-sage.png"
+  },
+  {
+    "id": 32,
+    "name": "White Sage",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance shield and healing cards)\nAdd {Cleanse}. Card's base stat -100%.",
+    "potentialCost": 5,
+    "image": "white-sage.png"
+  },
+  {
+    "id": 25,
+    "name": "Plant Talisman of Endurance IV",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any Shielding card)\nShield Stat +6",
+    "potentialCost": 2,
+    "image": "plant-talisman-endurance-4.png"
+  },
+  {
+    "id": 27,
+    "name": "Plant Talisman of Faith IV",
+    "type": "Plant",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any Healing card)\nHeal Stat +6",
+    "potentialCost": 2,
+    "image": "plant-talisman-faith-4.png"
+  },
+  {
+    "id": 68,
+    "name": "Reptile Talisman of Faith V",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance a Healing card)\nHeal Stat +10",
+    "potentialCost": 3,
+    "image": "reptile-talisman-faith-5.png"
+  },
+  {
+    "id": 66,
+    "name": "Reptile Talisman of Vitality V",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance any card)\nAxie's HP +18",
+    "potentialCost": 3,
+    "image": "reptile-talisman-vitality-5.png"
+  },
+  {
+    "id": 71,
+    "name": "Gecko Mask",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Epic",
+    "effect": "(Enhance Attack cards)\n{Taunt} all Enemies for 2 turns.",
+    "potentialCost": 4,
+    "image": "gecko-mask.png"
+  },
+  {
+    "id": 70,
+    "name": "Reptile Energy Drink M",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "potentialCost": 4,
+    "image": "reptile-energy-drink-m.png"
+  },
+  {
+    "id": 69,
+    "name": "Sticky Lizard",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "potentialCost": 4,
+    "image": "sticky-lizard.png"
+  },
+  {
+    "id": 72,
+    "name": "Viper's Venom",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Mystic",
+    "effect": "(Enhance any Attack card)\nAttack applies 2 {Poison}.",
+    "potentialCost": 5,
+    "image": "vipers-venom.png"
+  },
+  {
+    "id": 67,
+    "name": "Reptile Talisman of Faith IV",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Healing card)\nHeal Stat +6",
+    "potentialCost": 2,
+    "image": "reptile-talisman-faith-4.png"
+  },
+  {
+    "id": 65,
+    "name": "Reptile Talisman of Vitality IV",
+    "type": "Reptile",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any card)\nAxie's HP +12",
+    "potentialCost": 2,
+    "image": "reptile-talisman-vitality-4.png"
+  }
+]
