@@ -143,11 +143,13 @@ label {
 .rune-title {
   position: relative;
   color: white;
-  top: -140px;
-  left: 6px;
+  top: -145px;
+  left: 18px;
   font-size: 10pt;
   font-weight: bold;
   text-align: center;
+  width: 175px;
+  height: 25px;
 }
 
 .rune-description {
@@ -260,6 +262,17 @@ label {
   color: yellow;
 }
 
+.potentialCost {
+  position: relative;
+  color: white;
+  font-size: 26pt;
+  top: -360px;
+  left: 35px;
+  width: 20px;
+  font-weight: bold;
+  -webkit-text-stroke: 2pt black;
+}
+
 @media screen and (max-width: 500px) {
   .card {
     width: 150px;
@@ -290,7 +303,7 @@ label {
   
   .rune {
     width: 65px;
-    top: -120px;
+    top: -125px;
     left: 24px;
   }
 
@@ -308,9 +321,10 @@ label {
   }
 
   .rune-title {
-    top: -110px;
-    left: 6px;
+    top: -120px;
+    left: 17px;
     font-size: 8pt;
+    width: 125px;
   }
 
   .runeicon {
@@ -340,5 +354,13 @@ label {
 
   .effect-description{
     width: 160px;
+  }
+
+  .potentialCost {
+    position: relative; 
+    font-size: 20pt;
+    top: -315px;
+    left: 25px;
+    -webkit-text-stroke: 1pt black;
   }
 }

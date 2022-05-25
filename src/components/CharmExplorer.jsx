@@ -1,195 +1,84 @@
 import React, { Component } from "react";
 import Select from "react-select";
-import Card from "./Card";
 
-import cards from "../data/origincards.json";
+import charms from "../data/charms.json";
+import Charm from "./Charm";
 
 const allitems = { value: "all", label: "(all)" };
-const noSort = { value: "none", label: "(none)" };
 
 const bodyOptions = [
   allitems,
-  { value: "aqua", label: "Aqua" },
-  { value: "beast", label: "Beast" },
-  { value: "bird", label: "Bird" },
-  { value: "bug", label: "Bug" },
-  { value: "plant", label: "Plant" },
-  { value: "reptile", label: "Reptile" },
+  { value: "Neutral", label: "Neutral" },
+  { value: "Aquatic", label: "Aqua" },
+  { value: "Beast", label: "Beast" },
+  { value: "Bird", label: "Bird" },
+  { value: "Bug", label: "Bug" },
+  { value: "Dawn", label: "Dawn" },
+  { value: "Dusk", label: "Dusk" },
+  { value: "Mech", label: "Mech" },
+  { value: "Plant", label: "Plant" },
+  { value: "Peptile", label: "Reptile" },
 ];
 
-const partsOptions = [
+const rarityOptions = [
   allitems,
-  { value: "back", label: "Back" },
-  { value: "horn", label: "Horn" },
-  { value: "mouth", label: "Mouth" },
-  { value: "tail", label: "Tail" },
-  { value: "ears", label: "Ears" },
-  { value: "eyes", label: "Eyes" },
+  { value: "Common", label: "Common" },  
+  { value: "Rare", label: "Rare" },
+  { value: "Epic", label: "Epic" },
+  { value: "Mystic", label: "Mystic" }
 ];
 
-const energyOptions = [
-  allitems,
-  { value: "0", label: "0" },
-  { value: "1", label: "1" },
-  { value: "2", label: "2" },
-];
-
-const attackOptions = [
-  allitems,
-  { value: "AttackMelee", label: "Attack (Melee)" },
-  { value: "AttackRanged", label: "Attack (Ranged)" },  
-  { value: "Secret", label: "Secret" },
-  { value: "Skill", label: "Skill" },
-  { value: "Power" , label: "Power" }
-];
-
-const sortOptions = [
-  noSort,
-  { value: "attack", label: "By Attack" },
-  { value: "defense", label: "By Defense" },
-  { value: "healing", label: "By Healing" },
-];
-
-export default class CharmExplorer extends Component {
+export default class RuneExplorer extends Component {
   state = {
-    cardlist: [],
+    charmlist: [],
     selectedBody: allitems,
-    selectedEnergy: allitems,
-    selectedPart: allitems,
-    selectedAttack: allitems,
-    selectedSort: noSort,
+    selectedRarity: allitems
   };
 
   handleChangeBody = (selectedBody) => {
-    const { selectedEnergy, selectedPart, selectedAttack, selectedSort } =
-      this.state;
+    const {selectedRarity} = this.state;
     this.setState({ selectedBody });
     this.filter(
       selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort
+      selectedRarity
     );
   };
 
-  handleChangeEnergy = (selectedEnergy) => {
-    const { selectedBody, selectedPart, selectedAttack, selectedSort } =
-      this.state;
-    this.setState({ selectedEnergy });
+  handleChangeRarity = (selectedRarity) => {
+    const {selectedBody} = this.state;
+    this.setState({ selectedRarity });
     this.filter(
       selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort
-    );
-  };
-
-  handleChangePart = (selectedPart) => {
-    const { selectedBody, selectedEnergy, selectedAttack, selectedSort } =
-      this.state;
-    this.setState({ selectedPart });
-    this.filter(
-      selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort
-    );
-  };
-
-  handleChangeAttack = (selectedAttack) => {
-    const { selectedBody, selectedEnergy, selectedPart, selectedSort } =
-      this.state;
-    this.setState({ selectedAttack });
-    this.filter(
-      selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort
-    );
-  };
-
-  handleChangeSort = (selectedSort) => {
-    const { selectedBody, selectedEnergy, selectedPart, selectedAttack } =
-      this.state;
-    this.setState({ selectedSort });
-    this.filter(
-      selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort
+      selectedRarity
     );
   };
 
   reset = () => {
     this.setState({
-      cardlist: cards,
+      charmlist: charms,
       selectedBody: allitems,
-      selectedEnergy: allitems,
-      selectedPart: allitems,
-      selectedAttack: allitems,
-      selectedSort: noSort,
+      selectedRarity: allitems
     });
   };
 
   filter = (
-    selectedBody,
-    selectedEnergy,
-    selectedPart,
-    selectedAttack,
-    selectedSort
+    selectedBody, selectedRarity
   ) => {
-    let filteredList = cards;
+    let filteredList = charms;
 
     if (selectedBody.value !== "all") {
-      filteredList = filteredList.filter((card) =>
-        card.cardId.includes(selectedBody.value)
-      );
-    }
-    if (selectedEnergy.value !== "all") {
-      filteredList = filteredList.filter(
-        (card) => Number(card.defaultEnergy) === Number(selectedEnergy.value)
-      );
-    }
-    if (selectedPart.value !== "all") {
-      filteredList = filteredList.filter(
-        (card) => card.type === selectedPart.value
-      );
-    }
-    if (selectedAttack.value !== "all") {
-      filteredList = filteredList.filter((card) =>
-        card.abilityType.includes(selectedAttack.value)
+      filteredList = filteredList.filter((charm) =>
+      charm.type.includes(selectedBody.value)
       );
     }
 
-    switch (selectedSort.value) {
-      case "attack":
-        filteredList = filteredList.filter((card) =>
-        card.defaultAttack > 0).sort((a, b) =>
-          a.defaultAttack < b.defaultAttack ? 1 : -1
-        );
-        break;
-      case "defense":
-        filteredList = filteredList.filter((card) =>
-        card.defaultDefense > 0).sort((a, b) =>
-          a.defaultDefense < b.defaultDefense ? 1 : -1
-        );
-        break;
-      case "healing":
-        filteredList = filteredList.filter((card) =>
-        card.healing > 0).sort((a, b) =>
-          a.healing < b.healing ? 1 : -1
-        );
-        break;
-      default:
-        break;
+    if (selectedRarity.value !== "all") {
+      filteredList = filteredList.filter((charm) =>
+        charm.rarity.includes(selectedRarity.value)
+      );
     }
-
-    this.setState({ cardlist: filteredList });
+  
+    this.setState({ charmlist: filteredList });
   };
 
   componentDidMount() {
@@ -198,12 +87,9 @@ export default class CharmExplorer extends Component {
 
   render() {
     const {
-      cardlist,
+      charmlist,
       selectedBody,
-      selectedEnergy,
-      selectedPart,
-      selectedAttack,
-      selectedSort,
+      selectedRarity,
     } = this.state;
 
     return (
@@ -221,49 +107,14 @@ export default class CharmExplorer extends Component {
               isSearchable={false}
             />
           </div>
-
           <div className="filterItem">
-            <label htmlFor="part">Part</label>
+            <label htmlFor="rarity">Rarity</label>
             <Select
-              id="part"
+              id="rarity"
               className="select"
-              value={selectedPart}
-              onChange={this.handleChangePart}
-              options={partsOptions}
-              isSearchable={false}
-            />
-          </div>
-
-          <div className="filterItem">
-            <label htmlFor="energy">Energy</label>
-            <Select
-              id="energy"
-              className="select"
-              value={selectedEnergy}
-              onChange={this.handleChangeEnergy}
-              options={energyOptions}
-              isSearchable={false}
-            />
-          </div>
-          <div className="filterItem">
-            <label htmlFor="attack">Type</label>
-            <Select
-              id="attack"
-              className="select"
-              value={selectedAttack}
-              onChange={this.handleChangeAttack}
-              options={attackOptions}
-              isSearchable={false}
-            />
-          </div>
-          <div className="filterItem">
-            <label htmlFor="sort">Sort</label>
-            <Select
-              id="sort"
-              className="select"
-              value={selectedSort}
-              onChange={this.handleChangeSort}
-              options={sortOptions}
+              value={selectedRarity}
+              onChange={this.handleChangeRarity}
+              options={rarityOptions}
               isSearchable={false}
             />
           </div>
@@ -272,13 +123,16 @@ export default class CharmExplorer extends Component {
           </button>
         </div>
         <div>
-          {cardlist.map(({ cardId, name, description, cardImage }) => (
-            <Card
-              key={cardId}
+          {charmlist.map(({ id, image, type,  name, effect, rarity, potentialCost }) => (
+            <Charm
+              key={id}
+              image={image}
+              type={type}
               name={name}
-              description={description}
-              cardImage={cardImage}
-            />
+              rarity={rarity}
+              description={effect}
+              potentialCost = {potentialCost}
+            />       
           ))}
         </div>
       </div>
