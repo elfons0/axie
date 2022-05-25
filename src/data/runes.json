@@ -36,24 +36,6 @@
         "image": "rune_neutral_offensive_1.png"
     },
     {
-        "id": 13,
-        "name": "Pure Instinct",
-        "type": "Neutral",
-        "isBlockchain": 0,
-        "rarity": "Epic",
-        "effect": "All cards gain 15% {Class Bonus}.",
-        "image": "rune_neutral_hybrid_2.png"
-    },
-    {
-        "id": 14,
-        "name": "Shady Exchange",
-        "type": "Neutral",
-        "isBlockchain": 0,
-        "rarity": "Mystic",
-        "effect": "{Solo}. +1 energy on even numbered turns.\nAdd 3 [Daze] to your deck.",
-        "image": "rune_neutral_utility_2.png"
-    },
-    {
         "id": 11,
         "name": "Pure Power",
         "type": "Neutral",
@@ -72,22 +54,22 @@
         "image": "rune_neutral_defensive_2.png"
     },
     {
-        "id": 21,
-        "name": "Bloodlust",
-        "type": "Aquatic",
-        "isBlockchain": 1,
+        "id": 13,
+        "name": "Pure Instinct",
+        "type": "Neutral",
+        "isBlockchain": 0,
         "rarity": "Epic",
-        "effect": "Non-Multihit Attacks {Steal} 15 HP. Multihit Attacks {Steal} 4 HP per hit.",
-        "image": "rune_aquatic_hybrid_1.png"
+        "effect": "All cards gain 15% {Class Bonus}.",
+        "image": "rune_neutral_hybrid_2.png"
     },
     {
-        "id": 22,
-        "name": "Heart of Ocean",
-        "type": "Aquatic",
-        "isBlockchain": 1,
+        "id": 14,
+        "name": "Shady Exchange",
+        "type": "Neutral",
+        "isBlockchain": 0,
         "rarity": "Mystic",
-        "effect": "{Solo}. Increase all Axies' HP by 50.",
-        "image": "rune_aquatic_utility_1.png"
+        "effect": "{Solo}. +1 energy on even numbered turns.\nAdd 3 [Daze] to your deck.",
+        "image": "rune_neutral_utility_2.png"
     },
     {
         "id": 20,
@@ -108,22 +90,22 @@
         "image": "rune_aquatic_offensive_1.png"
     },
     {
-        "id": 17,
-        "name": "Dominant Predator",
-        "type": "Beast",
+        "id": 21,
+        "name": "Bloodlust",
+        "type": "Aquatic",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Deal 20% more DMG against Bleeding Enemies\nTake 10% less DMG from Bleeding Enemies",
-        "image": "rune_beast_hybrid_1.png"
+        "effect": "Non-Multihit Attacks {Steal} 15 HP. Multihit Attacks {Steal} 4 HP per hit.",
+        "image": "rune_aquatic_hybrid_1.png"
     },
     {
-        "id": 18,
-        "name": "Endless Anger",
-        "type": "Beast",
+        "id": 22,
+        "name": "Heart of Ocean",
+        "type": "Aquatic",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Gain 2 {Rage} when your turn starts. Each {Rage} grant 1 bonus DMG.",
-        "image": "rune_beast_utility_1.png"
+        "effect": "{Solo}. Increase all Axies' HP by 50.",
+        "image": "rune_aquatic_utility_1.png"
     },
     {
         "id": 16,
@@ -144,22 +126,22 @@
         "image": "rune_beast_offensive_1.png"
     },
     {
-        "id": 29,
-        "name": "Raven's Tactic",
-        "type": "Bird",
+        "id": 17,
+        "name": "Dominant Predator",
+        "type": "Beast",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
-        "image": "rune_bird_hybrid_1.png"
+        "effect": "Deal 20% more DMG against Bleeding Enemies\nTake 10% less DMG from Bleeding Enemies",
+        "image": "rune_beast_hybrid_1.png"
     },
     {
-        "id": 30,
-        "name": "Feather Descend",
-        "type": "Bird",
+        "id": 18,
+        "name": "Endless Anger",
+        "type": "Beast",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. When your turn starts, grant 2 {Feather} to your team. This Axie gains back half of the Feather stacks consumed when doing a non-multihit attack.",
-        "image": "rune_bird_utility_1.png"
+        "effect": "{Solo}. Gain 2 {Rage} when your turn starts. Each {Rage} grant 1 bonus DMG.",
+        "image": "rune_beast_utility_1.png"
     },
     {
         "id": 27,
@@ -180,22 +162,22 @@
         "image": "rune_bird_defensive_1.png"
     },
     {
-        "id": 34,
-        "name": "Collect And Protect",
-        "type": "Bug",
+        "id": 29,
+        "name": "Raven's Tactic",
+        "type": "Bird",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 30 Shield when your turn starts.",
-        "image": "rune_bug_utility_1.png"
+        "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
+        "image": "rune_bird_hybrid_1.png"
     },
     {
-        "id": 31,
-        "name": "Sturdy Fighter",
-        "type": "Bug",
+        "id": 30,
+        "name": "Feather Descend",
+        "type": "Bird",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Non-Multihit Attack cards deal bonus DMG equal to current Shield.",
-        "image": "rune_bug_offensive_1.png"
+        "effect": "{Solo}. When your turn starts, grant 2 {Feather} to your team. This Axie gains back half of the Feather stacks consumed when doing a non-multihit attack.",
+        "image": "rune_bird_utility_1.png"
     },
     {
         "id": 33,
@@ -216,22 +198,22 @@
         "image": "rune_bug_defensive_1.png"
     },
     {
-        "id": 45,
-        "name": "Heaven's Echoes",
-        "type": "Dawn",
+        "id": 34,
+        "name": "Collect And Protect",
+        "type": "Bug",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 8 Shield whenever this Axie uses a Skill.",
-        "image": "rune_dawn_hybrid_1.png"
+        "effect": "In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 30 Shield when your turn starts.",
+        "image": "rune_bug_utility_1.png"
     },
     {
-        "id": 46,
-        "name": "Holy Prayer",
-        "type": "Dawn",
+        "id": 31,
+        "name": "Sturdy Fighter",
+        "type": "Bug",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. When your turn starts, remove 2 Curses in your {Deck}. Heal 10 HP and grant 1 DMG boost to all teammates when successfully removing a Curse this way.",
-        "image": "rune_dawn_utility_1.png"
+        "effect": "{Solo}. Non-Multihit Attack cards deal bonus DMG equal to current Shield.",
+        "image": "rune_bug_offensive_1.png"
     },
     {
         "id": 44,
@@ -252,22 +234,22 @@
         "image": "rune_dawn_offensive_1.png"
     },
     {
-        "id": 49,
-        "name": "Malediction",
-        "type": "Dusk",
+        "id": 45,
+        "name": "Heaven's Echoes",
+        "type": "Dawn",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Deal 10% more DMG against debuffed Enemies. Take 20% less DMG from debuffed Enemies",
-        "image": "rune_dusk_hybrid_1.png"
+        "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 8 Shield whenever this Axie uses a Skill.",
+        "image": "rune_dawn_hybrid_1.png"
     },
     {
-        "id": 50,
-        "name": "Gloomy Dice",
-        "type": "Dusk",
+        "id": 46,
+        "name": "Holy Prayer",
+        "type": "Dawn",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Apply {Hex} or {Fear} randomly to all enemies for 2 turns in Odd Rounds.",
-        "image": "rune_dusk_utility_1.png"
+        "effect": "{Solo}. When your turn starts, remove 2 Curses in your {Deck}. Heal 10 HP and grant 1 DMG boost to all teammates when successfully removing a Curse this way.",
+        "image": "rune_dawn_utility_1.png"
     },
     {
         "id": 47,
@@ -288,22 +270,22 @@
         "image": "rune_dusk_defensive_1.png"
     },
     {
-        "id": 41,
-        "name": "Adaptive Program",
-        "type": "Mech",
+        "id": 49,
+        "name": "Malediction",
+        "type": "Dusk",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
-        "image": "rune_mech_hybrid_1.png"
+        "effect": "Deal 10% more DMG against debuffed Enemies. Take 20% less DMG from debuffed Enemies",
+        "image": "rune_dusk_hybrid_1.png"
     },
     {
-        "id": 42,
-        "name": "Shield Backup",
-        "type": "Mech",
+        "id": 50,
+        "name": "Gloomy Dice",
+        "type": "Dusk",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. This Axie's Shield isn't removed when your enemy's turn ends.\nShield can absorb 50% more DMG.",
-        "image": "rune_mech_utility_1.png"
+        "effect": "{Solo}. Apply {Hex} or {Fear} randomly to all enemies for 2 turns in Odd Rounds.",
+        "image": "rune_dusk_utility_1.png"
     },
     {
         "id": 40,
@@ -324,22 +306,22 @@
         "image": "rune_mech_offensive_1.png"
     },
     {
-        "id": 25,
-        "name": "Rise And Ruin",
-        "type": "Plant",
+        "id": 41,
+        "name": "Adaptive Program",
+        "type": "Mech",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Add [Forest Breath] and [Forest Wrath] to your deck.",
-        "image": "rune_plant_hybrid_1.png"
+        "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
+        "image": "rune_mech_hybrid_1.png"
     },
     {
-        "id": 24,
-        "name": "Gaia's Embrace",
-        "type": "Plant",
+        "id": 42,
+        "name": "Shield Backup",
+        "type": "Mech",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Shield cards also restore HP equal to 100% of shield gained but grant 25% less shield.",
-        "image": "rune_plant_defensive_1.png"
+        "effect": "{Solo}. This Axie's Shield isn't removed when your enemy's turn ends.\nShield can absorb 50% more DMG.",
+        "image": "rune_mech_utility_1.png"
     },
     {
         "id": 26,
@@ -360,22 +342,22 @@
         "image": "rune_plant_offensive_1.png"
     },
     {
-        "id": 37,
-        "name": "Poison Touch",
-        "type": "Reptile",
+        "id": 25,
+        "name": "Rise And Ruin",
+        "type": "Plant",
         "isBlockchain": 1,
         "rarity": "Epic",
-        "effect": "Apply 1 {Poison} to Attacker. Take 20% less DMG from poisoned enemies.",
-        "image": "rune_reptile_hybrid_1.png"
+        "effect": "Add [Forest Breath] and [Forest Wrath] to your deck.",
+        "image": "rune_plant_hybrid_1.png"
     },
     {
-        "id": 38,
-        "name": "Regenerator",
-        "type": "Reptile",
+        "id": 24,
+        "name": "Gaia's Embrace",
+        "type": "Plant",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
-        "image": "rune_reptile_utility_1.png"
+        "effect": "{Solo}. Shield cards also restore HP equal to 100% of shield gained but grant 25% less shield.",
+        "image": "rune_plant_defensive_1.png"
     },
     {
         "id": 36,
@@ -394,5 +376,23 @@
         "rarity": "Rare",
         "effect": "Attack cards apply 1 additional {Poison}.\nNon-Multihit Attacks deal 1 bonus DMG per 2 {Poison} on target.",
         "image": "rune_reptile_offensive_1.png"
+    },
+    {
+        "id": 37,
+        "name": "Poison Touch",
+        "type": "Reptile",
+        "isBlockchain": 1,
+        "rarity": "Epic",
+        "effect": "Apply 1 {Poison} to Attacker. Take 20% less DMG from poisoned enemies.",
+        "image": "rune_reptile_hybrid_1.png"
+    },
+    {
+        "id": 38,
+        "name": "Regenerator",
+        "type": "Reptile",
+        "isBlockchain": 1,
+        "rarity": "Mystic",
+        "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
+        "image": "rune_reptile_utility_1.png"
     }
 ]

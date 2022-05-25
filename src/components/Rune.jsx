@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import runeCard from "../img/runes/rune.png";
+import runeCard from "../img/runes/sample_rune.png";
 
 export default class Rune extends Component {
   render() {

@@ -1,164 +1,268 @@
 [
-    {
-      "id": "buff_bubble",
-      "name": "Bubble",
-      "description": "Block 5 DMG/stack. Max: 3 stack. Turn into Bubble Bomb upon reaching 3 stacks.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_bubble_bomb",
-      "name": "Bubble Bomb",
-      "description": "Next attack explodes Bubble Bomb and deals 20 DMG to all Enemies.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_cleanser",
-      "name": "Cleanser",
-      "description": "Each stack negates 1 debuff applied on the target.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_damage_boost",
-      "name": "Damage Boost",
-      "description": "The target has Attack DMG increased by 1 per stack.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_feather",
-      "name": "Feather",
-      "description": "When Axie does an attack, consume all Feather stacks to deal 2 bonus DMG per stack and heal 2 HP per stack. Max : 10 stack.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_fury",
-      "name": "Fury",
-      "description": "Gain 1 Energy when transforms. Deal double damage and last for 1 turn.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_healing_boost",
-      "name": "Healing Boost",
-      "description": "Increase healing card effects to this unit by 1 HP per stack.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_leaf",
-      "name": "Leaf",
-      "description": "Regen 5 HP at the end of your turn. Max stack: 5",
-      "category": "buff"
-    },
-    {
-      "id": "buff_meditate",
-      "name": "Meditate",
-      "description": "Meditate for 2 turns. If attacked while Meditating, awake and gain 3 Rage. If not, Cleanse 1 debuff and gain 1 Energy after effect ends.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_rage",
-      "name": "Rage",
-      "description": "DMG is increases by 2 per Rage stack. Transform into Fury Form when reaches 10 Rage stack.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_shield_boost",
-      "name": "Shield Boost",
-      "description": "The target has Shield gained from cards increased by 1 per stack.",
-      "category": "buff"
-    },
-    {
-      "id": "buff_stealth",
-      "name": "Stealth",
-      "description": "The target cannot be targeted directly. If it uses a card, remove Stealth.",
-      "category": "buff"
-    },
-    {
-      "id": "debuff_bleed",
-      "name": "Bleed",
-      "description": "Whenever the target uses a card, it loses 15HP.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_death_mark",
-      "name": "Death Mark",
-      "description": "Whenever opponent plays an Attack Card, the target take 13 DMG per Energy spent.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_disarmed",
-      "name": "Disarmed",
-      "description": "The target cannot use Attack cards.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_doubt",
-      "name": "Doubt",
-      "description": "The target gains 20% less HP from Healing.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_fear",
-      "name": "Fear",
-      "description": "Whenever the target uses an Attack card, shuffle a Confused into its draw pile.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_fragile",
-      "name": "Fragile",
-      "description": "The target gains 20% less Shield from cards.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_heal_block",
-      "name": "Heal Block",
-      "description": "The target cannot be healed.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_hex",
-      "name": "Hex",
-      "description": "Whenever the target uses a non-Attack card, shuffle a Confused into its draw pile.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_poison",
-      "name": "Poison",
-      "description": "At the start of its turn, the target loses 3 HP per stack and stacks are reduced by 1. Max: 30 stacks.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_silence",
-      "name": "Silence",
-      "description": "The target cannot use non-Attack cards.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_sleep",
-      "name": "Sleep",
-      "description": "The target cannot use cards. If it is attacked, remove Sleep.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_stunned",
-      "name": "Stunned",
-      "description": "The target cannot perform any action.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_vulnerable",
-      "name": "Vulnerable",
-      "description": "The target receives 20% more attack damage.",
-      "category": "debuff"
-    },
-    {
-      "id": "debuff_weak",
-      "name": "Weak",
-      "description": "The target deals 20% less attack damage.",
-      "category": "debuff"
-    },
-    {
-      "id": "neutral_taunt",
-      "name": "Taunt",
-      "description": "The target is always targeted by enemy's attack abilities.",
-      "category": "neutral"
-    }
-  ]
+  {
+    "id": 4,
+    "name": "Bubble",
+    "type": "Buff",
+    "description": "Block 5 DMG/stack. Max: 3 stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+    "image": "buff_bubble.png"
+  },
+  {
+    "id": 5,
+    "name": "Bubble Bomb",
+    "type": "Buff",
+    "description": "Next attack explodes Bubble Bomb and deals 20 DMG to all Enemies.",
+    "image": "buff_bubble_bomb.png"
+  },
+  {
+    "id": 8,
+    "name": "Cleanser",
+    "type": "Buff",
+    "description": "Each stack negates 1 debuff applied on the target.",
+    "image": "buff_cleanser.png"
+  },
+  {
+    "id": 9,
+    "name": "Damage Boost",
+    "type": "Buff",
+    "description": "The target has Attack DMG increased by 1 per stack.",
+    "image": "buff_dmg_boost.png"
+  },
+  {
+    "id": 6,
+    "name": "Feather",
+    "type": "Buff",
+    "description": "When Axie does an attack, consume all Feather stacks to deal 2 bonus DMG per stack and heal 2 HP per stack. Max : 10 stack.",
+    "image": "buff_feather.png"
+  },
+  {
+    "id": 10,
+    "name": "Healing Boost",
+    "type": "Buff",
+    "description": "Increase healing card effects to this unit by 1 HP per stack.",
+    "image": "buff_healing_boost.png"
+  },
+  {
+    "id": 3,
+    "name": "Leaf",
+    "type": "Buff",
+    "description": "Regen 5 HP at the end of your turn. Max stack: 5",
+    "image": "buff_leaf.png"
+  },
+  {
+    "id": 38,
+    "name": "Meditate",
+    "type": "Buff",
+    "description": "Meditate for 2 turns. If attacked while Meditating, awake and gain 3 Rage. If not, Cleanse 1 debuff and gain 1 Energy after effect ends.",
+    "image": "buff_meditate.png"
+  },
+  {
+    "id": 1,
+    "name": "Rage",
+    "type": "Buff",
+    "description": "DMG is increases by 2 per Rage stack. Transform into Fury Form when reaches 10 Rage stack.",
+    "image": "buff_rage.png"
+  },
+  {
+    "id": 11,
+    "name": "Shield Boost",
+    "type": "Buff",
+    "description": "The target has Shield gained from cards increased by 1 per stack.",
+    "image": "buff_shield_boost.png"
+  },
+  {
+    "id": 7,
+    "name": "Stealth",
+    "type": "Buff",
+    "description": "The target cannot be targeted directly. If it uses a card, remove Stealth.",
+    "image": "buff_stealth.png"
+  },
+  {
+    "id": 2,
+    "name": "Fury",
+    "type": "Transform/Buff",
+    "description": "Gain 1 Energy when transforms. Deal double damage and last for 1 turn.",
+    "image": "buff_fury.png"
+  },
+  {
+    "id": 27,
+    "name": "Taunt",
+    "type": "Neutral",
+    "description": "The target is always targeted by enemy's attack abilities.",
+    "image": "neutral_taunt.png"
+  },
+  {
+    "id": 14,
+    "name": "Bleed",
+    "type": "Debuff",
+    "description": "Whenever the target uses a card, it loses 15HP.",
+    "image": "debuff_bleed.png"
+  },
+  {
+    "id": 15,
+    "name": "Death Mark",
+    "type": "Debuff",
+    "description": "Whenever opponent plays an Attack Card, the target take 13 DMG per Energy spent.",
+    "image": "debuff_death_mark.png"
+  },
+  {
+    "id": 23,
+    "name": "Disarmed",
+    "type": "Debuff",
+    "description": "The target cannot use Attack cards.",
+    "image": "debuff_disarmed.png"
+  },
+  {
+    "id": 25,
+    "name": "Doubt",
+    "type": "Debuff",
+    "description": "The target gains 20% less HP from Healing.",
+    "image": "debuff_doubt.png"
+  },
+  {
+    "id": 21,
+    "name": "Fear",
+    "type": "Debuff",
+    "description": "Whenever the target uses an Attack card, shuffle a Confused into its draw pile.",
+    "image": "debuff_fear.png"
+  },
+  {
+    "id": 19,
+    "name": "Fragile",
+    "type": "Debuff",
+    "description": "The target gains 20% less Shield from cards.",
+    "image": "debuff_fragile.png"
+  },
+  {
+    "id": 26,
+    "name": "Heal Block",
+    "type": "Debuff",
+    "description": "The target cannot be healed.",
+    "image": "debuff_heal_block.png"
+  },
+  {
+    "id": 22,
+    "name": "Hex",
+    "type": "Debuff",
+    "description": "Whenever the target uses a non-Attack card, shuffle a Confused into its draw pile.",
+    "image": "debuff_hex.png"
+  },
+  {
+    "id": 13,
+    "name": "Poison",
+    "type": "Debuff",
+    "description": "At the start of its turn, the target loses 3 HP per stack and stacks are reduced by 1. Max: 30 stacks.",
+    "image": "debuff_poison.png"
+  },
+  {
+    "id": 24,
+    "name": "Silence",
+    "type": "Debuff",
+    "description": "The target cannot use non-Attack cards.",
+    "image": "debuff_silence.png"
+  },
+  {
+    "id": 16,
+    "name": "Sleep",
+    "type": "Debuff",
+    "description": "The target cannot use cards. If it is attacked, remove Sleep.",
+    "image": "debuff_sleep.png"
+  },
+  {
+    "id": 17,
+    "name": "Stunned",
+    "type": "Debuff",
+    "description": "The target cannot perform any action.",
+    "image": "debuff_stunned.png"
+  },
+  {
+    "id": 18,
+    "name": "Vulnerable",
+    "type": "Debuff",
+    "description": "The target receives 20% more attack damage.",
+    "image": "debuff_vulnerable.png"
+  },
+  {
+    "id": 20,
+    "name": "Weak",
+    "type": "Debuff",
+    "description": "The target deals 20% less attack damage.",
+    "image": "debuff_weak.png"
+  },
+  {
+    "id": 28,
+    "name": "Banish",
+    "type": "Card Property",
+    "description": "Remove the card from your deck until the end of battle.",
+    "image": "Banish.png"
+  },
+  {
+    "id": 29,
+    "name": "Cleanse",
+    "type": "Card Property",
+    "description": "Remove debuffs from target, up to 5 stacks.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 31,
+    "name": "Deck",
+    "type": "Card Property",
+    "description": "Includes cards in Draw Pile and Discard Pile.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 30,
+    "name": "Dispel",
+    "type": "Card Property",
+    "description": "Remove 1 buff from target, up to 5 stacks.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 32,
+    "name": "Ethereal",
+    "type": "Card Property",
+    "description": "When your turn ends, if the card is still in your hand, banish it. Banished cards are removed from your deck until the end of battle.",
+    "image": "Ethereal.png"
+  },
+  {
+    "id": 33,
+    "name": "Initial",
+    "type": "Card Property",
+    "description": "The first card played in a turn.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 34,
+    "name": "Innate",
+    "type": "Card Property",
+    "description": "Start each battle with this card in your hand.",
+    "image": "Innate.png"
+  },
+  {
+    "id": 35,
+    "name": "Retain",
+    "type": "Card Property",
+    "description": "Do not discard the card at the end of your turn.",
+    "image": "Retain.png"
+  },
+  {
+    "id": 37,
+    "name": "Scry",
+    "type": "Card Property",
+    "description": "Look at the top cards of your draw pile. You may discard any of them.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 39,
+    "name": "Solo",
+    "type": "Card Property",
+    "description": "Only 1 Axie per team can have this Effect activated.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 36,
+    "name": "Unplayable",
+    "type": "Card Property",
+    "description": "The card cannot be played.",
+    "image": "Unplayable.png"
+  }
+]

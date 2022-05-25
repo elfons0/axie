@@ -8,13 +8,16 @@ const allitems = { value: "all", label: "(all)" };
 
 const bodyOptions = [
   allitems,
-  { value: "neutral", label: "Neutral" },
-  { value: "aquatic", label: "Aqua" },
-  { value: "beast", label: "Beast" },
-  { value: "bird", label: "Bird" },
-  { value: "bug", label: "Bug" },
-  { value: "plant", label: "Plant" },
-  { value: "reptile", label: "Reptile" },
+  { value: "Neutral", label: "Neutral" },
+  { value: "Aquatic", label: "Aqua" },
+  { value: "Beast", label: "Beast" },
+  { value: "Bird", label: "Bird" },
+  { value: "Bug", label: "Bug" },
+  { value: "Dawn", label: "Dawn" },
+  { value: "Dusk", label: "Dusk" },
+  { value: "Mech", label: "Mech" },
+  { value: "Plant", label: "Plant" },
+  { value: "Peptile", label: "Reptile" },
 ];
 
 const rarityOptions = [

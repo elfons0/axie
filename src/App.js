@@ -3,6 +3,7 @@ import CardExplorer from "./components/CardExplorer";
 import RuneExplorer from "./components/RuneExplorer";
 import CurseCardExplorer from "./components/CurseCardExplorer";
 import ToolCardExplorer from "./components/ToolCardExplorer";
+import EffectExplorer from "./components/EffectExplorer";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -23,7 +24,7 @@ function App() {
             <Route path="/axiedatabase/charms" element={<Blank />} />
             <Route path="/axiedatabase/curses" element={<CurseCardExplorer lang={lang}/>} />
             <Route path="/axiedatabase/tools" element={<ToolCardExplorer lang={lang}/>} />
-            <Route path="/axiedatabase/effects" element={<Blank />} />
+            <Route path="/axiedatabase/effects" element={<EffectExplorer lang={lang} />} />
           </Routes>
         </div>
       </BrowserRouter>
