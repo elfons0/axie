@@ -156,9 +156,9 @@ label {
   position: relative;
   color: white;
   top: -105px;
-  left: 20px;
+  left: 10px;
   font-size: 8pt;
-  width: 170px;
+  width: 190px;
   vertical-align: top;
   height: 90px;
   display: table-cell;
@@ -298,7 +298,7 @@ label {
   }
 
   .runeCard {
-    width: 150px;
+    width: 160px;
   }
   
   .rune {
@@ -308,21 +308,21 @@ label {
   }
 
   .rune-div {
-    width: 150px;
+    width: 160px;
     height: 230px;
   }
 
   .rune-description {
     top: -85px;
-    left: 15px;
+    left: 5px;
     font-size: 7pt;
-    width: 130px;
+    width: 160px;
     height: 100px;
   }
 
   .rune-title {
     top: -120px;
-    left: 17px;
+    left: 25px;
     font-size: 8pt;
     width: 125px;
   }
@@ -360,7 +360,7 @@ label {
     position: relative; 
     font-size: 20pt;
     top: -315px;
-    left: 25px;
+    left: 30px;
     -webkit-text-stroke: 1pt black;
   }
 }
