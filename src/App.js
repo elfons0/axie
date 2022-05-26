@@ -6,7 +6,7 @@ import CurseCardExplorer from "./components/CurseCardExplorer";
 import ToolCardExplorer from "./components/ToolCardExplorer";
 import EffectExplorer from "./components/EffectExplorer";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, MemoryRouter } from "react-router-dom";
 import "./App.css";
 import Blank from "./components/Blank";
 
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <MemoryRouter>
         <Header />
         <div className="container">
           <Routes>
@@ -28,7 +28,7 @@ function App() {
             <Route path="/axiedatabase/effects" element={<EffectExplorer lang={lang} />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </MemoryRouter>
     </div>
   );
 }
