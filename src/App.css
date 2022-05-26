@@ -30,8 +30,8 @@ body {
 
 .Card-div {
   float: left;
-  height: 300px;
-  width: 200px;
+  height: 330px;
+  width: 210px;
   padding: 10px;
 }
 
@@ -97,7 +97,7 @@ label {
 }
 
 .card {
-  width: 200px;
+  width: 210px;
   margin: 5px;
   z-index: -1;
 }
@@ -121,8 +121,9 @@ label {
 .card-title {
   position: relative;
   color: white;
-  top: -140px;
-  left: 80px;
+  top: -143px;
+  left: 87px;
+  width: 110px;
   font-size: 10pt;
   font-weight: bold;
   text-align: left;
@@ -131,10 +132,10 @@ label {
 .card-description {
   position: relative;
   color: white;
-  top: -135px;
-  left: 40px;
+  top: -137px;
+  left: 39px;
   font-size: 9pt;
-  width: 145px;
+  width: 165px;
   vertical-align: middle;
   height: 100px;
   display: table-cell;

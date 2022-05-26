@@ -28,28 +28,50 @@ const rarityOptions = [
   { value: "Mystic", label: "Mystic" }
 ];
 
+const potentialOptions = [
+  allitems,
+  { value: "1", label: "1" },
+  { value: "2", label: "2" },
+  { value: "3", label: "3" },
+  { value: "4", label: "4" },
+  { value: "5", label: "5" }
+];
+
 export default class RuneExplorer extends Component {
   state = {
     charmlist: [],
     selectedBody: allitems,
-    selectedRarity: allitems
+    selectedRarity: allitems,
+    selectedPotential: allitems
   };
 
   handleChangeBody = (selectedBody) => {
-    const {selectedRarity} = this.state;
+    const {selectedRarity, selectedPotential} = this.state;
     this.setState({ selectedBody });
     this.filter(
       selectedBody,
-      selectedRarity
+      selectedRarity,
+      selectedPotential
     );
   };
 
   handleChangeRarity = (selectedRarity) => {
-    const {selectedBody} = this.state;
+    const {selectedBody, selectedPotential} = this.state;
     this.setState({ selectedRarity });
     this.filter(
       selectedBody,
-      selectedRarity
+      selectedRarity,
+      selectedPotential
+    );
+  };
+
+  handleChangePotential = (selectedPotential) => {
+    const {selectedBody, selectedRarity} = this.state;
+    this.setState({ selectedPotential });
+    this.filter(
+      selectedBody,
+      selectedRarity,
+      selectedPotential
     );
   };
 
@@ -57,12 +79,13 @@ export default class RuneExplorer extends Component {
     this.setState({
       charmlist: charms,
       selectedBody: allitems,
-      selectedRarity: allitems
+      selectedRarity: allitems,
+      selectedPotential: allitems
     });
   };
 
   filter = (
-    selectedBody, selectedRarity
+    selectedBody, selectedRarity, selectedPotential
   ) => {
     let filteredList = charms;
 
@@ -75,6 +98,12 @@ export default class RuneExplorer extends Component {
     if (selectedRarity.value !== "all") {
       filteredList = filteredList.filter((charm) =>
         charm.rarity.includes(selectedRarity.value)
+      );
+    }
+
+    if (selectedPotential.value !== "all") {
+      filteredList = filteredList.filter((charm) =>
+      Number(charm.potentialCost) === Number(selectedPotential.value)
       );
     }
   
@@ -90,6 +119,7 @@ export default class RuneExplorer extends Component {
       charmlist,
       selectedBody,
       selectedRarity,
+      selectedPotential
     } = this.state;
 
     return (
@@ -115,6 +145,17 @@ export default class RuneExplorer extends Component {
               value={selectedRarity}
               onChange={this.handleChangeRarity}
               options={rarityOptions}
+              isSearchable={false}
+            />
+          </div>
+          <div className="filterItem">
+            <label htmlFor="potential">Cost</label>
+            <Select
+              id="potential"
+              className="select"
+              value={selectedPotential}
+              onChange={this.handleChangePotential}
+              options={potentialOptions}
               isSearchable={false}
             />
           </div>
