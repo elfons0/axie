@@ -150,6 +150,16 @@
     "image": "vitality-3.png"
   },
   {
+    "id": 16,
+    "name": "Earth Stamp",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Rare",
+    "effect": "(Enhance Single Target Attack Abilities)\nChange ability target to the frontmost one.",
+    "potentialCost": 3,
+    "image": "earth-stamp.png"
+  },
+  {
     "id": 17,
     "name": "Moon Stamp",
     "type": "Neutral",
@@ -229,16 +239,25 @@
     "potentialCost": 5,
     "image": "scotch-tape.png"
   },
- 
   {
-    "id": 16,
-    "name": "Earth Stamp",
-    "type": "Neutral",
-    "isBlockchain": 0,
+    "id": 43,
+    "name": "Aquatic Talisman of Power IV",
+    "type": "Aquatic",
+    "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance Single Target Attack Abilities)\nChange ability target to the frontmost one.",
-    "potentialCost": 3,
-    "image": "earth-stamp.png"
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "aquatic-talisman-power-4.png"
+  },
+  {
+    "id": 41,
+    "name": "Aquatic Talisman of Vitality IV",
+    "type": "Aquatic",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance any card)\nAxie's max HP +12",
+    "potentialCost": 2,
+    "image": "aquatic-talisman-vitality-4.png"
   },
   {
     "id": 44,
@@ -301,24 +320,24 @@
     "image": "paralyze-jelly-fish.png"
   },
   {
-    "id": 43,
-    "name": "Aquatic Talisman of Power IV",
-    "type": "Aquatic",
+    "id": 33,
+    "name": "Beast Talisman of Power IV",
+    "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "aquatic-talisman-power-4.png"
+    "image": "beast-talisman-power-4.png"
   },
   {
-    "id": 41,
-    "name": "Aquatic Talisman of Vitality IV",
-    "type": "Aquatic",
+    "id": 35,
+    "name": "Beast Talisman of Vitality IV",
+    "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Rare",
     "effect": "(Enhance any card)\nAxie's max HP +12",
     "potentialCost": 2,
-    "image": "aquatic-talisman-vitality-4.png"
+    "image": "beast-talisman-vitality-4.png"
   },
   {
     "id": 34,
@@ -381,24 +400,24 @@
     "image": "hidden-razor.png"
   },
   {
-    "id": 33,
-    "name": "Beast Talisman of Power IV",
-    "type": "Beast",
+    "id": 59,
+    "name": "Bird Talisman of Focus IV",
+    "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "effect": "(Enhance Multihit Attack Ability)\r\nATK +3",
     "potentialCost": 2,
-    "image": "beast-talisman-power-4.png"
+    "image": "bird-talisman-focus-4.png"
   },
   {
-    "id": 35,
-    "name": "Beast Talisman of Vitality IV",
-    "type": "Beast",
+    "id": 57,
+    "name": "Bird Talisman of Power IV",
+    "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance any card)\nAxie's max HP +12",
+    "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +6",
     "potentialCost": 2,
-    "image": "beast-talisman-vitality-4.png"
+    "image": "bird-talisman-power-4.png"
   },
   {
     "id": 60,
@@ -461,24 +480,24 @@
     "image": "flamingo-hammer.png"
   },
   {
-    "id": 59,
-    "name": "Bird Talisman of Focus IV",
-    "type": "Bird",
+    "id": 49,
+    "name": "Bug Talisman of Endurance IV",
+    "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance Multihit Attack Ability)\r\nATK +3",
+    "effect": "(Enhance a Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "bird-talisman-focus-4.png"
+    "image": "bug-talisman-endurance-4.png"
   },
   {
-    "id": 57,
-    "name": "Bird Talisman of Power IV",
-    "type": "Bird",
+    "id": 51,
+    "name": "Bug Talisman of Power IV",
+    "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +6",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "bird-talisman-power-4.png"
+    "image": "bug-talisman-power-4.png"
   },
   {
     "id": 50,
@@ -541,24 +560,24 @@
     "image": "lazy-snail.png"
   },
   {
-    "id": 49,
-    "name": "Bug Talisman of Endurance IV",
-    "type": "Bug",
+    "id": 83,
+    "name": "Dawn Talisman of Faith IV",
+    "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Shielding card)\nShield Stat +6",
+    "effect": "(Enhance a Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "bug-talisman-endurance-4.png"
+    "image": "dawn-talisman-faith-4.png"
   },
   {
-    "id": 51,
-    "name": "Bug Talisman of Power IV",
-    "type": "Bug",
+    "id": 81,
+    "name": "Dawn Talisman of Focus IV",
+    "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "effect": "(Enhance a Multihit Attack card)\nATK +3",
     "potentialCost": 2,
-    "image": "bug-talisman-power-4.png"
+    "image": "dawn-talisman-focus-4.png"
   },
   {
     "id": 84,
@@ -621,24 +640,24 @@
     "image": "silent-incense.png"
   },
   {
-    "id": 83,
-    "name": "Dawn Talisman of Faith IV",
-    "type": "Dawn",
-    "isBlockchain": 1,
-    "rarity": "Rare",
-    "effect": "(Enhance a Healing card)\nHeal Stat +6",
-    "potentialCost": 2,
-    "image": "dawn-talisman-faith-4.png"
-  },
-  {
-    "id": 81,
-    "name": "Dawn Talisman of Focus IV",
-    "type": "Dawn",
+    "id": 91,
+    "name": "Dusk Talisman of Focus IV",
+    "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Rare",
     "effect": "(Enhance a Multihit Attack card)\nATK +3",
     "potentialCost": 2,
-    "image": "dawn-talisman-focus-4.png"
+    "image": "dusk-talisman-focus-4.png"
+  },
+  {
+    "id": 89,
+    "name": "Dusk Talisman of Power IV",
+    "type": "Dusk",
+    "isBlockchain": 1,
+    "rarity": "Rare",
+    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "potentialCost": 2,
+    "image": "dusk-talisman-power-4.png"
   },
   {
     "id": 92,
@@ -701,24 +720,24 @@
     "image": "arid-spell.png"
   },
   {
-    "id": 91,
-    "name": "Dusk Talisman of Focus IV",
-    "type": "Dusk",
+    "id": 75,
+    "name": "Mech Talisman of Endurance IV",
+    "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Multihit Attack card)\nATK +3",
+    "effect": "(Enhance a Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "dusk-talisman-focus-4.png"
+    "image": "mech-talisman-endurance-4.png"
   },
   {
-    "id": 89,
-    "name": "Dusk Talisman of Power IV",
-    "type": "Dusk",
+    "id": 73,
+    "name": "Mech Talisman of Power IV",
+    "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "dusk-talisman-power-4.png"
+    "image": "mech-talisman-power-4.png"
   },
   {
     "id": 76,
@@ -781,24 +800,24 @@
     "image": "hackers-drive.png"
   },
   {
-    "id": 75,
-    "name": "Mech Talisman of Endurance IV",
-    "type": "Mech",
+    "id": 25,
+    "name": "Plant Talisman of Endurance IV",
+    "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Shielding card)\nShield Stat +6",
+    "effect": "(Enhance any Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "mech-talisman-endurance-4.png"
+    "image": "plant-talisman-endurance-4.png"
   },
   {
-    "id": 73,
-    "name": "Mech Talisman of Power IV",
-    "type": "Mech",
+    "id": 27,
+    "name": "Plant Talisman of Faith IV",
+    "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+    "effect": "(Enhance any Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "mech-talisman-power-4.png"
+    "image": "plant-talisman-faith-4.png"
   },
   {
     "id": 26,
@@ -871,24 +890,24 @@
     "image": "white-sage.png"
   },
   {
-    "id": 25,
-    "name": "Plant Talisman of Endurance IV",
-    "type": "Plant",
+    "id": 67,
+    "name": "Reptile Talisman of Faith IV",
+    "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance any Shielding card)\nShield Stat +6",
+    "effect": "(Enhance a Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "plant-talisman-endurance-4.png"
+    "image": "reptile-talisman-faith-4.png"
   },
   {
-    "id": 27,
-    "name": "Plant Talisman of Faith IV",
-    "type": "Plant",
+    "id": 65,
+    "name": "Reptile Talisman of Vitality IV",
+    "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance any Healing card)\nHeal Stat +6",
+    "effect": "(Enhance any card)\nAxie's HP +12",
     "potentialCost": 2,
-    "image": "plant-talisman-faith-4.png"
+    "image": "reptile-talisman-vitality-4.png"
   },
   {
     "id": 68,
@@ -949,25 +968,5 @@
     "effect": "(Enhance any Attack card)\nAttack applies 2 {Poison}.",
     "potentialCost": 5,
     "image": "vipers-venom.png"
-  },
-  {
-    "id": 67,
-    "name": "Reptile Talisman of Faith IV",
-    "type": "Reptile",
-    "isBlockchain": 1,
-    "rarity": "Rare",
-    "effect": "(Enhance a Healing card)\nHeal Stat +6",
-    "potentialCost": 2,
-    "image": "reptile-talisman-faith-4.png"
-  },
-  {
-    "id": 65,
-    "name": "Reptile Talisman of Vitality IV",
-    "type": "Reptile",
-    "isBlockchain": 1,
-    "rarity": "Rare",
-    "effect": "(Enhance any card)\nAxie's HP +12",
-    "potentialCost": 2,
-    "image": "reptile-talisman-vitality-4.png"
   }
 ]

@@ -28,20 +28,6 @@ body {
   color: #61dafb;
 }
 
-.Card-div {
-  float: left;
-  height: 330px;
-  width: 210px;
-  padding: 10px;
-}
-
-.rune-div {
-  float: left;
-  height: 300px;
-  width: 200px;
-  padding: 10px;
-}
-
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -96,14 +82,15 @@ label {
   border-radius: 6px;
 }
 
-.card {
+.Card-div {
+  float: left;
+  height: 330px;
   width: 210px;
-  margin: 5px;
-  z-index: -1;
+  padding: 10px;
 }
 
-.runeCard {
-  width: 200px;
+.card {
+  width: 210px;
   margin: 5px;
   z-index: -1;
 }
@@ -141,6 +128,21 @@ label {
   display: table-cell;
 }
 
+.navigator a {
+  color: rgb(247, 228, 209);
+  margin: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigator a:hover {
+  color: aquamarine;
+}
+
+.menu-img {
+  height: 30px;
+}
+
 .rune-title {
   position: relative;
   color: white;
@@ -172,19 +174,17 @@ label {
   width: 37px;
 }
 
-.navigator a {
-  color: rgb(247, 228, 209);
-  margin: 30px;
-  text-decoration: none;
-  font-weight: bold;
+.rune-div {
+  float: left;
+  height: 300px;
+  width: 200px;
+  padding: 10px;
 }
 
-.navigator a:hover {
-  color: aquamarine;
-}
-
-.menu-img {
-  height: 30px;
+.runeCard {
+  width: 200px;
+  margin: 5px;
+  z-index: -1;
 }
 
 .rune {
@@ -212,12 +212,15 @@ label {
 .rune-Common{
   color: black;
 }
+
 .rune-Rare{
   color: green;
 }
+
 .rune-Epic{
   color: blue;
 }
+
 .rune-Mystic{
   color: darkviolet;
 }
