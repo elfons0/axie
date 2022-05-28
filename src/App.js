@@ -5,10 +5,10 @@ import CharmExplorer from "./components/CharmExplorer";
 import CurseCardExplorer from "./components/CurseCardExplorer";
 import ToolCardExplorer from "./components/ToolCardExplorer";
 import EffectExplorer from "./components/EffectExplorer";
+import NewsFeed from "./components/NewsFeed";
 
 import { Routes, Route, MemoryRouter } from "react-router-dom";
 import "./App.css";
-import Blank from "./components/Blank";
 
 function App() {
   const lang = window.navigator.language;
@@ -19,7 +19,7 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-            <Route path="/axiedatabase/" element={<Blank />} />
+            <Route path="/" element={<NewsFeed />} />
             <Route path="/axiedatabase/cards" element={<CardExplorer lang={lang}/>} />
             <Route path="/axiedatabase/runes" element={<RuneExplorer lang={lang} />} />
             <Route path="/axiedatabase/charms" element={<CharmExplorer lang={lang} />} />
