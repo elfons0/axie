@@ -271,6 +271,7 @@ export default class CardExplorer extends Component {
             Reset
           </button>
         </div>
+        
         <div>
           {cardlist.map(({ cardId, name, description, cardImage }) => (
             <Card

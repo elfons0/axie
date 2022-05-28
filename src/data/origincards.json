@@ -18,7 +18,7 @@
 		"name": "Anemone",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-10.png"
 	},
 	{
 		"cardId": "aquatic-horn-08",
@@ -39,7 +39,7 @@
 		"name": "Anemone",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-08.png"
 	},
 	{
 		"cardId": "bug-tail-02",
@@ -60,7 +60,7 @@
 		"name": "Ant",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-02.png"
 	},
 	{
 		"cardId": "bug-horn-04",
@@ -83,7 +83,7 @@
 		"name": "Antenna",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-04.png"
 	},
 	{
 		"cardId": "beast-horn-12",
@@ -104,7 +104,7 @@
 		"name": "Arco",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-12.png"
 	},
 	{
 		"cardId": "beast-mouth-08",
@@ -125,7 +125,7 @@
 		"name": "Axie Kiss",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-mouth-08.png"
 	},
 	{
 		"cardId": "aquatic-horn-02",
@@ -146,7 +146,7 @@
 		"name": "Babylonia",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-02.png"
 	},
 	{
 		"cardId": "bird-back-02",
@@ -167,7 +167,7 @@
 		"name": "Balloon",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-02.png"
 	},
 	{
 		"cardId": "plant-horn-02",
@@ -188,7 +188,7 @@
 		"name": "Bamboo Shoot",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-02.png"
 	},
 	{
 		"cardId": "plant-horn-04",
@@ -209,7 +209,7 @@
 		"name": "Beech",
 		"defaultStats": 90,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-04.png"
 	},
 	{
 		"cardId": "bug-ears-04",
@@ -230,7 +230,7 @@
 		"name": "Beetle Spike",
 		"defaultStats": 45,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-04.png"
 	},
 	{
 		"cardId": "beast-ears-12",
@@ -251,7 +251,7 @@
 		"name": "Belieber",
 		"defaultStats": 20,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-12.png"
 	},
 	{
 		"cardId": "plant-back-06",
@@ -272,7 +272,7 @@
 		"name": "Bidens",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-06.png"
 	},
 	{
 		"cardId": "plant-eyes-10",
@@ -295,7 +295,7 @@
 		"name": "Blossom",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-eyes-10.png"
 	},
 	{
 		"cardId": "aquatic-back-04",
@@ -303,9 +303,9 @@
 		"class": "aquatic",
 		"type": "back",
 		"cardName": "Blue Moon",
-		"description": "Draw 1 card.",
+		"description": "If <Initial>, draw 1 card.",
 		"defaultEnergy": 1,
-		"defaultAttack": 50,
+		"defaultAttack": 55,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -314,9 +314,9 @@
 		"specialGenes": "",
 		"partId": "back-blue-moon",
 		"name": "Blue Moon",
-		"defaultStats": 50,
+		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-04.png"
 	},
 	{
 		"cardId": "reptile-back-02",
@@ -337,7 +337,7 @@
 		"name": "Bone Sail",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-02.png"
 	},
 	{
 		"cardId": "bug-eyes-02",
@@ -360,7 +360,7 @@
 		"name": "Bookworm",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-eyes-02.png"
 	},
 	{
 		"cardId": "aquatic-ears-06",
@@ -381,7 +381,7 @@
 		"name": "Bubblemaker",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-06.png"
 	},
 	{
 		"cardId": "reptile-horn-12",
@@ -404,7 +404,7 @@
 		"name": "Bumpy",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-12.png"
 	},
 	{
 		"cardId": "bug-back-06",
@@ -425,7 +425,7 @@
 		"name": "Buzz Buzz",
 		"defaultStats": 20,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-06.png"
 	},
 	{
 		"cardId": "plant-horn-10",
@@ -446,7 +446,7 @@
 		"name": "Cactus",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-10.png"
 	},
 	{
 		"cardId": "plant-tail-02",
@@ -467,7 +467,7 @@
 		"name": "Carrot",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-02.png"
 	},
 	{
 		"cardId": "bug-horn-06",
@@ -488,7 +488,7 @@
 		"name": "Caterpillars",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-06.png"
 	},
 	{
 		"cardId": "aquatic-mouth-04",
@@ -509,7 +509,7 @@
 		"name": "Catfish",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-mouth-04.png"
 	},
 	{
 		"cardId": "plant-tail-04",
@@ -530,7 +530,7 @@
 		"name": "Cattail",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-04.png"
 	},
 	{
 		"cardId": "reptile-horn-06",
@@ -551,7 +551,7 @@
 		"name": "Cerastes",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-06.png"
 	},
 	{
 		"cardId": "beast-eyes-10",
@@ -572,7 +572,7 @@
 		"name": "Chubby",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-eyes-10.png"
 	},
 	{
 		"cardId": "aquatic-horn-06",
@@ -593,7 +593,7 @@
 		"name": "Clamshell",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-06.png"
 	},
 	{
 		"cardId": "aquatic-eyes-04",
@@ -616,7 +616,7 @@
 		"name": "Clear",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-eyes-04.png"
 	},
 	{
 		"cardId": "bird-tail-08",
@@ -637,7 +637,7 @@
 		"name": "Cloud",
 		"defaultStats": 35,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-08.png"
 	},
 	{
 		"cardId": "plant-ears-04",
@@ -658,7 +658,7 @@
 		"name": "Clover",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-04.png"
 	},
 	{
 		"cardId": "beast-mouth-10",
@@ -679,7 +679,7 @@
 		"name": "Confident",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-mouth-10.png"
 	},
 	{
 		"cardId": "plant-eyes-04",
@@ -700,7 +700,7 @@
 		"name": "Confused",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-eyes-04.png"
 	},
 	{
 		"cardId": "beast-tail-02",
@@ -723,7 +723,7 @@
 		"name": "Cottontail",
 		"defaultStats": 15,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-02.png"
 	},
 	{
 		"cardId": "reptile-back-12",
@@ -744,7 +744,7 @@
 		"name": "Croc",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-12.png"
 	},
 	{
 		"cardId": "bird-horn-04",
@@ -765,7 +765,7 @@
 		"name": "Cuckoo",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-04.png"
 	},
 	{
 		"cardId": "plant-eyes-08",
@@ -786,7 +786,7 @@
 		"name": "Cucumber Slice",
 		"defaultStats": 45,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-eyes-08.png"
 	},
 	{
 		"cardId": "bird-back-04",
@@ -807,7 +807,7 @@
 		"name": "Cupid",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-04.png"
 	},
 	{
 		"cardId": "bird-ears-10",
@@ -828,7 +828,7 @@
 		"name": "Curly",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-10.png"
 	},
 	{
 		"cardId": "reptile-ears-06",
@@ -849,7 +849,7 @@
 		"name": "Curved Spine",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-06.png"
 	},
 	{
 		"cardId": "bug-mouth-08",
@@ -870,7 +870,7 @@
 		"name": "Cute Bunny",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-mouth-08.png"
 	},
 	{
 		"cardId": "bird-mouth-02",
@@ -891,7 +891,7 @@
 		"name": "Doubletalk",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-mouth-02.png"
 	},
 	{
 		"cardId": "beast-horn-10",
@@ -912,7 +912,7 @@
 		"name": "Dual Blade",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-10.png"
 	},
 	{
 		"cardId": "bug-ears-06",
@@ -933,7 +933,7 @@
 		"name": "Ear Breathing",
 		"defaultStats": 30,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-06.png"
 	},
 	{
 		"cardId": "bird-ears-04",
@@ -954,7 +954,7 @@
 		"name": "Early Bird",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-04.png"
 	},
 	{
 		"cardId": "bug-ears-12",
@@ -975,7 +975,7 @@
 		"name": "Earwing",
 		"defaultStats": 20,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-12.png"
 	},
 	{
 		"cardId": "bird-horn-02",
@@ -996,7 +996,7 @@
 		"name": "Eggshell",
 		"defaultStats": 75,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-02.png"
 	},
 	{
 		"cardId": "bird-tail-04",
@@ -1017,7 +1017,7 @@
 		"name": "Feather Fan",
 		"defaultStats": 35,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-04.png"
 	},
 	{
 		"cardId": "bird-horn-12",
@@ -1038,7 +1038,7 @@
 		"name": "Feather Spear",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-12.png"
 	},
 	{
 		"cardId": "bug-tail-06",
@@ -1059,7 +1059,7 @@
 		"name": "Fish Snack",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-06.png"
 	},
 	{
 		"cardId": "reptile-ears-04",
@@ -1080,7 +1080,7 @@
 		"name": "Friezard",
 		"defaultStats": 20,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-04.png"
 	},
 	{
 		"cardId": "beast-back-12",
@@ -1101,7 +1101,7 @@
 		"name": "Furball",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-12.png"
 	},
 	{
 		"cardId": "bug-back-04",
@@ -1122,7 +1122,7 @@
 		"name": "Garish Worm",
 		"defaultStats": 120,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-04.png"
 	},
 	{
 		"cardId": "reptile-eyes-02",
@@ -1143,7 +1143,7 @@
 		"name": "Gecko",
 		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-eyes-02.png"
 	},
 	{
 		"cardId": "beast-tail-12",
@@ -1164,7 +1164,7 @@
 		"name": "Gerbil",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-12.png"
 	},
 	{
 		"cardId": "aquatic-eyes-08",
@@ -1185,7 +1185,7 @@
 		"name": "Gero",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-eyes-08.png"
 	},
 	{
 		"cardId": "reptile-tail-10",
@@ -1206,7 +1206,7 @@
 		"name": "Gila",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-10.png"
 	},
 	{
 		"cardId": "aquatic-ears-10",
@@ -1227,7 +1227,7 @@
 		"name": "Gill",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-10.png"
 	},
 	{
 		"cardId": "beast-mouth-04",
@@ -1237,7 +1237,7 @@
 		"cardName": "Goda",
 		"description": "Shuffle 1 [Void] into your opponent's discard pile. <Banish>.",
 		"defaultEnergy": 1,
-		"defaultAttack": 60,
+		"defaultAttack": 40,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -1248,9 +1248,9 @@
 		"specialGenes": "",
 		"partId": "mouth-goda",
 		"name": "Goda",
-		"defaultStats": 60,
+		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-mouth-04.png"
 	},
 	{
 		"cardId": "aquatic-back-06",
@@ -1258,9 +1258,9 @@
 		"class": "aquatic",
 		"type": "back",
 		"cardName": "Goldfish",
-		"description": "If <Initial>, draw 1 card.",
+		"description": "Draw 1 card if this is the only Attack card in your hand.",
 		"defaultEnergy": 1,
-		"defaultAttack": 60,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1269,9 +1269,9 @@
 		"specialGenes": "",
 		"partId": "back-goldfish",
 		"name": "Goldfish",
-		"defaultStats": 60,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-06.png"
 	},
 	{
 		"cardId": "bird-tail-10",
@@ -1294,7 +1294,7 @@
 		"name": "Granma's Fan",
 		"defaultStats": 15,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-10.png"
 	},
 	{
 		"cardId": "reptile-tail-12",
@@ -1315,7 +1315,7 @@
 		"name": "Grass Snake",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-12.png"
 	},
 	{
 		"cardId": "bug-tail-08",
@@ -1336,7 +1336,7 @@
 		"name": "Gravel Ant",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-08.png"
 	},
 	{
 		"cardId": "reptile-back-06",
@@ -1357,7 +1357,7 @@
 		"name": "Green Thorns",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-06.png"
 	},
 	{
 		"cardId": "beast-tail-08",
@@ -1365,9 +1365,9 @@
 		"class": "beast",
 		"type": "tail",
 		"cardName": "Hare",
-		"description": "If <Initial>, draw 1 card.",
+		"description": "Draw 1 card if this is the only Attack card in your hand.",
 		"defaultEnergy": 1,
-		"defaultAttack": 60,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1376,9 +1376,9 @@
 		"specialGenes": "",
 		"partId": "tail-hare",
 		"name": "Hare",
-		"defaultStats": 60,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-08.png"
 	},
 	{
 		"cardId": "plant-tail-06",
@@ -1399,7 +1399,7 @@
 		"name": "Hatsune",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-06.png"
 	},
 	{
 		"cardId": "plant-mouth-08",
@@ -1420,7 +1420,7 @@
 		"name": "Herbivore",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-08.png"
 	},
 	{
 		"cardId": "aquatic-back-02",
@@ -1441,7 +1441,7 @@
 		"name": "Hermit",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-02.png"
 	},
 	{
 		"cardId": "beast-back-04",
@@ -1449,9 +1449,9 @@
 		"class": "beast",
 		"type": "back",
 		"cardName": "Hero",
-		"description": "Draw 1 card.",
+		"description": "If <Initial>, draw 1 card.",
 		"defaultEnergy": 1,
-		"defaultAttack": 50,
+		"defaultAttack": 55,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1460,9 +1460,9 @@
 		"specialGenes": "",
 		"partId": "back-hero",
 		"name": "Hero",
-		"defaultStats": 50,
+		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-04.png"
 	},
 	{
 		"cardId": "plant-ears-10",
@@ -1483,7 +1483,7 @@
 		"name": "Hollow",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-10.png"
 	},
 	{
 		"cardId": "plant-tail-12",
@@ -1504,7 +1504,7 @@
 		"name": "Hot Butt",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-12.png"
 	},
 	{
 		"cardId": "bird-mouth-08",
@@ -1525,7 +1525,7 @@
 		"name": "Hungry Bird",
 		"defaultStats": 35,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-mouth-08.png"
 	},
 	{
 		"cardId": "reptile-tail-04",
@@ -1546,7 +1546,7 @@
 		"name": "Iguana",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-04.png"
 	},
 	{
 		"cardId": "beast-horn-04",
@@ -1567,7 +1567,7 @@
 		"name": "Imp",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-04.png"
 	},
 	{
 		"cardId": "reptile-horn-10",
@@ -1588,7 +1588,7 @@
 		"name": "Incisor",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-10.png"
 	},
 	{
 		"cardId": "reptile-back-08",
@@ -1609,7 +1609,7 @@
 		"name": "Indian Star",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-08.png"
 	},
 	{
 		"cardId": "aquatic-ears-08",
@@ -1630,7 +1630,7 @@
 		"name": "Inkling",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-08.png"
 	},
 	{
 		"cardId": "beast-ears-06",
@@ -1654,7 +1654,7 @@
 		"name": "Innocent Lamb",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-06.png"
 	},
 	{
 		"cardId": "beast-back-06",
@@ -1675,7 +1675,7 @@
 		"name": "Jaguar",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-06.png"
 	},
 	{
 		"cardId": "bird-horn-08",
@@ -1696,7 +1696,7 @@
 		"name": "Kestrel",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-08.png"
 	},
 	{
 		"cardId": "bird-back-10",
@@ -1717,7 +1717,7 @@
 		"name": "Kingfisher",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-10.png"
 	},
 	{
 		"cardId": "aquatic-tail-02",
@@ -1727,7 +1727,7 @@
 		"cardName": "Koi",
 		"description": "Deal 15 bonus DMG per Aquatic Ally.",
 		"defaultEnergy": 2,
-		"defaultAttack": 110,
+		"defaultAttack": 95,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1736,9 +1736,9 @@
 		"specialGenes": "",
 		"partId": "tail-koi",
 		"name": "Koi",
-		"defaultStats": 110,
+		"defaultStats": 95,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-02.png"
 	},
 	{
 		"cardId": "bug-eyes-10",
@@ -1759,7 +1759,7 @@
 		"name": "Kotaro?",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-eyes-10.png"
 	},
 	{
 		"cardId": "reptile-mouth-04",
@@ -1780,7 +1780,7 @@
 		"name": "Kotaro",
 		"defaultStats": 30,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-04.png"
 	},
 	{
 		"cardId": "bug-horn-02",
@@ -1801,7 +1801,7 @@
 		"name": "Lagging",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-02.png"
 	},
 	{
 		"cardId": "aquatic-mouth-02",
@@ -1822,7 +1822,7 @@
 		"name": "Lam",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-mouth-02.png"
 	},
 	{
 		"cardId": "bug-ears-02",
@@ -1830,7 +1830,7 @@
 		"class": "bug",
 		"type": "ears",
 		"cardName": "Larva",
-		"description": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying.",
+		"description": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying. <Banish>",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -1843,7 +1843,7 @@
 		"name": "Larva",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-02.png"
 	},
 	{
 		"cardId": "bug-ears-08",
@@ -1864,7 +1864,7 @@
 		"name": "Leaf Bug",
 		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-08.png"
 	},
 	{
 		"cardId": "bug-horn-12",
@@ -1885,7 +1885,7 @@
 		"name": "Leaf Bug",
 		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-12.png"
 	},
 	{
 		"cardId": "plant-ears-02",
@@ -1906,7 +1906,7 @@
 		"name": "Leafy",
 		"defaultStats": 15,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-02.png"
 	},
 	{
 		"cardId": "beast-horn-02",
@@ -1927,7 +1927,7 @@
 		"name": "Little Branch",
 		"defaultStats": 130,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-02.png"
 	},
 	{
 		"cardId": "bird-ears-06",
@@ -1948,7 +1948,7 @@
 		"name": "Owl",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-06.png"
 	},
 	{
 		"cardId": "bird-eyes-08",
@@ -1969,7 +1969,7 @@
 		"name": "Little Owl",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-eyes-08.png"
 	},
 	{
 		"cardId": "bird-mouth-10",
@@ -1990,7 +1990,7 @@
 		"name": "Little Owl",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-mouth-10.png"
 	},
 	{
 		"cardId": "beast-eyes-04",
@@ -2011,7 +2011,7 @@
 		"name": "Little Peas",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-eyes-04.png"
 	},
 	{
 		"cardId": "plant-ears-12",
@@ -2032,7 +2032,7 @@
 		"name": "Lotus",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-12.png"
 	},
 	{
 		"cardId": "bird-eyes-04",
@@ -2055,7 +2055,7 @@
 		"name": "Lucas",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-eyes-04.png"
 	},
 	{
 		"cardId": "bird-eyes-02",
@@ -2076,7 +2076,7 @@
 		"name": "Mavis",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-eyes-02.png"
 	},
 	{
 		"cardId": "beast-horn-06",
@@ -2097,7 +2097,7 @@
 		"name": "Merry",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-06.png"
 	},
 	{
 		"cardId": "plant-back-10",
@@ -2118,7 +2118,7 @@
 		"name": "Mint",
 		"defaultStats": 30,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-10.png"
 	},
 	{
 		"cardId": "bug-mouth-02",
@@ -2139,7 +2139,7 @@
 		"name": "Mosquito",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-mouth-02.png"
 	},
 	{
 		"cardId": "aquatic-tail-10",
@@ -2160,7 +2160,7 @@
 		"name": "Navaga",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-10.png"
 	},
 	{
 		"cardId": "bug-eyes-04",
@@ -2184,7 +2184,7 @@
 		"name": "Neo",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-eyes-04.png"
 	},
 	{
 		"cardId": "bug-eyes-08",
@@ -2207,7 +2207,7 @@
 		"name": "Nerdy",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-eyes-08.png"
 	},
 	{
 		"cardId": "aquatic-ears-02",
@@ -2215,11 +2215,11 @@
 		"class": "aquatic",
 		"type": "ears",
 		"cardName": "Nimo",
-		"description": "Gain 1 Energy if this Axie's HP is full. <Banish>.",
+		"description": "Target any ally. <Banish>.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
-		"healing": 35,
+		"healing": 40,
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [
@@ -2228,9 +2228,9 @@
 		"specialGenes": "",
 		"partId": "ears-nimo",
 		"name": "Nimo",
-		"defaultStats": 35,
+		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-02.png"
 	},
 	{
 		"cardId": "aquatic-tail-04",
@@ -2253,7 +2253,7 @@
 		"name": "Nimo",
 		"defaultStats": 15,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-04.png"
 	},
 	{
 		"cardId": "beast-ears-04",
@@ -2274,7 +2274,7 @@
 		"name": "Nut Cracker",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-04.png"
 	},
 	{
 		"cardId": "beast-mouth-02",
@@ -2295,7 +2295,7 @@
 		"name": "Nut Cracker",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-mouth-02.png"
 	},
 	{
 		"cardId": "beast-tail-10",
@@ -2316,7 +2316,7 @@
 		"name": "Nut Cracker",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-10.png"
 	},
 	{
 		"cardId": "beast-ears-02",
@@ -2337,7 +2337,7 @@
 		"name": "Nyan",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-02.png"
 	},
 	{
 		"cardId": "aquatic-horn-10",
@@ -2358,7 +2358,7 @@
 		"name": "Oranda",
 		"defaultStats": 120,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-10.png"
 	},
 	{
 		"cardId": "plant-eyes-02",
@@ -2379,7 +2379,7 @@
 		"name": "Papi",
 		"defaultStats": 45,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-eyes-02.png"
 	},
 	{
 		"cardId": "bug-horn-10",
@@ -2400,7 +2400,7 @@
 		"name": "Parasite",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-10.png"
 	},
 	{
 		"cardId": "bird-ears-08",
@@ -2421,7 +2421,7 @@
 		"name": "Peace Maker",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-08.png"
 	},
 	{
 		"cardId": "bird-mouth-04",
@@ -2442,7 +2442,7 @@
 		"name": "Peace Maker",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-mouth-04.png"
 	},
 	{
 		"cardId": "aquatic-back-12",
@@ -2463,7 +2463,7 @@
 		"name": "Perch",
 		"defaultStats": 30,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-12.png"
 	},
 	{
 		"cardId": "bird-back-08",
@@ -2484,7 +2484,7 @@
 		"name": "Pigeon Post",
 		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-08.png"
 	},
 	{
 		"cardId": "bug-mouth-04",
@@ -2505,7 +2505,7 @@
 		"name": "Pincer",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-mouth-04.png"
 	},
 	{
 		"cardId": "bird-ears-02",
@@ -2528,7 +2528,7 @@
 		"name": "Pink Cheek",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-02.png"
 	},
 	{
 		"cardId": "aquatic-mouth-10",
@@ -2549,7 +2549,7 @@
 		"name": "Piranha",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-mouth-10.png"
 	},
 	{
 		"cardId": "bug-horn-08",
@@ -2570,7 +2570,7 @@
 		"name": "Pliers",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-horn-08.png"
 	},
 	{
 		"cardId": "beast-horn-08",
@@ -2591,7 +2591,7 @@
 		"name": "Pocky",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-08.png"
 	},
 	{
 		"cardId": "reptile-ears-02",
@@ -2612,7 +2612,7 @@
 		"name": "Pogona",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-02.png"
 	},
 	{
 		"cardId": "bird-tail-12",
@@ -2633,7 +2633,7 @@
 		"name": "Post Fight",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-12.png"
 	},
 	{
 		"cardId": "plant-tail-10",
@@ -2641,7 +2641,7 @@
 		"class": "plant",
 		"type": "tail",
 		"cardName": "Potato Leaf",
-		"description": "Gain {Stealth} if there is at least 1 living ally.",
+		"description": "Gain {Stealth} for 2 turns if there is at least 1 non-stealth Axie alive.",
 		"defaultEnergy": 1,
 		"defaultAttack": 65,
 		"defaultDefense": 0,
@@ -2654,7 +2654,7 @@
 		"name": "Potato Leaf",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-10.png"
 	},
 	{
 		"cardId": "plant-back-12",
@@ -2675,7 +2675,7 @@
 		"name": "Pumpkin",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-12.png"
 	},
 	{
 		"cardId": "bug-tail-10",
@@ -2696,7 +2696,7 @@
 		"name": "Pupae",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-10.png"
 	},
 	{
 		"cardId": "beast-ears-10",
@@ -2717,7 +2717,7 @@
 		"name": "Puppy",
 		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-10.png"
 	},
 	{
 		"cardId": "beast-eyes-08",
@@ -2740,7 +2740,7 @@
 		"name": "Puppy",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-eyes-08.png"
 	},
 	{
 		"cardId": "aquatic-tail-08",
@@ -2761,7 +2761,7 @@
 		"name": "Ranchu",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-08.png"
 	},
 	{
 		"cardId": "bird-back-06",
@@ -2782,7 +2782,7 @@
 		"name": "Raven",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-06.png"
 	},
 	{
 		"cardId": "reptile-mouth-08",
@@ -2803,7 +2803,7 @@
 		"name": "Razor Bite",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-08.png"
 	},
 	{
 		"cardId": "reptile-back-10",
@@ -2824,7 +2824,7 @@
 		"name": "Red Ear",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-10.png"
 	},
 	{
 		"cardId": "beast-tail-04",
@@ -2847,7 +2847,7 @@
 		"name": "Rice",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-04.png"
 	},
 	{
 		"cardId": "beast-back-08",
@@ -2868,7 +2868,7 @@
 		"name": "Risky Beast",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-08.png"
 	},
 	{
 		"cardId": "bird-ears-12",
@@ -2889,7 +2889,7 @@
 		"name": "Risky Bird",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-12.png"
 	},
 	{
 		"cardId": "aquatic-mouth-08",
@@ -2910,7 +2910,7 @@
 		"name": "Risky Fish",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-mouth-08.png"
 	},
 	{
 		"cardId": "bird-eyes-10",
@@ -2931,7 +2931,7 @@
 		"name": "Robin",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-eyes-10.png"
 	},
 	{
 		"cardId": "beast-back-02",
@@ -2952,7 +2952,7 @@
 		"name": "Ronin",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-02.png"
 	},
 	{
 		"cardId": "plant-ears-06",
@@ -2975,7 +2975,7 @@
 		"name": "Rosa",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-06.png"
 	},
 	{
 		"cardId": "plant-horn-06",
@@ -2996,7 +2996,7 @@
 		"name": "Rose Bud",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-06.png"
 	},
 	{
 		"cardId": "plant-ears-08",
@@ -3017,7 +3017,7 @@
 		"name": "Sakura",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-08.png"
 	},
 	{
 		"cardId": "bug-back-08",
@@ -3038,7 +3038,7 @@
 		"name": "Sandal",
 		"defaultStats": 100,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-08.png"
 	},
 	{
 		"cardId": "reptile-horn-04",
@@ -3059,7 +3059,7 @@
 		"name": "Scaly Spear",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-04.png"
 	},
 	{
 		"cardId": "reptile-horn-08",
@@ -3080,7 +3080,7 @@
 		"name": "Scaly Spoon",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-08.png"
 	},
 	{
 		"cardId": "reptile-eyes-08",
@@ -3103,7 +3103,7 @@
 		"name": "Scar",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-eyes-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-eyes-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-eyes-08.png"
 	},
 	{
 		"cardId": "bug-back-10",
@@ -3124,7 +3124,7 @@
 		"name": "Scarab",
 		"defaultStats": 30,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-10.png"
 	},
 	{
 		"cardId": "aquatic-ears-12",
@@ -3145,7 +3145,7 @@
 		"name": "Seaslug",
 		"defaultStats": 110,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-12.png"
 	},
 	{
 		"cardId": "plant-mouth-02",
@@ -3166,7 +3166,7 @@
 		"name": "Serious",
 		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-02.png"
 	},
 	{
 		"cardId": "beast-tail-06",
@@ -3187,7 +3187,7 @@
 		"name": "Shiba",
 		"defaultStats": 130,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-06.png"
 	},
 	{
 		"cardId": "plant-back-04",
@@ -3208,7 +3208,7 @@
 		"name": "Shiitake",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-04.png"
 	},
 	{
 		"cardId": "aquatic-horn-12",
@@ -3229,7 +3229,7 @@
 		"name": "Shoal Star",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-12.png"
 	},
 	{
 		"cardId": "aquatic-tail-12",
@@ -3250,7 +3250,7 @@
 		"name": "Shrimp",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-12.png"
 	},
 	{
 		"cardId": "reptile-ears-12",
@@ -3271,7 +3271,7 @@
 		"name": "Sidebarb",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-12.png"
 	},
 	{
 		"cardId": "plant-mouth-10",
@@ -3292,7 +3292,7 @@
 		"name": "Silence Whisper",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-10.png"
 	},
 	{
 		"cardId": "aquatic-eyes-02",
@@ -3313,7 +3313,7 @@
 		"name": "Sleepless",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-eyes-02.png"
 	},
 	{
 		"cardId": "reptile-ears-08",
@@ -3334,7 +3334,7 @@
 		"name": "Small Frill",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-08.png"
 	},
 	{
 		"cardId": "bug-back-02",
@@ -3355,7 +3355,7 @@
 		"name": "Snail Shell",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-02.png"
 	},
 	{
 		"cardId": "reptile-tail-08",
@@ -3376,7 +3376,7 @@
 		"name": "Snake Jar",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-08.png"
 	},
 	{
 		"cardId": "bug-back-12",
@@ -3397,7 +3397,7 @@
 		"name": "Spiky Wing",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-12.png"
 	},
 	{
 		"cardId": "aquatic-back-08",
@@ -3418,7 +3418,7 @@
 		"name": "Sponge",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-08.png"
 	},
 	{
 		"cardId": "bug-mouth-10",
@@ -3439,7 +3439,7 @@
 		"name": "Square Teeth",
 		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-mouth-10.png"
 	},
 	{
 		"cardId": "plant-horn-08",
@@ -3460,7 +3460,7 @@
 		"name": "Strawberry Shortcake",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-08.png"
 	},
 	{
 		"cardId": "bird-tail-02",
@@ -3481,7 +3481,7 @@
 		"name": "Swallow",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-02.png"
 	},
 	{
 		"cardId": "reptile-ears-10",
@@ -3502,7 +3502,7 @@
 		"name": "Swirl",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-ears-10.png"
 	},
 	{
 		"cardId": "aquatic-tail-06",
@@ -3523,7 +3523,7 @@
 		"name": "Tadpole",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-06.png"
 	},
 	{
 		"cardId": "bug-ears-10",
@@ -3544,7 +3544,7 @@
 		"name": "Tassels",
 		"defaultStats": 10,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-ears-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-10.png"
 	},
 	{
 		"cardId": "aquatic-horn-04",
@@ -3565,7 +3565,7 @@
 		"name": "Teal Shell",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-04.png"
 	},
 	{
 		"cardId": "aquatic-eyes-10",
@@ -3588,7 +3588,7 @@
 		"name": "Telescope",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-eyes-10.png"
 	},
 	{
 		"cardId": "bird-tail-06",
@@ -3609,7 +3609,7 @@
 		"name": "The Last One",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-06.png"
 	},
 	{
 		"cardId": "bug-tail-12",
@@ -3630,7 +3630,7 @@
 		"name": "Thorny Caterpillar",
 		"defaultStats": 100,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-12.png"
 	},
 	{
 		"cardId": "beast-back-10",
@@ -3651,7 +3651,7 @@
 		"name": "Timber",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-10.png"
 	},
 	{
 		"cardId": "reptile-tail-06",
@@ -3674,7 +3674,7 @@
 		"name": "Tiny Dino",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-06.png"
 	},
 	{
 		"cardId": "aquatic-ears-04",
@@ -3682,11 +3682,11 @@
 		"class": "aquatic",
 		"type": "ears",
 		"cardName": "Tiny Fan",
-		"description": "Draw 1 card. Gain 2 {Damage Boost}. <Banish>.",
+		"description": "Gain 4 {Damage Boost} to self. <Banish>.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
-		"healing": 0,
+		"healing": 35,
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [
@@ -3695,9 +3695,9 @@
 		"specialGenes": "",
 		"partId": "ears-tiny-fan",
 		"name": "Tiny Fan",
-		"defaultStats": 0,
+		"defaultStats": 35,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/aquatic-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-ears-04.png"
 	},
 	{
 		"cardId": "reptile-mouth-10",
@@ -3705,7 +3705,7 @@
 		"class": "reptile",
 		"type": "mouth",
 		"cardName": "Tiny Turtle",
-		"description": "Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
+		"description": "Target any enemy. Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
 		"defaultEnergy": 1,
 		"defaultAttack": 50,
 		"defaultDefense": 0,
@@ -3718,7 +3718,7 @@
 		"name": "Tiny Turtle",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-10.png"
 	},
 	{
 		"cardId": "reptile-mouth-02",
@@ -3739,7 +3739,7 @@
 		"name": "Toothless Bite",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-02.png"
 	},
 	{
 		"cardId": "reptile-eyes-10",
@@ -3749,7 +3749,7 @@
 		"cardName": "Topaz",
 		"description": "Deal 10 bonus DMG for each of your banished cards. (Cap at 150 bonus DMG)",
 		"defaultEnergy": 1,
-		"defaultAttack": 25,
+		"defaultAttack": 5,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3758,9 +3758,9 @@
 		"specialGenes": "",
 		"partId": "eyes-topaz",
 		"name": "Topaz",
-		"defaultStats": 25,
+		"defaultStats": 5,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-eyes-10.png"
 	},
 	{
 		"cardId": "bird-back-12",
@@ -3781,7 +3781,7 @@
 		"name": "Tri Feather",
 		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-back-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-back-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-back-12.png"
 	},
 	{
 		"cardId": "reptile-back-04",
@@ -3802,7 +3802,7 @@
 		"name": "Tri Spikes",
 		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-04.png"
 	},
 	{
 		"cardId": "reptile-eyes-04",
@@ -3823,7 +3823,7 @@
 		"name": "Tricky",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-eyes-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-eyes-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-eyes-04.png"
 	},
 	{
 		"cardId": "bird-horn-06",
@@ -3844,7 +3844,7 @@
 		"name": "Trump",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-06.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-06.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-06.png"
 	},
 	{
 		"cardId": "plant-back-02",
@@ -3865,7 +3865,7 @@
 		"name": "Turnip",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-02.png"
 	},
 	{
 		"cardId": "bug-tail-04",
@@ -3886,7 +3886,7 @@
 		"name": "Twin Tail",
 		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bug-tail-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-04.png"
 	},
 	{
 		"cardId": "reptile-horn-02",
@@ -3907,7 +3907,7 @@
 		"name": "Unko",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-horn-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-horn-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-horn-02.png"
 	},
 	{
 		"cardId": "reptile-tail-02",
@@ -3915,7 +3915,7 @@
 		"class": "reptile",
 		"type": "tail",
 		"cardName": "Wall Gecko",
-		"description": "This Axie loses 50 HP and takes 30% less DMG for 4 turns.",
+		"description": "This Axie loses 50 HP and takes 30% less DMG for 4 turns. (Stack by turn)",
 		"defaultEnergy": 1,
 		"defaultAttack": 60,
 		"defaultDefense": 0,
@@ -3928,7 +3928,7 @@
 		"name": "Wall Gecko",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/reptile-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-tail-02.png"
 	},
 	{
 		"cardId": "plant-back-08",
@@ -3949,7 +3949,7 @@
 		"name": "Watering Can",
 		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-back-08.png"
 	},
 	{
 		"cardId": "plant-horn-12",
@@ -3970,7 +3970,7 @@
 		"name": "Watermelon",
 		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-horn-12.png"
 	},
 	{
 		"cardId": "bird-horn-10",
@@ -3991,7 +3991,7 @@
 		"name": "Wing Horn",
 		"defaultStats": 35,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/bird-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-10.png"
 	},
 	{
 		"cardId": "plant-tail-08",
@@ -4012,7 +4012,7 @@
 		"name": "Yam",
 		"defaultStats": 15,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-08.png"
 	},
 	{
 		"cardId": "beast-eyes-02",
@@ -4035,7 +4035,7 @@
 		"name": "Zeal",
 		"defaultStats": 0,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-eyes-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-eyes-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-eyes-02.png"
 	},
 	{
 		"cardId": "beast-ears-08",
@@ -4056,7 +4056,7 @@
 		"name": "Zen",
 		"defaultStats": 65,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/beast-ears-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-08.png"
 	},
 	{
 		"cardId": "plant-mouth-04",
@@ -4077,6 +4077,6 @@
 		"name": "Zigzag",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/plant-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-04.png"
 	}
 ]

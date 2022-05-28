@@ -68,7 +68,7 @@
         "type": "Neutral",
         "isBlockchain": 0,
         "rarity": "Mystic",
-        "effect": "{Solo}. +1 energy on even numbered turns.\nAdd 3 [Daze] to your deck.",
+        "effect": "{Solo}. Energy +1 in Even Rounds. Add 3 [Daze] and 2 [Void] to your deck.",
         "image": "rune_neutral_utility_2.png"
     },
     {
@@ -140,7 +140,7 @@
         "type": "Beast",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Gain 2 {Rage} when your turn starts. Each {Rage} grant 1 bonus DMG.",
+        "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
         "image": "rune_beast_utility_1.png"
     },
     {
@@ -212,7 +212,7 @@
         "type": "Bug",
         "isBlockchain": 1,
         "rarity": "Mystic",
-        "effect": "{Solo}. Non-Multihit Attack cards deal bonus DMG equal to current Shield.",
+        "effect": "{Solo}. Single Attack consumes 30% of current Shield and converts it into bonus DMG.",
         "image": "rune_bug_offensive_1.png"
     },
     {

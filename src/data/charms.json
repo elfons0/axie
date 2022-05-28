@@ -155,7 +155,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Rare",
-    "effect": "(Enhance Single Target Attack Abilities)\nChange ability target to the frontmost one.",
+    "effect": "(Enhance Single Target Attack cards)\nChange ability target to the frontmost one.",
     "potentialCost": 3,
     "image": "earth-stamp.png"
   },
@@ -165,7 +165,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Epic",
-    "effect": "(Enhance Single Target Attack Abilities)\r\nChange ability target to the second frontmost one.",
+    "effect": "(Enhance Single Target Attack cards)\nThis card targets the second closest enemy. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "moon-stamp.png"
   },
@@ -175,19 +175,9 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Epic",
-    "effect": "(Enhance single-target attack cards)\nThis card targets the furthest enemy.",
+    "effect": "(Enhance single-target attack cards)\nThis card targets the furthest enemy. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "sun-stamp.png"
-  },
-  {
-    "id": 20,
-    "name": "Discount Coupon",
-    "type": "Neutral",
-    "isBlockchain": 0,
-    "rarity": "Mystic",
-    "effect": "(Enhance any card)\n-1 energy cost. Card's base stat -40%.",
-    "potentialCost": 5,
-    "image": "discount-coupon.png"
   },
   {
     "id": 23,
@@ -195,7 +185,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 5,
     "image": "energy-drink-m.png"
   },
@@ -205,7 +195,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd Ethereal. Card's base stat +10%.",
+    "effect": "(Enhance any card)\nAdd Ethereal.",
     "potentialCost": 5,
     "image": "energy-drink-s.png"
   },
@@ -215,7 +205,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "effect": "(Enhance any card)\nAdd {Innate}. Card's base stat -10%.",
     "potentialCost": 5,
     "image": "pre-order-tag.png"
   },
@@ -225,7 +215,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Mystic",
-    "effect": "(Enhance single-target attack cards)\nThis card can target any enemy.",
+    "effect": "(Enhance single-target attack cards)\nThis card can target any enemy. Card's base stat -15%.",
     "potentialCost": 5,
     "image": "rocket-stamp.png"
   },
@@ -235,7 +225,7 @@
     "type": "Neutral",
     "isBlockchain": 0,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 5,
     "image": "scotch-tape.png"
   },
@@ -295,7 +285,7 @@
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
     "image": "aquatic-energy-drink-s.png"
   },
@@ -305,7 +295,7 @@
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "sticky-octopus.png"
   },
@@ -315,7 +305,7 @@
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 2 turns.",
+    "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 4 turns.",
     "potentialCost": 5,
     "image": "paralyze-jelly-fish.png"
   },
@@ -375,7 +365,7 @@
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
     "image": "beast-energy-drink-m.png"
   },
@@ -385,7 +375,7 @@
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
     "image": "beast-energy-drink-s.png"
   },
@@ -395,7 +385,7 @@
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 2 turns.",
+    "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 4 turns.",
     "potentialCost": 5,
     "image": "hidden-razor.png"
   },
@@ -455,7 +445,7 @@
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any Abilities)\r\nAdd Ethereal. Card's base stat +10%.",
+    "effect": "(Enhance any card)\nAdd Ethereal.",
     "potentialCost": 4,
     "image": "bird-energy-drink-s.png"
   },
@@ -465,7 +455,7 @@
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any Abilities)\r\nAdd Innate.",
+    "effect": "(Enhance any card)\nAdd Innate. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "secret-egg.png"
   },
@@ -475,7 +465,7 @@
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance Attack Abilities)\r\nAttack applies Fragile for 2 turns.",
+    "effect": "(Enhance Attack card)\nAttack applies Fragile for 4 turns.",
     "potentialCost": 5,
     "image": "flamingo-hammer.png"
   },
@@ -535,7 +525,7 @@
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
     "image": "bug-energy-drink-m.png"
   },
@@ -555,7 +545,7 @@
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any Attack card)\nAttack applies {Weak} for 2 turns.",
+    "effect": "(Enhance any Attack card)\nAttack applies {Weak} for 4 turns.",
     "potentialCost": 5,
     "image": "lazy-snail.png"
   },
@@ -615,7 +605,7 @@
     "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+    "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
     "image": "dawn-energy-drink-s.png"
   },
@@ -705,7 +695,7 @@
     "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
     "image": "dusk-energy-drink-m.png"
   },
@@ -855,7 +845,7 @@
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "ancient-root.png"
   },
@@ -865,7 +855,7 @@
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Innate}.",
+    "effect": "(Enhance any card)\nAdd {Innate}. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "secret-sprout.png"
   },
@@ -935,7 +925,7 @@
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Epic",
-    "effect": "(Enhance Attack cards)\n{Taunt} all Enemies for 2 turns.",
+    "effect": "(Enhance Attack cards)\n{Taunt} all Enemies for 4 turns.",
     "potentialCost": 4,
     "image": "gecko-mask.png"
   },
@@ -945,7 +935,7 @@
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+    "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
     "image": "reptile-energy-drink-m.png"
   },
@@ -955,7 +945,7 @@
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Mystic",
-    "effect": "(Enhance any card)\nAdd {Retain}.",
+    "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
     "image": "sticky-lizard.png"
   },

@@ -1,0 +1,12 @@
+[
+    {
+    "id": 20,
+    "name": "Discount Coupon",
+    "type": "Neutral",
+    "isBlockchain": 0,
+    "rarity": "Mystic",
+    "effect": "(Enhance any card)\n-1 energy cost. Card's base stat -40%.",
+    "potentialCost": 5,
+    "image": "discount-coupon.png"
+  }
+]
