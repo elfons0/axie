@@ -110,7 +110,7 @@ label {
   color: white;
   top: -143px;
   left: 87px;
-  width: 110px;
+  width: 115px;
   font-size: 10pt;
   font-weight: bold;
   text-align: left;
@@ -126,6 +126,12 @@ label {
   vertical-align: middle;
   height: 100px;
   display: table-cell;
+}
+
+.tooltip{
+  display: inline;
+  color: yellow;
+  cursor: pointer;
 }
 
 .navigator a {
@@ -307,6 +313,18 @@ label {
   font-style: italic; 
   color: white;
 }
+
+.react-tooltip-lite {
+  background-color: #282c34;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+.react-tooltip-lite-arrow {
+  border-color: white;
+}
+
 @media screen and (max-width: 500px) {
   .card {
     width: 150px;
