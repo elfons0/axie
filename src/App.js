@@ -5,6 +5,7 @@ import CharmExplorer from "./components/CharmExplorer";
 import CurseCardExplorer from "./components/CurseCardExplorer";
 import ToolCardExplorer from "./components/ToolCardExplorer";
 import EffectExplorer from "./components/EffectExplorer";
+import SummonExplorer from "./components/SummonExplorer";
 import NewsFeed from "./components/NewsFeed";
 
 import { Routes, Route, MemoryRouter } from "react-router-dom";
@@ -26,6 +27,7 @@ function App() {
             <Route path="/axiedatabase/curses" element={<CurseCardExplorer lang={lang}/>} />
             <Route path="/axiedatabase/tools" element={<ToolCardExplorer lang={lang}/>} />
             <Route path="/axiedatabase/effects" element={<EffectExplorer lang={lang} />} />
+            <Route path="/axiedatabase/summons" element={<SummonExplorer lang={lang} />} />
           </Routes>
         </div>
       </MemoryRouter>

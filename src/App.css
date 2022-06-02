@@ -339,6 +339,38 @@ label {
   cursor: pointer;
 }
 
+.summon-div {
+  float: left;
+  height: 200px;
+  width: 170px;
+  padding: 10px;
+}
+
+.summon {
+  position: relative;
+  height: 90px;
+  border-radius: 45px;
+}
+
+.summon-title {
+  position: relative;
+  color: dodgerblue;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.summon-description {
+  position: relative;
+  color: white;
+  font-size: 9pt;
+  width: 170px;
+  vertical-align: top;
+  padding-top: 5px;
+  height: 75px;
+  display: table-cell;
+}
+
 @media screen and (max-width: 500px) {
   .card {
     width: 150px;
@@ -436,4 +468,7 @@ label {
     height: 45px;
   }
 
+  .summon-div {
+    width: 150px;
+  }
 }
