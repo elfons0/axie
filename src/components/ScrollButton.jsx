@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import top from "../img/top.png";
+import top from "../img/arrowTop.png";
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
@@ -26,13 +26,13 @@ const ScrollButton = () => {
   window.addEventListener("scroll", toggleVisible);
 
   return (
-    <span
+    <img
+      src={top}
+      alt="top"
       class="goTop"
       onClick={scrollToTop}
       style={{ display: visible ? "inline" : "none" }}
-    >
-      <img src={top} alt="top" />
-    </span>
+    />
   );
 };
 

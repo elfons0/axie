@@ -1,6 +1,6 @@
 body {
   background-color: #0a212c;
-  color: aquamarine;
+  color: #0394ff;
 }
 
 .App {
@@ -47,8 +47,11 @@ body {
 */
 
 .title {
-  font-size: 45pt;
+  font-size: 40pt;
   padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0394ff;
 }
 
 .filter {
@@ -129,7 +132,7 @@ label {
   display: table-cell;
 }
 
-.tooltip{
+.tooltip {
   display: inline;
   color: yellow;
   cursor: pointer;
@@ -143,7 +146,7 @@ label {
 }
 
 .navigator a:hover {
-  color: aquamarine;
+  color: #0394ff;
 }
 
 .menu-img {
@@ -201,14 +204,14 @@ label {
   left: 28px;
 }
 
-.runeicon{
+.runeicon {
   width: 45px;
   position: relative;
   top: -235px;
   left: -98px;
 }
 
-.rune-letter{
+.rune-letter {
   position: relative;
   top: -480px;
   left: 72px;
@@ -216,19 +219,19 @@ label {
   font-weight: bold;
 }
 
-.rune-Common{
+.rune-Common {
   color: black;
 }
 
-.rune-Rare{
+.rune-Rare {
   color: green;
 }
 
-.rune-Epic{
+.rune-Epic {
   color: blue;
 }
 
-.rune-Mystic{
+.rune-Mystic {
   color: darkviolet;
 }
 
@@ -263,13 +266,13 @@ label {
   display: table-cell;
 }
 
-.effect-Buff{
+.effect-Buff {
   color: yellowgreen;
 }
-.effect-Debuff{
+.effect-Debuff {
   color: indianred;
 }
-.effect-Card{
+.effect-Card {
   color: yellow;
 }
 
@@ -284,7 +287,7 @@ label {
   -webkit-text-stroke: 2pt black;
 }
 
-.news-div{
+.news-div {
   background-color: saddlebrown;
   margin: auto;
   width: 30vw;
@@ -295,28 +298,28 @@ label {
   border-radius: 25px;
 }
 
-.news-img{
+.news-img {
   width: 100px;
   position: relative;
   top: -25px;
   left: 20px;
   float: left;
 }
-.news-title{
+.news-title {
   padding-left: 130px;
   padding-bottom: 10px;
   font-size: 15pt;
   font-weight: bold;
 }
-.news-description{
+.news-description {
   padding-left: 130px;
   padding-right: 20px;
-  font-style: italic; 
+  font-style: italic;
   color: white;
 }
 
 .react-tooltip-lite {
-  background-color: #282c34;
+  background-color: saddlebrown;
   border: 1px solid white;
   border-radius: 10px;
   color: white;
@@ -334,17 +337,6 @@ label {
   height: 60px;
   z-index: 5;
   cursor: pointer;
-  background-image: url(./img/arrowTop.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.goTop img {
-  width: 88px;
-  position: relative;
-  top: -14px;
-  left: -14px;
 }
 
 @media screen and (max-width: 500px) {
@@ -375,7 +367,7 @@ label {
   .runeCard {
     width: 160px;
   }
-  
+
   .rune {
     width: 65px;
     top: -125px;
@@ -407,10 +399,10 @@ label {
     position: relative;
     top: -179px;
     left: -73px;
-}
+  }
 
   .title {
-    font-size: 32pt;
+    font-size: 30pt;
     position: relative;
     top: 15px;
   }
@@ -423,16 +415,16 @@ label {
     height: 20px;
   }
 
-  .effect-div{
+  .effect-div {
     width: 160px;
   }
 
-  .effect-description{
+  .effect-description {
     width: 160px;
   }
 
   .potentialCost {
-    position: relative; 
+    position: relative;
     font-size: 20pt;
     top: -315px;
     left: 30px;
@@ -443,10 +435,5 @@ label {
     width: 45px;
     height: 45px;
   }
-  
-  .goTop img {
-    width: 65px;
-    top: -10px;
-    left: -10px;
-  }
+
 }
