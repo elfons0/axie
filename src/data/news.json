@@ -1,14 +1,20 @@
 [
-    {
-      "date": 20220528,
-      "title": "Balance Changes",
-      "description": "Update including Axie Infity Origin balance patch from 27th May",
-      "image": "Buba_happy.png"
-    },
-    {
-        "date": 20220507,
-        "title": "Balance Changes",
-        "description": "Update including Axie Infity Origin balance patch from 5th May",
-        "image": "Olek_happy.png"
-      }
+  {
+    "date": 20220602,
+    "title": "Summons",
+    "description": "New section added for exploring summons",
+    "image": "Puffy_happy.png"
+  },
+  {
+    "date": 20220528,
+    "title": "Balance Changes",
+    "description": "Update including Axie Infity Origin balance patch from 27th May",
+    "image": "Buba_happy.png"
+  },
+  {
+    "date": 20220507,
+    "title": "Balance Changes",
+    "description": "Update including Axie Infity Origin balance patch from 5th May",
+    "image": "Olek_happy.png"
+  }
 ]
