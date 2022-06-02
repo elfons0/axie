@@ -3,6 +3,7 @@ import Select from "react-select";
 
 import charms from "../data/charms.json";
 import Charm from "./Charm";
+import ScrollButton from "./ScrollButton";
 
 const allitems = { value: "all", label: "(all)" };
 
@@ -176,6 +177,7 @@ export default class RuneExplorer extends Component {
             />       
           ))}
         </div>
+        <ScrollButton />
       </div>
     );
   }

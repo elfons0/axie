@@ -3,6 +3,7 @@ import Select from "react-select";
 
 import runes from "../data/runes.json";
 import Rune from "./Rune";
+import ScrollButton from "./ScrollButton";
 
 const allitems = { value: "all", label: "(all)" };
 
@@ -134,6 +135,7 @@ export default class RuneExplorer extends Component {
             />       
           ))}
         </div>
+        <ScrollButton />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Select from "react-select";
 import Card from "./Card";
+import ScrollButton from "./ScrollButton";
 
 import cards from "../data/origincards.json";
 
@@ -282,6 +283,7 @@ export default class CardExplorer extends Component {
             />
           ))}
         </div>
+        <ScrollButton />
       </div>
     );
   }
