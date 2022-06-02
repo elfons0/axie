@@ -1,6 +1,14 @@
-[
+[  
   {
-    "id": 4,
+  "id": "bird-eyes-02",
+  "name": "Mavis",
+  "type": "Bird",
+  "health": 18,
+  "description": "When your turn starts (after card drawing), Mavis reduces 1 Energy of random Attack card. Loses 8 HP when your turn ends.",
+  "image": "bird-eyes-02.png"
+  },
+  {
+    "id": "bird-eyes-10",
     "name": "Little Robin",
     "type": "Bird",
     "health": 18,
@@ -8,23 +16,7 @@
     "image": "bird-eyes-10.png"
   },
   {
-    "id": 4,
-    "name": "Mavis",
-    "type": "Bird",
-    "health": 18,
-    "description": "When your turn starts (after card drawing), Mavis reduces 1 Energy of random Attack card. Loses 8 HP when your turn ends.",
-    "image": "bird-eyes-02.png"
-  },
-  {
-    "id": 1,
-    "name": "Clover",
-    "type": "Plant",
-    "health": 35,
-    "description": "When your turn starts, randomly grants 1~2 Leafs to your axies. Clover disappears after 4 leafs are granted.",
-    "image": "plant-ears-04.png"
-  },
-  {
-    "id": 2,
+    "id": "plant-back-04",
     "name": "Mushroom",
     "type": "Plant",
     "health": 18,
@@ -32,11 +24,19 @@
     "image": "plant-back-04.png"
   },
   {
-    "id": 3,
+    "id": "plant-ears-04",
+    "name": "Clover",
+    "type": "Plant",
+    "health": 35,
+    "description": "When your turn starts, randomly grants 1~2 Leafs to your axies. Clover disappears after 4 leafs are granted.",
+    "image": "plant-ears-04.png"
+  },
+  {
+    "id": "plant-ears-10",
     "name": "Trunk",
     "type": "Plant",
     "health": 60,
-    "description": "Taunt.",
+    "description": "{Taunt}.",
     "image": "plant-ears-10.png"
   }
 ]
