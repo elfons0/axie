@@ -12,18 +12,31 @@ export default class AxiePart extends Component {
   };
 
   render() {
-    const { part, options, selected, handleCard, charmSelected, handleCharm } =
-      this.props;
+    const {
+      part,
+      options,
+      selected,
+      handleCard,
+      charmSelected,
+      handleCharm,
+      bonus,
+    } = this.props;
 
     const card = selected ? findCard(selected.value) : null;
     const charm = charmSelected ? findCharm(charmSelected.label) : null;
 
     const totalAttack =
-      (card ? card.defaultAttack : 0) + (charm ? charm.attackBonus : 0);
+      card && card.defaultAttack
+        ? card.defaultAttack + bonus[0] + (charm ? charm.attackBonus : 0)
+        : 0;
     const totalDefense =
-      (card ? card.defaultDefense : 0) + (charm ? charm.defenseBonus : 0);
+      card && card.defaultDefense
+        ? card.defaultDefense + bonus[1] + (charm ? charm.defenseBonus : 0)
+        : 0;
     const totalHealing =
-      (card ? card.healing : 0) + (charm ? charm.healingBonus : 0);
+      card && card.healing
+        ? card.healing + bonus[2] + (charm ? charm.healingBonus : 0)
+        : 0;
 
     const charmOptions = card
       ? charms
@@ -59,12 +72,12 @@ export default class AxiePart extends Component {
             ) : (
               ""
             )}
-             {totalDefense > 0 ? (
+            {totalDefense > 0 ? (
               <span className="defense-value">{totalDefense}</span>
             ) : (
               ""
             )}
-             {totalHealing > 0 ? (
+            {totalHealing > 0 ? (
               <span className="healing-value">{totalHealing}</span>
             ) : (
               ""

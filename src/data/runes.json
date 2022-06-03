@@ -6,7 +6,11 @@
         "isBlockchain": 0,
         "rarity": "Common",
         "effect": "Recover 4% of max HP at the end of your turn.",
-        "image": "rune_neutral_utility_1.png"
+        "image": "rune_neutral_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 9,
@@ -15,7 +19,11 @@
         "isBlockchain": 0,
         "rarity": "Common",
         "effect": "Summoned units have +10 max HP. Deal +2 DMG per Summon to all Enemies at the beginning of your turn.",
-        "image": "rune_neutral_hybrid_1.png"
+        "image": "rune_neutral_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 8,
@@ -24,7 +32,11 @@
         "isBlockchain": 0,
         "rarity": "Common",
         "effect": "Gain 10 bonus Shield from cards.",
-        "image": "rune_neutral_defensive_1.png"
+        "image": "rune_neutral_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 10,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 7,
@@ -33,7 +45,11 @@
         "isBlockchain": 0,
         "rarity": "Common",
         "effect": "Non Multihit Attack Abilities deal 10 bonus DMG.",
-        "image": "rune_neutral_offensive_1.png"
+        "image": "rune_neutral_offensive_1.png",
+        "attackBonus": 10,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 11,
@@ -42,7 +58,11 @@
         "isBlockchain": 0,
         "rarity": "Rare",
         "effect": "Attack Abilities gain 15% {Class Bonus}.",
-        "image": "rune_neutral_offensive_2.png"
+        "image": "rune_neutral_offensive_2.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 12,
@@ -51,7 +71,11 @@
         "isBlockchain": 0,
         "rarity": "Rare",
         "effect": "Heal and Shield Abilities gain 15% {Class Bonus}.",
-        "image": "rune_neutral_defensive_2.png"
+        "image": "rune_neutral_defensive_2.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 13,
@@ -60,7 +84,11 @@
         "isBlockchain": 0,
         "rarity": "Epic",
         "effect": "All cards gain 15% {Class Bonus}.",
-        "image": "rune_neutral_hybrid_2.png"
+        "image": "rune_neutral_hybrid_2.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 14,
@@ -69,7 +97,11 @@
         "isBlockchain": 0,
         "rarity": "Mystic",
         "effect": "{Solo}. Energy +1 in Even Rounds. Add 3 [Daze] and 2 [Void] to your deck.",
-        "image": "rune_neutral_utility_2.png"
+        "image": "rune_neutral_utility_2.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 20,
@@ -78,7 +110,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Axie HP +30\nAt the beginning of your turn, gain Shield equal to 3% of max HP.",
-        "image": "rune_aquatic_defensive_1.png"
+        "image": "rune_aquatic_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 30
     },
     {
         "id": 19,
@@ -87,7 +123,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Axie max HP +30\nAttack cards deal bonus DMG equal to 3% of remaining HP.",
-        "image": "rune_aquatic_offensive_1.png"
+        "image": "rune_aquatic_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 30
     },
     {
         "id": 21,
@@ -96,7 +136,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Non-Multihit Attacks {Steal} 15 HP. Multihit Attacks {Steal} 4 HP per hit.",
-        "image": "rune_aquatic_hybrid_1.png"
+        "image": "rune_aquatic_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 22,
@@ -105,7 +149,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. Increase all Axies' HP by 50.",
-        "image": "rune_aquatic_utility_1.png"
+        "image": "rune_aquatic_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 50
     },
     {
         "id": 16,
@@ -114,7 +162,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Cannot gain Shield. Take 25% less DMG.",
-        "image": "rune_beast_defensive_1.png"
+        "image": "rune_beast_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 15,
@@ -123,7 +175,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Deal 20% more DMG.\r\nTake 10% more DMG.",
-        "image": "rune_beast_offensive_1.png"
+        "image": "rune_beast_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 17,
@@ -132,7 +188,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Deal 20% more DMG against Bleeding Enemies\nTake 10% less DMG from Bleeding Enemies",
-        "image": "rune_beast_hybrid_1.png"
+        "image": "rune_beast_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 18,
@@ -141,7 +201,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
-        "image": "rune_beast_utility_1.png"
+        "image": "rune_beast_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 27,
@@ -150,7 +214,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Attack cards also deal 5 DMG per Energy Cost to all Enemies.",
-        "image": "rune_bird_offensive_1.png"
+        "image": "rune_bird_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 28,
@@ -159,7 +227,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "{Poison} on this Axie grants \"Healing 1 HP per stack\" instead of HP loss.",
-        "image": "rune_bird_defensive_1.png"
+        "image": "rune_bird_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 29,
@@ -168,7 +240,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
-        "image": "rune_bird_hybrid_1.png"
+        "image": "rune_bird_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 30,
@@ -177,7 +253,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. When your turn starts, grant 2 {Feather} to your team. This Axie gains back half of the Feather stacks consumed when doing a non-multihit attack.",
-        "image": "rune_bird_utility_1.png"
+        "image": "rune_bird_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 33,
@@ -186,7 +266,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "When your turn starts, steal 50% Shield from the Enemy with the highest Shield.",
-        "image": "rune_bug_hybrid_1.png"
+        "image": "rune_bug_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 32,
@@ -195,7 +279,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "When your turn ends, gain Shield equal to (3 x the number of cards in your Discard Pile).",
-        "image": "rune_bug_defensive_1.png"
+        "image": "rune_bug_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 34,
@@ -204,7 +292,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 30 Shield when your turn starts.",
-        "image": "rune_bug_utility_1.png"
+        "image": "rune_bug_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 31,
@@ -213,7 +305,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. Single Attack consumes 30% of current Shield and converts it into bonus DMG.",
-        "image": "rune_bug_offensive_1.png"
+        "image": "rune_bug_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 44,
@@ -222,7 +318,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Take 5% less DMG per Buff on this Axie (capped at 20%).",
-        "image": "rune_dawn_defensive_1.png"
+        "image": "rune_dawn_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 43,
@@ -231,7 +331,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Deal 5% more DMG per Buff on this Axie (capped at 20%).",
-        "image": "rune_dawn_offensive_1.png"
+        "image": "rune_dawn_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 45,
@@ -240,7 +344,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 8 Shield whenever this Axie uses a Skill.",
-        "image": "rune_dawn_hybrid_1.png"
+        "image": "rune_dawn_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 46,
@@ -249,7 +357,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. When your turn starts, remove 2 Curses in your {Deck}. Heal 10 HP and grant 1 DMG boost to all teammates when successfully removing a Curse this way.",
-        "image": "rune_dawn_utility_1.png"
+        "image": "rune_dawn_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 47,
@@ -258,7 +370,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Attacks deal 3 bonus DMG per Curse Ability in your {Deck} (capped at 15 DMG).",
-        "image": "rune_dusk_offensive_1.png"
+        "image": "rune_dusk_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 48,
@@ -267,7 +383,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Gain 15 Shield whenever you play a Curse card.",
-        "image": "rune_dusk_defensive_1.png"
+        "image": "rune_dusk_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 49,
@@ -276,7 +396,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Deal 10% more DMG against debuffed Enemies. Take 20% less DMG from debuffed Enemies",
-        "image": "rune_dusk_hybrid_1.png"
+        "image": "rune_dusk_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 50,
@@ -285,7 +409,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. Apply {Hex} or {Fear} randomly to all enemies for 2 turns in Odd Rounds.",
-        "image": "rune_dusk_utility_1.png"
+        "image": "rune_dusk_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 40,
@@ -294,7 +422,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "When taking a fatal hit, survive with 1 HP until end of turn (active 1 time per battle).\nAfter that, apply an irremovable {Heal Block}.",
-        "image": "rune_mech_defensive_1.png"
+        "image": "rune_mech_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 39,
@@ -303,7 +435,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Deal 20% more DMG if this Axie has Shield.",
-        "image": "rune_mech_offensive_1.png"
+        "image": "rune_mech_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 41,
@@ -312,7 +448,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
-        "image": "rune_mech_hybrid_1.png"
+        "image": "rune_mech_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 10,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 42,
@@ -321,7 +461,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. This Axie's Shield isn't removed when your enemy's turn ends.\nShield can absorb 50% more DMG.",
-        "image": "rune_mech_utility_1.png"
+        "image": "rune_mech_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 26,
@@ -330,7 +474,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "All teammates regen 4 HP when your turn ends. Increase healing card effects by 10%.",
-        "image": "rune_plant_utility_1.png"
+        "image": "rune_plant_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 23,
@@ -339,7 +487,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Start Battle with 3 {Leaf}. Non-Multihit Attacks consume 1 {Leaf} and deal 15 bonus DMG",
-        "image": "rune_plant_offensive_1.png"
+        "image": "rune_plant_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 25,
@@ -348,7 +500,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Add [Forest Breath] and [Forest Wrath] to your deck.",
-        "image": "rune_plant_hybrid_1.png"
+        "image": "rune_plant_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 24,
@@ -357,7 +513,11 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. Shield cards also restore HP equal to 100% of shield gained but grant 25% less shield.",
-        "image": "rune_plant_defensive_1.png"
+        "image": "rune_plant_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 36,
@@ -366,7 +526,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "When your turn starts, gain 12 Shield for each attack this Axie took in the previous turn.",
-        "image": "rune_reptile_defensive_1.png"
+        "image": "rune_reptile_defensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 35,
@@ -375,7 +539,11 @@
         "isBlockchain": 1,
         "rarity": "Rare",
         "effect": "Attack cards apply 1 additional {Poison}.\nNon-Multihit Attacks deal 1 bonus DMG per 2 {Poison} on target.",
-        "image": "rune_reptile_offensive_1.png"
+        "image": "rune_reptile_offensive_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 37,
@@ -384,7 +552,11 @@
         "isBlockchain": 1,
         "rarity": "Epic",
         "effect": "Apply 1 {Poison} to Attacker. Take 20% less DMG from poisoned enemies.",
-        "image": "rune_reptile_hybrid_1.png"
+        "image": "rune_reptile_hybrid_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     },
     {
         "id": 38,
@@ -393,6 +565,10 @@
         "isBlockchain": 1,
         "rarity": "Mystic",
         "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
-        "image": "rune_reptile_utility_1.png"
+        "image": "rune_reptile_utility_1.png",
+        "attackBonus": 0,
+        "defenseBonus": 0,
+        "healingBonus": 0,
+        "healthBonus": 0
     }
 ]

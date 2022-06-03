@@ -7,7 +7,8 @@ import AxiePart from "./AxiePart";
 import { partsCards } from "./Card";
 import { findCharm } from "./Charm";
 
-const axieBaseHP = 320;
+const AXIE_HP = 320;
+const HEART_OCEAN = 22;
 
 const classOptions = [
   { value: "Aquatic", label: "Aqua" },
@@ -24,18 +25,19 @@ const classOptions = [
 export default class Axie extends Component {
   state = {
     hp: 0,
-    hpbonus: [0,0,0,0,0,0],
+    hpbonus: [0, 0, 0, 0, 0, 0],
+    bonus: [0, 0, 0],
     type: "",
     rune: "",
     runedescr: "",
     runelist: [],
     cards: [],
     charms: [],
-    potential: []
+    potential: [],
   };
 
-  getRuneDesc = (name) => {
-    return name ? runes.find((rune) => rune.name.includes(name)).effect : "";
+  getRune = (name) => {
+    return runes.find((rune) => rune.name.includes(name));
   };
 
   getRuneImg = (name) => {
@@ -43,32 +45,46 @@ export default class Axie extends Component {
   };
 
   handleChangeType = (type) => {
+    let { potential } = this.state;
+
     this.setState({ type, rune: "", runedescr: "" });
     this.filterRune(type);
     this.handleChangeRune("");
+
+    potential[6] = (type.value).toLowerCase();
+
+    this.setState({ potential});
   };
 
   handleChangeRune = (rune) => {
     const { position, handleUpdateHp, teamrunes, handleUpdateRunes } =
       this.props;
-    const runedescr = this.getRuneDesc(rune.label);
 
-    this.setState({ rune, runedescr });
-    handleUpdateRunes(position, Number(rune.value));
+    let { bonus } = this.state;
+
+    const runePicked = this.getRune(rune.label);
 
     // Heart of the Ocean rune
-    if (teamrunes.includes(22)) {
-      handleUpdateHp(axieBaseHP + 50);
+    if (teamrunes.includes(HEART_OCEAN)) {
+      handleUpdateHp(AXIE_HP + 50);
     } else {
-      handleUpdateHp(axieBaseHP);
+      handleUpdateHp(AXIE_HP);
     }
 
-    // Aqua hp runes
-    if (Number(rune.value) === 19 || Number(rune.value) === 20) {
-      this.setState({ hp: 30 });
-    } else {
-      this.setState({ hp: 0 });
-    }
+    bonus[0] = runePicked ? runePicked.attackBonus : 0;
+    bonus[1] = runePicked ? runePicked.defenseBonus : 0;
+    bonus[2] = runePicked ? runePicked.healingBonus : 0;
+
+   
+
+    this.setState({
+      hp: runePicked ? runePicked.healthBonus : 0,
+      bonus,
+      rune,
+      runedescr: runePicked ? runePicked.effect : "",
+    });
+
+    handleUpdateRunes(position, Number(rune.value));
   };
 
   part = (value) => {
@@ -93,12 +109,21 @@ export default class Axie extends Component {
     }
   };
 
+  potentialPart = (value) => {
+    const dash = value.indexOf("-");
+    return value.substring(0, dash);
+  };
+
   handleCard = (selectedCard) => {
-    let { cards } = this.state;
+    let { cards, potential } = this.state;
 
     const index = this.part(selectedCard.value);
+    const potentialPart = this.potentialPart(selectedCard.value);
+
     cards[index] = selectedCard;
-    this.setState({ cards });
+    potential[index] = potentialPart;
+
+    this.setState({ cards, potential });
   };
 
   handleCharm = (charmSelected) => {
@@ -106,10 +131,10 @@ export default class Axie extends Component {
 
     const index = this.part(charmSelected.value);
     charms[index] = charmSelected;
-    
+
     const charm = findCharm(charmSelected.label);
-    hpbonus[index]= charm.healthBonus;
-    
+    hpbonus[index] = charm.healthBonus;
+
     this.setState({ charms, hpbonus });
   };
 
@@ -133,7 +158,18 @@ export default class Axie extends Component {
   render() {
     const { position, hpbase } = this.props;
 
-    const { hp, hpbonus, type, rune, runedescr, runelist, cards, charms } = this.state;
+    const {
+      hp,
+      hpbonus,
+      bonus,
+      type,
+      rune,
+      runedescr,
+      runelist,
+      cards,
+      charms,
+      potential,
+    } = this.state;
 
     const horncards = partsCards("horn").map(
       (card) => new Option(card.name, card.cardId)
@@ -161,11 +197,26 @@ export default class Axie extends Component {
 
     return (
       <div className="axie" key={position}>
+        <h1>
+          {
+            {
+              0: "Front-line",
+              1: "Mid-line",
+              2: "Back-line",
+            }[position]
+          }
+        </h1>
         <table className="axie-status">
           <tbody>
             <tr>
               <th>Health:</th>
-              <td><span className="axie-hp">{hpbase + hp + hpbonus.reduce((partialSum, i) => partialSum + i, 0)} </span></td>
+              <td>
+                <span className="axie-hp">
+                  {hpbase +
+                    hp +
+                    hpbonus.reduce((partialSum, i) => partialSum + i, 0)}{" "}
+                </span>
+              </td>
             </tr>
             <tr>
               <th>Class:</th>
@@ -232,6 +283,7 @@ export default class Axie extends Component {
               selected={cards[0]}
               handleCharm={this.handleCharm}
               charmSelected={charms[0]}
+              bonus={bonus}
             />
             <AxiePart
               part="eyes"
@@ -240,6 +292,7 @@ export default class Axie extends Component {
               selected={cards[1]}
               handleCharm={this.handleCharm}
               charmSelected={charms[1]}
+              bonus={bonus}
             />
             <AxiePart
               part="ears"
@@ -248,6 +301,7 @@ export default class Axie extends Component {
               selected={cards[2]}
               handleCharm={this.handleCharm}
               charmSelected={charms[2]}
+              bonus={bonus}
             />
             <AxiePart
               part="mouth"
@@ -256,6 +310,7 @@ export default class Axie extends Component {
               selected={cards[3]}
               handleCharm={this.handleCharm}
               charmSelected={charms[3]}
+              bonus={bonus}
             />
             <AxiePart
               part="back"
@@ -264,6 +319,7 @@ export default class Axie extends Component {
               selected={cards[4]}
               handleCharm={this.handleCharm}
               charmSelected={charms[4]}
+              bonus={bonus}
             />
             <AxiePart
               part="tail"
@@ -272,7 +328,13 @@ export default class Axie extends Component {
               selected={cards[5]}
               handleCharm={this.handleCharm}
               charmSelected={charms[5]}
+              bonus={bonus}
             />
+
+            <tr>
+              <th>Potential:</th>
+              <td>{potential}</td>
+            </tr>
           </tbody>
         </table>
       </div>
