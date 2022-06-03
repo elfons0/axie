@@ -29,7 +29,7 @@ const ScrollButton = () => {
     <img
       src={top}
       alt="top"
-      class="goTop"
+      className="goTop"
       onClick={scrollToTop}
       style={{ display: visible ? "inline" : "none" }}
     />

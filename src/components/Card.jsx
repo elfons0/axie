@@ -6,12 +6,12 @@ export default class Card extends Component {
   
 
   render() {
-    const { name, description, cardImage } = this.props;
+    const { cardId, name, description, cardImage } = this.props;
 
-    let htmlDescription = replaceEffect(description, "{", "}");
+    let htmlDescription = replaceEffect(cardId, description, "{", "}");
 
     return (
-      <div className="Card-div">
+      <div className="Card-div" key={name}>
         <img src={cardImage} alt={name} className="card" />
 
         <div className="card-title">{name}</div>

@@ -9,7 +9,7 @@ export const getEffect = (name) => {
   return effects.find((effect) => effect.name.includes(name)).description;
 };
 
-export const replaceEffect = (description, init, end) => {
+export const replaceEffect = (cardId, description, init, end) => {
   let plainText = [];
   let effectName = [];
   let tooltipText = [];
@@ -39,7 +39,7 @@ export const replaceEffect = (description, init, end) => {
   for (let i = 0; i < tooltipText.length; i++) {
     htmlOutput.push(plainText[i]);
     htmlOutput.push(
-      <Tooltip className="tooltip" content={tooltipText[i]}>
+      <Tooltip key={cardId+effectName[i]+i} className="tooltip" content={tooltipText[i]}>
         {effectName[i]}
       </Tooltip>
     );

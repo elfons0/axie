@@ -9,7 +9,7 @@ export default class SummonExplorer extends Component {
   render() {
     
     return (
-      <div>
+      <div className="summon-explorer">
         <h1> Summon Explorer </h1>
 
         <div>

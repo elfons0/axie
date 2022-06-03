@@ -124,7 +124,7 @@ export default class RuneExplorer extends Component {
     } = this.state;
 
     return (
-      <div>
+      <div className="charm-explorer">
         <h1> Charm Explorer </h1>
         <div className="filter">
           <div className="filterItem">

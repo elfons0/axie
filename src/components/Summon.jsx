@@ -7,10 +7,10 @@ export default class Summon extends Component {
   render() {
     const { image, type, name, description } = this.props;
 
-    let htmlDescription = replaceEffect(description, "{", "}");
+    let htmlDescription = replaceEffect(name, description, "{", "}");
 
     return (
-      <div className="summon-div">
+      <div className="summon-div" key={name}>
         <img src={require('../img/summons/' + image)} alt={name} className="summon" />
         <div className={type}>{name}</div>
         {htmlDescription}

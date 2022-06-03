@@ -105,7 +105,7 @@ export default class CardExplorer extends Component {
     } = this.state;
 
     return (
-      <div>
+      <div className="tool-explorer">
         <h1> Tool Card Explorer </h1>
         <div className="filter">
           <div className="filterItem">

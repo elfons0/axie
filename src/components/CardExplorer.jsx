@@ -208,7 +208,7 @@ export default class CardExplorer extends Component {
     } = this.state;
 
     return (
-      <div>
+      <div className="card-explorer">
         <h1> Card Explorer </h1>
         <div className="filter">
           <div className="filterItem">
@@ -277,6 +277,7 @@ export default class CardExplorer extends Component {
           {cardlist.map(({ cardId, name, description, cardImage }) => (
             <Card
               key={cardId}
+              cardId={cardId}
               name={name}
               description={description}
               cardImage={cardImage}

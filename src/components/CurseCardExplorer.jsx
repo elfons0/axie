@@ -8,7 +8,7 @@ export default class CardExplorer extends Component {
   render() {
 
     return (
-      <div>
+      <div className="curse-explorer">
         <h1> Curse Card Explorer </h1>
         <div>
           {cards.map(({ id, name, description, cardImage }) => (

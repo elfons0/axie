@@ -9,6 +9,7 @@ import curse_img from "../img/icons/feature_chat.png"
 import tools_img from "../img/icons/feature_crafting.png"
 import effects_img from "../img/icons/feature_mission.png"
 import summons_img from "../img/icons/feature_my_axie.png"
+import team_img from "../img/icons/feature_my_team.png"
 
 
 export default class Header extends Component {
@@ -27,6 +28,7 @@ export default class Header extends Component {
           <Link to="/axiedatabase/tools">TOOLS <img src={tools_img} className="menu-img" alt="" /></Link>
           <Link to="/axiedatabase/effects">EFFECTS <img src={effects_img} className="menu-img" alt="" /></Link>
           <Link to="/axiedatabase/summons">SUMMONS <img src={summons_img} className="menu-img" alt="" /></Link>
+          <Link to="/axiedatabase/team">TEAM <img src={team_img} className="menu-img" alt="" /></Link>
         </nav>
       </header>
     );
