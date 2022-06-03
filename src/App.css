@@ -395,17 +395,44 @@ label {
   float: left;
 }
 
+.axie-hp{
+  font-size: 15pt;
+  font-weight: bold;
+}
+
 .axie td{
   width: 200px;
+  min-width: 40px;
   color: white;
 }
 
 .axie th{
   text-align: right;
+  text-transform: capitalize;
 }
 
 .axie-class-icon {
-  height: 33px;
+  height: 34px;
+}
+
+
+.attack-value{
+  font-weight: bold;
+  color: red;
+}
+
+.defense-value{
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.healing-value{
+  font-weight: bold;
+  color: green;
+}
+
+.css-1insrsq-control{
+  background-color: lightgray !important;
 }
 
 @media screen and (max-width: 500px) {

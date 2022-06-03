@@ -7,7 +7,11 @@
     "rarity": "Common",
     "effect": "(Enhance a Shielding card)\nShield Stat +2",
     "potentialCost": 1,
-    "image": "endurance-1.png"
+    "image": "endurance-1.png",
+    "attackBonus": 0,
+		"defenseBonus": 2,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 13,
@@ -17,7 +21,11 @@
     "rarity": "Common",
     "effect": "(Enhance a Healing card)\nHeal Stat +2",
     "potentialCost": 1,
-    "image": "faith-1.png"
+    "image": "faith-1.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 2,
+    "healthBonus": 0
   },
   {
     "id": 7,
@@ -27,7 +35,11 @@
     "rarity": "Common",
     "effect": "(Enhance a Multihit Attack card)\nATK +1",
     "potentialCost": 1,
-    "image": "focus-1.png"
+    "image": "focus-1.png",
+    "attackBonus": 1,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 4,
@@ -37,7 +49,11 @@
     "rarity": "Common",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +2",
     "potentialCost": 1,
-    "image": "power-1.png"
+    "image": "power-1.png",
+    "attackBonus": 2,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 1,
@@ -47,7 +63,11 @@
     "rarity": "Common",
     "effect": "Axie's HP +4",
     "potentialCost": 1,
-    "image": "vitality-1.png"
+    "image": "vitality-1.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 4
   },
   {
     "id": 11,
@@ -57,7 +77,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Shielding card)\nShield Stat +4",
     "potentialCost": 2,
-    "image": "endurance-2.png"
+    "image": "endurance-2.png",
+    "attackBonus": 0,
+		"defenseBonus": 4,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 14,
@@ -67,7 +91,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Healing card)\nHeal Stat +4",
     "potentialCost": 2,
-    "image": "faith-2.png"
+    "image": "faith-2.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 4,
+    "healthBonus": 0
   },
   {
     "id": 8,
@@ -77,7 +105,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Multihit Attack card)\nATK +2",
     "potentialCost": 2,
-    "image": "focus-2.png"
+    "image": "focus-2.png",
+    "attackBonus": 2,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 5,
@@ -87,7 +119,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +4",
     "potentialCost": 2,
-    "image": "power-2.png"
+    "image": "power-2.png",
+    "attackBonus": 4,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 2,
@@ -97,7 +133,11 @@
     "rarity": "Rare",
     "effect": "Axie's HP +8",
     "potentialCost": 2,
-    "image": "vitality-2.png"
+    "image": "vitality-2.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 8
   },
   {
     "id": 12,
@@ -107,7 +147,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Shielding card)\nShield stat +7",
     "potentialCost": 3,
-    "image": "endurance-3.png"
+    "image": "endurance-3.png",
+    "attackBonus": 0,
+		"defenseBonus": 7,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 15,
@@ -117,7 +161,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Healing card)\nHeal stat +7",
     "potentialCost": 3,
-    "image": "faith-3.png"
+    "image": "faith-3.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 7,
+    "healthBonus": 0
   },
   {
     "id": 9,
@@ -127,7 +175,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Multihit Attack card)\nATK +3",
     "potentialCost": 3,
-    "image": "focus-3.png"
+    "image": "focus-3.png",
+    "attackBonus": 3,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 6,
@@ -137,7 +189,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit attack card)\nATK +7",
     "potentialCost": 3,
-    "image": "power-3.png"
+    "image": "power-3.png",
+    "attackBonus": 7,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 3,
@@ -147,7 +203,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAxie's HP +12",
     "potentialCost": 3,
-    "image": "vitality-3.png"
+    "image": "vitality-3.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 12
   },
   {
     "id": 16,
@@ -157,7 +217,11 @@
     "rarity": "Rare",
     "effect": "(Enhance Single Target Attack cards)\nChange ability target to the frontmost one.",
     "potentialCost": 3,
-    "image": "earth-stamp.png"
+    "image": "earth-stamp.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 17,
@@ -167,7 +231,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Single Target Attack cards)\nThis card targets the second closest enemy. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "moon-stamp.png"
+    "image": "moon-stamp.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 18,
@@ -177,7 +245,11 @@
     "rarity": "Epic",
     "effect": "(Enhance single-target attack cards)\nThis card targets the furthest enemy. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "sun-stamp.png"
+    "image": "sun-stamp.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 23,
@@ -187,7 +259,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 5,
-    "image": "energy-drink-m.png"
+    "image": "energy-drink-m.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 24,
@@ -197,7 +273,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd Ethereal.",
     "potentialCost": 5,
-    "image": "energy-drink-s.png"
+    "image": "energy-drink-s.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 21,
@@ -207,7 +287,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Innate}. Card's base stat -10%.",
     "potentialCost": 5,
-    "image": "pre-order-tag.png"
+    "image": "pre-order-tag.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 19,
@@ -217,7 +301,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance single-target attack cards)\nThis card can target any enemy. Card's base stat -15%.",
     "potentialCost": 5,
-    "image": "rocket-stamp.png"
+    "image": "rocket-stamp.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 22,
@@ -227,7 +315,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 5,
-    "image": "scotch-tape.png"
+    "image": "scotch-tape.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 43,
@@ -237,7 +329,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "aquatic-talisman-power-4.png"
+    "image": "aquatic-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 41,
@@ -247,7 +343,11 @@
     "rarity": "Rare",
     "effect": "(Enhance any card)\nAxie's max HP +12",
     "potentialCost": 2,
-    "image": "aquatic-talisman-vitality-4.png"
+    "image": "aquatic-talisman-vitality-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 12
   },
   {
     "id": 44,
@@ -257,7 +357,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
     "potentialCost": 3,
-    "image": "aquatic-talisman-power-5.png"
+    "image": "aquatic-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 42,
@@ -267,7 +371,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAxie's max HP +18",
     "potentialCost": 3,
-    "image": "aquatic-talisman-vitality-5.png"
+    "image": "aquatic-talisman-vitality-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 18
   },
   {
     "id": 47,
@@ -277,7 +385,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Bubble}.",
     "potentialCost": 4,
-    "image": "bubble-paste.png"
+    "image": "bubble-paste.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 45,
@@ -287,7 +399,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
-    "image": "aquatic-energy-drink-s.png"
+    "image": "aquatic-energy-drink-s.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 46,
@@ -297,7 +413,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "sticky-octopus.png"
+    "image": "sticky-octopus.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 48,
@@ -307,7 +427,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 4 turns.",
     "potentialCost": 5,
-    "image": "paralyze-jelly-fish.png"
+    "image": "paralyze-jelly-fish.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 33,
@@ -317,7 +441,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "beast-talisman-power-4.png"
+    "image": "beast-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 35,
@@ -327,7 +455,11 @@
     "rarity": "Rare",
     "effect": "(Enhance any card)\nAxie's max HP +12",
     "potentialCost": 2,
-    "image": "beast-talisman-vitality-4.png"
+    "image": "beast-talisman-vitality-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 12
   },
   {
     "id": 34,
@@ -337,7 +469,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
     "potentialCost": 3,
-    "image": "beast-talisman-power-5.png"
+    "image": "beast-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 36,
@@ -347,7 +483,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAxie's max HP +18",
     "potentialCost": 3,
-    "image": "beast-talisman-vitality-5.png"
+    "image": "beast-talisman-vitality-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 18
   },
   {
     "id": 39,
@@ -357,7 +497,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Attack cards)\nAll teammates gain 1 {Rage}.",
     "potentialCost": 4,
-    "image": "mask-of-frenzy.png"
+    "image": "mask-of-frenzy.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 37,
@@ -367,7 +511,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
-    "image": "beast-energy-drink-m.png"
+    "image": "beast-energy-drink-m.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 38,
@@ -377,7 +525,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
-    "image": "beast-energy-drink-s.png"
+    "image": "beast-energy-drink-s.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 40,
@@ -387,7 +539,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 4 turns.",
     "potentialCost": 5,
-    "image": "hidden-razor.png"
+    "image": "hidden-razor.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 59,
@@ -397,7 +553,11 @@
     "rarity": "Rare",
     "effect": "(Enhance Multihit Attack Ability)\r\nATK +3",
     "potentialCost": 2,
-    "image": "bird-talisman-focus-4.png"
+    "image": "bird-talisman-focus-4.png",
+    "attackBonus": 3,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 57,
@@ -407,7 +567,11 @@
     "rarity": "Rare",
     "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +6",
     "potentialCost": 2,
-    "image": "bird-talisman-power-4.png"
+    "image": "bird-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 60,
@@ -417,7 +581,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Multihit Attack Ability)\r\nATK +4",
     "potentialCost": 3,
-    "image": "bird-talisman-focus-5.png"
+    "image": "bird-talisman-focus-5.png",
+    "attackBonus": 4,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 58,
@@ -427,7 +595,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +10",
     "potentialCost": 3,
-    "image": "bird-talisman-power-5.png"
+    "image": "bird-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 63,
@@ -437,7 +609,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Attack cards)\nAll teammates gain 1 Feather.",
     "potentialCost": 4,
-    "image": "feather-fan.png"
+    "image": "feather-fan.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 62,
@@ -447,7 +623,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd Ethereal.",
     "potentialCost": 4,
-    "image": "bird-energy-drink-s.png"
+    "image": "bird-energy-drink-s.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 61,
@@ -457,7 +637,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd Innate. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "secret-egg.png"
+    "image": "secret-egg.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 64,
@@ -467,7 +651,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance Attack card)\nAttack applies Fragile for 4 turns.",
     "potentialCost": 5,
-    "image": "flamingo-hammer.png"
+    "image": "flamingo-hammer.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 49,
@@ -477,7 +665,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "bug-talisman-endurance-4.png"
+    "image": "bug-talisman-endurance-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 6,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 51,
@@ -487,7 +679,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "bug-talisman-power-4.png"
+    "image": "bug-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 50,
@@ -497,7 +693,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Shielding card)\nShield Stat +10",
     "potentialCost": 3,
-    "image": "bug-talisman-endurance-5.png"
+    "image": "bug-talisman-endurance-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 10,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 52,
@@ -507,7 +707,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
     "potentialCost": 3,
-    "image": "bug-talisman-power-5.png"
+    "image": "bug-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 55,
@@ -517,7 +721,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Skill cards)\nDraw 1 Card",
     "potentialCost": 4,
-    "image": "tricksters-card.png"
+    "image": "tricksters-card.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 54,
@@ -527,7 +735,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
-    "image": "bug-energy-drink-m.png"
+    "image": "bug-energy-drink-m.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 53,
@@ -537,7 +749,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Innate}.",
     "potentialCost": 4,
-    "image": "secret-cocoon.png"
+    "image": "secret-cocoon.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 56,
@@ -547,7 +763,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies {Weak} for 4 turns.",
     "potentialCost": 5,
-    "image": "lazy-snail.png"
+    "image": "lazy-snail.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 83,
@@ -557,7 +777,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "dawn-talisman-faith-4.png"
+    "image": "dawn-talisman-faith-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 6,
+    "healthBonus": 0
   },
   {
     "id": 81,
@@ -567,7 +791,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Multihit Attack card)\nATK +3",
     "potentialCost": 2,
-    "image": "dawn-talisman-focus-4.png"
+    "image": "dawn-talisman-focus-4.png",
+    "attackBonus": 3,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 84,
@@ -577,7 +805,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Healing card)\nHeal Stat +10",
     "potentialCost": 3,
-    "image": "dawn-talisman-faith-5.png"
+    "image": "dawn-talisman-faith-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 10,
+    "healthBonus": 0
   },
   {
     "id": 82,
@@ -587,7 +819,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Multihit Attack card)\nATK +4",
     "potentialCost": 3,
-    "image": "dawn-talisman-focus-5.png"
+    "image": "dawn-talisman-focus-5.png",
+    "attackBonus": 4,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 87,
@@ -597,7 +833,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAll teammates gain 2 {Healing Boost}.",
     "potentialCost": 4,
-    "image": "beans-blessing.png"
+    "image": "beans-blessing.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 86,
@@ -607,7 +847,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Ethereal}.",
     "potentialCost": 4,
-    "image": "dawn-energy-drink-s.png"
+    "image": "dawn-energy-drink-s.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 85,
@@ -617,7 +861,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}.",
     "potentialCost": 4,
-    "image": "wooden-idol.png"
+    "image": "wooden-idol.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 88,
@@ -627,7 +875,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies {Silence} for 2 turns to the frontmost enemy.",
     "potentialCost": 5,
-    "image": "silent-incense.png"
+    "image": "silent-incense.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 91,
@@ -637,7 +889,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Multihit Attack card)\nATK +3",
     "potentialCost": 2,
-    "image": "dusk-talisman-focus-4.png"
+    "image": "dusk-talisman-focus-4.png",
+    "attackBonus": 3,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 89,
@@ -647,7 +903,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "dusk-talisman-power-4.png"
+    "image": "dusk-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 92,
@@ -657,7 +917,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Multihit Attack card)\nATK +4",
     "potentialCost": 3,
-    "image": "dusk-talisman-focus-5.png"
+    "image": "dusk-talisman-focus-5.png",
+    "attackBonus": 4,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 90,
@@ -667,7 +931,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
     "potentialCost": 3,
-    "image": "dusk-talisman-power-5.png"
+    "image": "dusk-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 95,
@@ -677,7 +945,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAll teammates gain 2 {Damage Boost}.",
     "potentialCost": 4,
-    "image": "power-spell.png"
+    "image": "power-spell.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 93,
@@ -687,7 +959,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}.",
     "potentialCost": 4,
-    "image": "cursed-doll.png"
+    "image": "cursed-doll.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 94,
@@ -697,7 +973,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
-    "image": "dusk-energy-drink-m.png"
+    "image": "dusk-energy-drink-m.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 96,
@@ -707,7 +987,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies {Doubt} for 2 turns.",
     "potentialCost": 5,
-    "image": "arid-spell.png"
+    "image": "arid-spell.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 75,
@@ -717,7 +1001,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "mech-talisman-endurance-4.png"
+    "image": "mech-talisman-endurance-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 6,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 73,
@@ -727,7 +1015,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
     "potentialCost": 2,
-    "image": "mech-talisman-power-4.png"
+    "image": "mech-talisman-power-4.png",
+    "attackBonus": 6,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 76,
@@ -737,7 +1029,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Shielding card)\nShield Stat +10",
     "potentialCost": 3,
-    "image": "mech-talisman-endurance-5.png"
+    "image": "mech-talisman-endurance-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 10,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 74,
@@ -747,7 +1043,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
     "potentialCost": 3,
-    "image": "mech-talisman-power-5.png"
+    "image": "mech-talisman-power-5.png",
+    "attackBonus": 10,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 79,
@@ -757,7 +1057,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAll teammates gain 2 {Shield Boost}.",
     "potentialCost": 4,
-    "image": "protection-cartridge.png"
+    "image": "protection-cartridge.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 77,
@@ -767,7 +1071,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}.",
     "potentialCost": 4,
-    "image": "backup-disk.png"
+    "image": "backup-disk.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 78,
@@ -777,7 +1085,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Innate}.",
     "potentialCost": 4,
-    "image": "secret-chip.png"
+    "image": "secret-chip.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 80,
@@ -787,7 +1099,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies {Disarmed} for 2 turns to the frontmost enemy.",
     "potentialCost": 5,
-    "image": "hackers-drive.png"
+    "image": "hackers-drive.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 25,
@@ -797,7 +1113,11 @@
     "rarity": "Rare",
     "effect": "(Enhance any Shielding card)\nShield Stat +6",
     "potentialCost": 2,
-    "image": "plant-talisman-endurance-4.png"
+    "image": "plant-talisman-endurance-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 6,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 27,
@@ -807,7 +1127,11 @@
     "rarity": "Rare",
     "effect": "(Enhance any Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "plant-talisman-faith-4.png"
+    "image": "plant-talisman-faith-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 6,
+    "healthBonus": 0
   },
   {
     "id": 26,
@@ -817,7 +1141,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any Shielding card)\nShield Stat +10",
     "potentialCost": 3,
-    "image": "plant-talisman-endurance-5.png"
+    "image": "plant-talisman-endurance-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 10,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 28,
@@ -827,7 +1155,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any Healing card)\nHeal Stat +10",
     "potentialCost": 3,
-    "image": "plant-talisman-faith-5.png"
+    "image": "plant-talisman-faith-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 10
   },
   {
     "id": 31,
@@ -837,7 +1169,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Leaf}.",
     "potentialCost": 4,
-    "image": "leafy-pot.png"
+    "image": "leafy-pot.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 30,
@@ -847,7 +1183,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "ancient-root.png"
+    "image": "ancient-root.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 29,
@@ -857,7 +1197,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Innate}. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "secret-sprout.png"
+    "image": "secret-sprout.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 97,
@@ -867,7 +1211,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance shield and healing cards)\r\nAdd {Cleanse}.",
     "potentialCost": 5,
-    "image": "red-sage.png"
+    "image": "red-sage.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 32,
@@ -877,7 +1225,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance shield and healing cards)\nAdd {Cleanse}. Card's base stat -100%.",
     "potentialCost": 5,
-    "image": "white-sage.png"
+    "image": "white-sage.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 67,
@@ -887,7 +1239,11 @@
     "rarity": "Rare",
     "effect": "(Enhance a Healing card)\nHeal Stat +6",
     "potentialCost": 2,
-    "image": "reptile-talisman-faith-4.png"
+    "image": "reptile-talisman-faith-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 6,
+    "healthBonus": 0
   },
   {
     "id": 65,
@@ -897,7 +1253,11 @@
     "rarity": "Rare",
     "effect": "(Enhance any card)\nAxie's HP +12",
     "potentialCost": 2,
-    "image": "reptile-talisman-vitality-4.png"
+    "image": "reptile-talisman-vitality-4.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 12
   },
   {
     "id": 68,
@@ -907,7 +1267,11 @@
     "rarity": "Epic",
     "effect": "(Enhance a Healing card)\nHeal Stat +10",
     "potentialCost": 3,
-    "image": "reptile-talisman-faith-5.png"
+    "image": "reptile-talisman-faith-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 10,
+    "healthBonus": 0
   },
   {
     "id": 66,
@@ -917,7 +1281,11 @@
     "rarity": "Epic",
     "effect": "(Enhance any card)\nAxie's HP +18",
     "potentialCost": 3,
-    "image": "reptile-talisman-vitality-5.png"
+    "image": "reptile-talisman-vitality-5.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 18
   },
   {
     "id": 71,
@@ -927,7 +1295,11 @@
     "rarity": "Epic",
     "effect": "(Enhance Attack cards)\n{Taunt} all Enemies for 4 turns.",
     "potentialCost": 4,
-    "image": "gecko-mask.png"
+    "image": "gecko-mask.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 70,
@@ -937,7 +1309,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Banish}.",
     "potentialCost": 4,
-    "image": "reptile-energy-drink-m.png"
+    "image": "reptile-energy-drink-m.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 69,
@@ -947,7 +1323,11 @@
     "rarity": "Mystic",
     "effect": "(Enhance any card)\nAdd {Retain}. Card's base stat -10%.",
     "potentialCost": 4,
-    "image": "sticky-lizard.png"
+    "image": "sticky-lizard.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   },
   {
     "id": 72,
@@ -957,6 +1337,10 @@
     "rarity": "Mystic",
     "effect": "(Enhance any Attack card)\nAttack applies 2 {Poison}.",
     "potentialCost": 5,
-    "image": "vipers-venom.png"
+    "image": "vipers-venom.png",
+    "attackBonus": 0,
+		"defenseBonus": 0,
+		"healingBonus": 0,
+    "healthBonus": 0
   }
 ]

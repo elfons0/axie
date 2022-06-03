@@ -6,7 +6,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "Apply {Taunt} to your furthest Axie for 2 turns. If this is not used, put it onto the top of your draw pile. <Banish>.",
+    "description": "Apply {Taunt} to your furthest Axie for 2 turns. If this is not used, put it onto the top of your draw pile. {Banish}.",
     "tags": "skill,banish",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-blackmail-02.png"
   },
@@ -17,7 +17,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Unplayable>. <Ethereal>. At the end of your turn, all allies take 8 damage.",
+    "description": "{Unplayable}. {Ethereal}. At the end of your turn, all allies take 8 damage.",
     "tags": "unplayable,ethereal",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-burn-02.png"
   },
@@ -28,7 +28,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Unplayable>. <Ethereal>.",
+    "description": "{Unplayable}. {Ethereal}.",
     "tags": "unplayable,ethereal",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-confused-02.png"
   },
@@ -39,7 +39,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Unplayable>.",
+    "description": "{Unplayable}.",
     "tags": "unplayable",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-dazed-02.png"
   },
@@ -50,7 +50,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Banish>.",
+    "description": "{Banish}.",
     "tags": "banish",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-goo-02.png"
   },
@@ -61,7 +61,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Unplayable>. <Ethereal>. At the end of your turn, your furthest Axie takes 15 damage.",
+    "description": "{Unplayable}. {Ethereal}. At the end of your turn, your furthest Axie takes 15 damage.",
     "tags": "unplayable,ethereal",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-jinx-02.png"
   },
@@ -72,7 +72,7 @@
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "X",
-    "description": "<Unplayable>. <Ethereal>. When you draw 1 or more [Void], lose 1 Energy.",
+    "description": "{Unplayable}. {Ethereal}. When you draw 1 or more [Void], lose 1 Energy.",
     "tags": "unplayable,ethereal",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-void-02.png"
   }

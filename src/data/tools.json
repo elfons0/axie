@@ -6,7 +6,7 @@
     "cardShield": 0,
     "cardHeal": 50,
     "cardEnergy": "1",
-    "description": "<Retain>.Target an ally. <Cleanse>.",
+    "description": "{Retain}.Target an ally. {Cleanse}.",
     "tags": "skill,retain_effect",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-forestbreath-02.png"
   },
@@ -28,7 +28,7 @@
     "cardShield": 12,
     "cardHeal": 0,
     "cardEnergy": "0",
-    "description": "<Retain>. Target any ally. <Banish>.",
+    "description": "{Retain}. Target any ally. {Banish}.",
     "tags": "skill,retain_effect,banish",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-lumbershield-02.png"
   },
@@ -39,7 +39,7 @@
     "cardShield": 0,
     "cardHeal": 6,
     "cardEnergy": "0",
-    "description": "<Retain>. Target any ally. <Banish>.",
+    "description": "{Retain}. Target any ally. {Banish}.",
     "tags": "skill,retain_effect,banish",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-purewater-02.png"
   },
@@ -50,7 +50,7 @@
     "cardShield": 0,
     "cardHeal": 60,
     "cardEnergy": "0",
-    "description": "<Retain>. Target any ally. <Banish>.",
+    "description": "{Retain}. Target any ally. {Banish}.",
     "tags": "skill,retain_effect,banish",
     "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220505/tool-strawberry-02.png"
   }

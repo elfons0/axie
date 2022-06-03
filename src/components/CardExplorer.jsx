@@ -158,7 +158,7 @@ export default class CardExplorer extends Component {
     }
     if (selectedPart.value !== "all") {
       filteredList = filteredList.filter(
-        (card) => card.type === selectedPart.value
+        (card) => card.part === selectedPart.value
       );
     }
     if (selectedAttack.value !== "all") {

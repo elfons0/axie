@@ -4,35 +4,44 @@ import Axie from "./Axie";
 export default class TeamExplorer extends Component {
   state = {
     hpbase: 320,
-    solorunes: [],
+    teamrunes: [],
   };
 
   handleUpdateHp = (hpbase) => {
     this.setState({ hpbase });
   };
 
+  handleUpdateRunes = (position, rune) => {
+    let { teamrunes } = this.state;
+    teamrunes[position] = rune;
+    this.setState({ teamrunes });
+  };
+
   render() {
-    const { hpbase, solorunes } = this.state;
+    const { hpbase, teamrunes } = this.state;
 
     return (
       <div className="team-explorer">
         <Axie
-          position="front"
+          position="0"
           hpbase={hpbase}
           handleUpdateHp={this.handleUpdateHp}
-          solorunes={solorunes}
+          teamrunes={teamrunes}
+          handleUpdateRunes={this.handleUpdateRunes}
         />
         <Axie
-          position="mid"
+          position="1"
           hpbase={hpbase}
           handleUpdateHp={this.handleUpdateHp}
-          solorunes={solorunes}
+          teamrunes={teamrunes}
+          handleUpdateRunes={this.handleUpdateRunes}
         />
         <Axie
-          position="back"
+          position="2"
           hpbase={hpbase}
           handleUpdateHp={this.handleUpdateHp}
-          solorunes={solorunes}
+          teamrunes={teamrunes}
+          handleUpdateRunes={this.handleUpdateRunes}
         />
       </div>
     );
