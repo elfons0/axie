@@ -4,7 +4,7 @@ import Tooltip from "react-tooltip-lite";
 
 import runes from "../data/runes.json";
 import AxiePart from "./AxiePart";
-import { partsCards } from "./Card";
+import { findCard, partsCards } from "./Card";
 import { findCharm } from "./Charm";
 
 const AXIE_HP = 320;
@@ -36,6 +36,7 @@ export default class Axie extends Component {
     cards: [],
     charms: [],
     potential: [],
+    potentialUsed: new Map(),
   };
 
   getRune = (name) => {
@@ -127,15 +128,28 @@ export default class Axie extends Component {
   };
 
   handleCharm = (charmSelected) => {
-    let { charms, hpbonus } = this.state;
+    let { cards, charms, hpbonus, potentialUsed } = this.state;
 
     const index = this.part(charmSelected.value);
+    const previousCharmSelected = charms[index]
     charms[index] = charmSelected;
 
     const charm = findCharm(charmSelected.label);
+    const previousCharm = previousCharmSelected ? findCharm(previousCharmSelected.label) : null;
     hpbonus[index] = charm.healthBonus;
 
-    this.setState({ charms, hpbonus });
+    const cardOption = cards[index];
+    const card = findCard(cardOption.value);
+
+    potentialUsed.has(card.type.toLowerCase())
+      ? potentialUsed.set(
+          card.type.toLowerCase(),
+          potentialUsed.get(card.type.toLowerCase()) + charm.potentialCost - 
+          (previousCharm ? previousCharm.potentialCost : 0)
+        )
+      : potentialUsed.set(card.type.toLowerCase(), charm.potentialCost);
+
+    this.setState({ charms, hpbonus, potentialUsed });
   };
 
   filterRune = (type) => {
@@ -155,7 +169,7 @@ export default class Axie extends Component {
     this.setState({ runelist: filteredList });
   };
 
-  getPotentialMap(potential) {
+  getPotentialMap = (potential) => {
     let potentialMap = new Map();
 
     potential.map((type) => {
@@ -169,6 +183,14 @@ export default class Axie extends Component {
     });
 
     return potentialMap;
+  };
+
+  potentialTaken = (total, used) =>{
+    return (
+      used > total ?
+      <b>{used}</b>:
+      used
+    );
   }
 
   render() {
@@ -185,6 +207,7 @@ export default class Axie extends Component {
       cards,
       charms,
       potential,
+      potentialUsed,
     } = this.state;
 
     const horncards = partsCards("horn").map(
@@ -302,6 +325,7 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[0]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
             <AxiePart
               part="eyes"
@@ -311,6 +335,7 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[1]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
             <AxiePart
               part="ears"
@@ -320,6 +345,7 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[2]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
             <AxiePart
               part="mouth"
@@ -329,6 +355,7 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[3]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
             <AxiePart
               part="back"
@@ -338,6 +365,7 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[4]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
             <AxiePart
               part="tail"
@@ -347,15 +375,19 @@ export default class Axie extends Component {
               handleCharm={this.handleCharm}
               charmSelected={charms[5]}
               bonus={bonus}
+              potentialMap={potentialMap}
             />
-
+            <tr>
+              <th colSpan={3}>
+                <hr />
+              </th>
+            </tr>
             <tr>
               <th>Potential:</th>
               <td>
                 {[...potentialMap.keys()].map((key) => {
                   return (
                     <span className="potential-points">
-                      {potentialMap.get(key)}
                       <img
                         src={require("../img/icons/" +
                           key.charAt(0).toUpperCase() +
@@ -364,6 +396,14 @@ export default class Axie extends Component {
                         alt={key}
                         className="axie-class-icon"
                       />
+                      {potentialMap.get(key) + " "}(
+                      {potentialUsed.get(key)
+                        ? this.potentialTaken(
+                            potentialMap.get(key),
+                            potentialUsed.get(key)
+                          )
+                        : 0}
+                      )
                     </span>
                   );
                 })}

@@ -86,7 +86,6 @@ label {
   border-radius: 6px;
 }
 
-
 .Card-div {
   float: left;
   height: 330px;
@@ -154,12 +153,12 @@ label {
   height: 30px;
 }
 
-.curse-explorer{
+.curse-explorer {
   max-width: 1610px;
   margin: auto;
 }
 
-.tool-explorer{
+.tool-explorer {
   max-width: 1150px;
   margin: auto;
 }
@@ -350,7 +349,7 @@ label {
   cursor: pointer;
 }
 
-.summon-explorer{
+.summon-explorer {
   max-width: 950px;
   margin: auto;
 }
@@ -384,30 +383,29 @@ label {
   padding: 5px;
 }
 
-.team-explorer{
+.team-explorer {
   max-width: 1080px;
   margin: auto;
 }
 
-.axie{
+.axie {
   margin: 20px;
   width: 320px;
   float: left;
 }
 
-.axie-hp{
+.axie-hp {
   font-size: 15pt;
   font-weight: bold;
 }
 
-.axie td{
+.axie td {
   width: 200px;
   min-width: 40px;
   color: white;
-  
 }
 
-.axie th{
+.axie th {
   text-align: right;
   text-transform: capitalize;
 }
@@ -416,33 +414,37 @@ label {
   height: 34px;
 }
 
-
-.attack-value{
+.attack-value {
   font-weight: bold;
   color: red;
 }
 
-.defense-value{
+.defense-value {
   font-weight: bold;
   color: dodgerblue;
 }
 
-.healing-value{
+.healing-value {
   font-weight: bold;
   color: green;
 }
 
-.potential-points{
-  font-size: 20pt;
+.potential-points {
+  font-size: 16pt;
   margin: 8px;
 }
 
-.potential-points .axie-class-icon{
-  margin-left: 3px;
+.potential-points .axie-class-icon {
+  margin-right: 3px;
   height: 25px;
+  vertical-align: text-bottom;
 }
 
-.css-1insrsq-control{
+.potential-points b{
+  color: red;
+}
+
+.css-1insrsq-control {
   background-color: lightgray !important;
 }
 
