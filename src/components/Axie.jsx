@@ -131,11 +131,13 @@ export default class Axie extends Component {
     let { cards, charms, hpbonus, potentialUsed } = this.state;
 
     const index = this.part(charmSelected.value);
-    const previousCharmSelected = charms[index]
+    const previousCharmSelected = charms[index];
     charms[index] = charmSelected;
 
     const charm = findCharm(charmSelected.label);
-    const previousCharm = previousCharmSelected ? findCharm(previousCharmSelected.label) : null;
+    const previousCharm = previousCharmSelected
+      ? findCharm(previousCharmSelected.label)
+      : null;
     hpbonus[index] = charm.healthBonus;
 
     const cardOption = cards[index];
@@ -144,8 +146,9 @@ export default class Axie extends Component {
     potentialUsed.has(card.type.toLowerCase())
       ? potentialUsed.set(
           card.type.toLowerCase(),
-          potentialUsed.get(card.type.toLowerCase()) + charm.potentialCost - 
-          (previousCharm ? previousCharm.potentialCost : 0)
+          potentialUsed.get(card.type.toLowerCase()) +
+            charm.potentialCost -
+            (previousCharm ? previousCharm.potentialCost : 0)
         )
       : potentialUsed.set(card.type.toLowerCase(), charm.potentialCost);
 
@@ -185,13 +188,9 @@ export default class Axie extends Component {
     return potentialMap;
   };
 
-  potentialTaken = (total, used) =>{
-    return (
-      used > total ?
-      <b>{used}</b>:
-      used
-    );
-  }
+  potentialTaken = (total, used) => {
+    return used > total ? <b>{used}</b> : used;
+  };
 
   render() {
     const { position, hpbase } = this.props;
