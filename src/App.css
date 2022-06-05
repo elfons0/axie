@@ -432,6 +432,16 @@ label {
   color: green;
 }
 
+.potential-points{
+  font-size: 20pt;
+  margin: 8px;
+}
+
+.potential-points .axie-class-icon{
+  margin-left: 3px;
+  height: 25px;
+}
+
 .css-1insrsq-control{
   background-color: lightgray !important;
 }

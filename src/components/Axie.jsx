@@ -22,8 +22,7 @@ const classOptions = [
   { value: "Peptile", label: "Reptile" },
 ];
 
-
-const potentialBonus = [0,0,0,1,2,4,6,8];
+const potentialBonus = [0, 0, 0, 1, 2, 4, 6, 8];
 
 export default class Axie extends Component {
   state = {
@@ -165,7 +164,9 @@ export default class Axie extends Component {
         : potentialMap.set(type, 1);
     });
 
-    potentialMap.forEach((value,key) =>{return potentialMap.set(key, value + potentialBonus[value])})
+    potentialMap.forEach((value, key) => {
+      return potentialMap.set(key, value + potentialBonus[value]);
+    });
 
     return potentialMap;
   }
@@ -209,6 +210,8 @@ export default class Axie extends Component {
     const tailcards = partsCards("tail").map(
       (card) => new Option(card.name, card.cardId)
     );
+
+    const potentialMap = this.getPotentialMap(potential);
 
     return (
       <div className="axie" key={position}>
@@ -348,7 +351,23 @@ export default class Axie extends Component {
 
             <tr>
               <th>Potential:</th>
-              <td>{this.getPotentialMap(potential)}</td>
+              <td>
+                {[...potentialMap.keys()].map((key) => {
+                  return (
+                    <span className="potential-points">
+                      {potentialMap.get(key)}
+                      <img
+                        src={require("../img/icons/" +
+                          key.charAt(0).toUpperCase() +
+                          key.substring(1) +
+                          ".png")}
+                        alt={key}
+                        className="axie-class-icon"
+                      />
+                    </span>
+                  );
+                })}
+              </td>
             </tr>
           </tbody>
         </table>
