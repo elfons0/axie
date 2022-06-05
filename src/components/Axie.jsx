@@ -22,6 +22,9 @@ const classOptions = [
   { value: "Peptile", label: "Reptile" },
 ];
 
+
+const potentialBonus = [0,0,0,1,2,4,6,8];
+
 export default class Axie extends Component {
   state = {
     hp: 0,
@@ -51,9 +54,9 @@ export default class Axie extends Component {
     this.filterRune(type);
     this.handleChangeRune("");
 
-    potential[6] = (type.value).toLowerCase();
+    potential[6] = type.value.toLowerCase();
 
-    this.setState({ potential});
+    this.setState({ potential });
   };
 
   handleChangeRune = (rune) => {
@@ -74,8 +77,6 @@ export default class Axie extends Component {
     bonus[0] = runePicked ? runePicked.attackBonus : 0;
     bonus[1] = runePicked ? runePicked.defenseBonus : 0;
     bonus[2] = runePicked ? runePicked.healingBonus : 0;
-
-   
 
     this.setState({
       hp: runePicked ? runePicked.healthBonus : 0,
@@ -154,6 +155,20 @@ export default class Axie extends Component {
 
     this.setState({ runelist: filteredList });
   };
+
+  getPotentialMap(potential) {
+    let potentialMap = new Map();
+
+    potential.map((type) => {
+      return potentialMap.has(type)
+        ? potentialMap.set(type, potentialMap.get(type) + 1)
+        : potentialMap.set(type, 1);
+    });
+
+    potentialMap.forEach((value,key) =>{return potentialMap.set(key, value + potentialBonus[value])})
+
+    return potentialMap;
+  }
 
   render() {
     const { position, hpbase } = this.props;
@@ -333,7 +348,7 @@ export default class Axie extends Component {
 
             <tr>
               <th>Potential:</th>
-              <td>{potential}</td>
+              <td>{this.getPotentialMap(potential)}</td>
             </tr>
           </tbody>
         </table>
