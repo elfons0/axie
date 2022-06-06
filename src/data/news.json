@@ -1,5 +1,11 @@
 [
   {
+    "date": 20220605,
+    "title": "Team composition",
+    "description": "New section added for team composition, including runes, charms, potential points, etc. Give it a try!",
+    "image": "Ena_happy.png"
+  },
+  {
     "date": 20220602,
     "title": "Summons",
     "description": "New section added for exploring summons",
