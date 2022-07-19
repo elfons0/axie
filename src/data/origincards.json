@@ -91,9 +91,9 @@
 		"type": "Beast",
 		"part": "horn",
 		"cardName": "Arco",
-		"description": "This does not trigger Secrets.",
+		"description": "Remove up to 2 Secret on the target.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 55,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -102,9 +102,9 @@
 		"specialGenes": "",
 		"partId": "horn-arco",
 		"name": "Arco",
-		"defaultStats": 65,
+		"defaultStats": 55,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-horn-12.png"
 	},
 	{
 		"cardId": "beast-mouth-08",
@@ -249,7 +249,7 @@
 		"specialGenes": "",
 		"partId": "ears-belieber",
 		"name": "Belieber",
-		"defaultStats": 20,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-ears-12.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-ears-12.png"
 	},
@@ -280,16 +280,14 @@
 		"type": "Plant",
 		"part": "eyes",
 		"cardName": "Blossom",
-		"description": "Take 1 Plant card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Plant card from your draw pile and push it to the top of draw pile",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-blossom",
 		"name": "Blossom",
@@ -303,20 +301,22 @@
 		"type": "Aquatic",
 		"part": "back",
 		"cardName": "Blue Moon",
-		"description": "If {Initial}, draw 1 card.",
+		"description": "{Limit}: 1. Draw 1 card.",
 		"defaultEnergy": 1,
-		"defaultAttack": 55,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
 		"level": 1,
-		"tags": [],
+		"tags": [
+			"Limit"
+		],
 		"specialGenes": "",
 		"partId": "back-blue-moon",
 		"name": "Blue Moon",
-		"defaultStats": 55,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-back-04.png"
 	},
 	{
 		"cardId": "reptile-back-02",
@@ -345,16 +345,14 @@
 		"type": "Bug",
 		"part": "eyes",
 		"cardName": "Bookworm",
-		"description": "Take 1 Bug card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Bug card from your draw pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-bookworm",
 		"name": "Bookworm",
@@ -389,15 +387,16 @@
 		"type": "Reptile",
 		"part": "horn",
 		"cardName": "Bumpy",
-		"description": "{Innate}. Whenever you play a card this battle, this Axie gains 10 Shield.",
-		"defaultEnergy": 2,
+		"description": "{Innate}. Whenever you play a card this battle, this Axie gains 7 Shield. {Exile}.",
+		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Power",
 		"level": 1,
 		"tags": [
-			"Innate"
+			"Innate",
+			"Exile"
 		],
 		"specialGenes": "",
 		"partId": "horn-bumpy",
@@ -433,7 +432,7 @@
 		"type": "Plant",
 		"part": "horn",
 		"cardName": "Cactus",
-		"description": "If {Initial}, deal 15 more DMG.",
+		"description": "If Initial, deal 15 more DMG and apply {Taunt} to self for 2 turns.",
 		"defaultEnergy": 1,
 		"defaultAttack": 65,
 		"defaultDefense": 0,
@@ -538,7 +537,7 @@
 		"type": "Reptile",
 		"part": "horn",
 		"cardName": "Cerastes",
-		"description": "Target any ally. If {Initial}, reflect 85 DMG for the next attack against the target.",
+		"description": "{Limit}: 1. Target any ally. If Initial Reflect 85 DMG for the next attack against the target",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -635,7 +634,7 @@
 		"specialGenes": "",
 		"partId": "tail-cloud",
 		"name": "Cloud",
-		"defaultStats": 35,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-08.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-08.png"
 	},
@@ -708,7 +707,7 @@
 		"type": "Beast",
 		"part": "tail",
 		"cardName": "Cottontail",
-		"description": "Heal any ally. Gain 1 Energy. {Banish}",
+		"description": "Heal any ally. Gain 1 Energy. {Unstable}.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -716,7 +715,7 @@
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [
-			"Banish"
+			"Unstable"
 		],
 		"specialGenes": "",
 		"partId": "tail-cottontail",
@@ -931,7 +930,7 @@
 		"specialGenes": "",
 		"partId": "ears-ear-breathing",
 		"name": "Ear Breathing",
-		"defaultStats": 30,
+		"defaultStats": 120,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-ears-06.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-ears-06.png"
 	},
@@ -941,20 +940,22 @@
 		"type": "Bird",
 		"part": "ears",
 		"cardName": "Early Bird",
-		"description": "If {Initial}, draw 1 card.",
+		"description": "{Limit}: 1. Draw 1 card.",
 		"defaultEnergy": 1,
 		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
 		"level": 1,
-		"tags": [],
+		"tags": [
+			"Limit"
+		],
 		"specialGenes": "",
 		"partId": "ears-early-bird",
 		"name": "Early Bird",
 		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/bird-ears-04.png"
 	},
 	{
 		"cardId": "bug-ears-12",
@@ -1015,7 +1016,7 @@
 		"specialGenes": "",
 		"partId": "tail-feather-fan",
 		"name": "Feather Fan",
-		"defaultStats": 35,
+		"defaultStats": 140,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-tail-04.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-tail-04.png"
 	},
@@ -1099,7 +1100,7 @@
 		"specialGenes": "",
 		"partId": "back-furball",
 		"name": "Furball",
-		"defaultStats": 40,
+		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-12.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-12.png"
 	},
@@ -1151,9 +1152,9 @@
 		"type": "Beast",
 		"part": "tail",
 		"cardName": "Gerbil",
-		"description": "If {Initial}, this attack targets the second-closest enemy.",
+		"description": "Targets the second-closest enemy.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1162,9 +1163,9 @@
 		"specialGenes": "",
 		"partId": "tail-gerbil",
 		"name": "Gerbil",
-		"defaultStats": 65,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-tail-12.png"
 	},
 	{
 		"cardId": "aquatic-eyes-08",
@@ -1235,22 +1236,22 @@
 		"type": "Beast",
 		"part": "mouth",
 		"cardName": "Goda",
-		"description": "Shuffle 1 [Void] into your opponent's discard pile. {Banish}.",
+		"description": "Shuffle 1 [Void] into your opponent's discard pile. {Unstable}.",
 		"defaultEnergy": 1,
-		"defaultAttack": 40,
+		"defaultAttack": 50,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
 		"level": 1,
 		"tags": [
-			"Banish"
+			"Unstable"
 		],
 		"specialGenes": "",
 		"partId": "mouth-goda",
 		"name": "Goda",
-		"defaultStats": 40,
+		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-mouth-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-mouth-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-mouth-04.png"
 	},
 	{
 		"cardId": "aquatic-back-06",
@@ -1449,20 +1450,22 @@
 		"type": "Beast",
 		"part": "back",
 		"cardName": "Hero",
-		"description": "If {Initial}, draw 1 card.",
+		"description": "{Limit}: 1. Draw 1 card.",
 		"defaultEnergy": 1,
-		"defaultAttack": 55,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
 		"level": 1,
-		"tags": [],
+		"tags": [
+			"Limit"
+		],
 		"specialGenes": "",
 		"partId": "back-hero",
 		"name": "Hero",
-		"defaultStats": 55,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-back-04.png"
 	},
 	{
 		"cardId": "plant-ears-10",
@@ -1512,20 +1515,20 @@
 		"type": "Bird",
 		"part": "mouth",
 		"cardName": "Hungry Bird",
-		"description": "Deal 2 hits. If {Initial}, heal 15 HP.",
+		"description": "If {Initial}, Steal 20 HP and apply Heal Block to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 35,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
 		"level": 1,
-		"tags": ["multihit"],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "mouth-hungry-bird",
 		"name": "Hungry Bird",
-		"defaultStats": 35,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/bird-mouth-08.png"
 	},
 	{
 		"cardId": "reptile-tail-04",
@@ -1556,7 +1559,7 @@
 		"cardName": "Imp",
 		"description": "Costs 0 Energy in {Fury} Form.",
 		"defaultEnergy": 1,
-		"defaultAttack": 70,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1565,9 +1568,9 @@
 		"specialGenes": "",
 		"partId": "horn-imp",
 		"name": "Imp",
-		"defaultStats": 70,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-04.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-04.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-horn-04.png"
 	},
 	{
 		"cardId": "reptile-horn-10",
@@ -1596,7 +1599,7 @@
 		"type": "Reptile",
 		"part": "back",
 		"cardName": "Indian Star",
-		"description": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+		"description": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 70,
@@ -1638,7 +1641,7 @@
 		"type": "Beast",
 		"part": "ears",
 		"cardName": "Innocent Lamb",
-		"description": "{Innate}. Select one of this Axie's skill cards and add a copy of it to your hand. {Banish}.",
+		"description": "{Innate}. Select one of this Axie's skill cards and add a copy of it to your hand. {Unstable}.",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -1647,7 +1650,7 @@
 		"level": 1,
 		"tags": [
 			"Innate",
-			"Banish"
+			"Unstable"
 		],
 		"specialGenes": "",
 		"partId": "ears-innocent-lamb",
@@ -1704,7 +1707,7 @@
 		"type": "Bird",
 		"part": "back",
 		"cardName": "Kingfisher",
-		"description": "Target any ally. If {Initial}, reflect 85 DMG for the next attack against the target.",
+		"description": "{Limit}: 1. Target any ally. If Initial Reflect 85 DMG for the next attack against the target",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -1725,9 +1728,9 @@
 		"type": "Aquatic",
 		"part": "tail",
 		"cardName": "Koi",
-		"description": "Deal 15 bonus DMG per Aquatic Ally.",
+		"description": "Deal 15 bonus DMG per alive Aquatic teammate. (not counting summon)",
 		"defaultEnergy": 2,
-		"defaultAttack": 95,
+		"defaultAttack": 105,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -1736,9 +1739,9 @@
 		"specialGenes": "",
 		"partId": "tail-koi",
 		"name": "Koi",
-		"defaultStats": 95,
+		"defaultStats": 105,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-tail-02.png"
 	},
 	{
 		"cardId": "bug-eyes-10",
@@ -1778,7 +1781,7 @@
 		"specialGenes": "",
 		"partId": "mouth-kotaro",
 		"name": "Kotaro",
-		"defaultStats": 30,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-04.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-04.png"
 	},
@@ -1895,7 +1898,7 @@
 		"cardName": "Leafy",
 		"description": "Randomly deal 3 hits. Consume up to 3 {Leaf}s to deal 10 DMG per {Leaf} consumed.",
 		"defaultEnergy": 1,
-		"defaultAttack": 15,
+		"defaultAttack": 20,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -1904,9 +1907,9 @@
 		"specialGenes": "",
 		"partId": "ears-leafy",
 		"name": "Leafy",
-		"defaultStats": 15,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-ears-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-ears-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/plant-ears-02.png"
 	},
 	{
 		"cardId": "beast-horn-02",
@@ -2040,16 +2043,14 @@
 		"type": "Bird",
 		"part": "eyes",
 		"cardName": "Lucas",
-		"description": "Take 1 Bird card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Bird card from your draw pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-lucas",
 		"name": "Lucas",
@@ -2147,9 +2148,9 @@
 		"type": "Aquatic",
 		"part": "tail",
 		"cardName": "Navaga",
-		"description": "If {Initial}, deal 15 more DMG.",
+		"description": "If {Initial}, apply {Stealth} to the target for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -2158,9 +2159,9 @@
 		"specialGenes": "",
 		"partId": "tail-navaga",
 		"name": "Navaga",
-		"defaultStats": 65,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-tail-10.png"
 	},
 	{
 		"cardId": "bug-eyes-04",
@@ -2168,15 +2169,14 @@
 		"type": "Bug",
 		"part": "eyes",
 		"cardName": "Neo",
-		"description": "{Retain}. Look at the top 4 cards of your opponent's draw pile. {Banish}.",
-		"defaultEnergy": 1,
+		"description": "Look at the top 4 cards of your opponent's draw pile. {Banish}.",
+		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [
-			"Retain",
 			"Banish"
 		],
 		"specialGenes": "",
@@ -2238,7 +2238,7 @@
 		"type": "Aquatic",
 		"part": "tail",
 		"cardName": "Nimo",
-		"description": "Gain 1 Energy. {Banish}.",
+		"description": "Heal any ally. Gain 1 Energy. {Unstable}.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -2246,7 +2246,7 @@
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [
-			"Banish"
+			"Unstable"
 		],
 		"specialGenes": "",
 		"partId": "tail-nimo",
@@ -2345,9 +2345,9 @@
 		"type": "Aquatic",
 		"part": "horn",
 		"cardName": "Oranda",
-		"description": "{Dispel} up to 2 buffs on target.",
+		"description": "{Dispel} 2 times.",
 		"defaultEnergy": 2,
-		"defaultAttack": 120,
+		"defaultAttack": 110,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -2356,9 +2356,9 @@
 		"specialGenes": "",
 		"partId": "horn-oranda",
 		"name": "Oranda",
-		"defaultStats": 120,
+		"defaultStats": 110,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-horn-10.png"
 	},
 	{
 		"cardId": "plant-eyes-02",
@@ -2461,7 +2461,7 @@
 		"specialGenes": "",
 		"partId": "back-perch",
 		"name": "Perch",
-		"defaultStats": 30,
+		"defaultStats": 120,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-back-12.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-back-12.png"
 	},
@@ -2580,7 +2580,7 @@
 		"cardName": "Pocky",
 		"description": "Attack random enemy. Apply {Taunt} for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -2589,9 +2589,9 @@
 		"specialGenes": "",
 		"partId": "horn-pocky",
 		"name": "Pocky",
-		"defaultStats": 65,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-horn-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-horn-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-horn-08.png"
 	},
 	{
 		"cardId": "reptile-ears-02",
@@ -2725,16 +2725,14 @@
 		"type": "Beast",
 		"part": "eyes",
 		"cardName": "Puppy",
-		"description": "Take 1 Beast card from your discard pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Beast card from your discard pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-puppy",
 		"name": "Puppy",
@@ -2855,9 +2853,9 @@
 		"type": "Beast",
 		"part": "back",
 		"cardName": "Risky Beast",
-		"description": "Apply {Weak} to self for 2 turns.",
+		"description": "If {Initial}, deal 20 more DMG and apply {Death Mark} to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 80,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -2866,9 +2864,9 @@
 		"specialGenes": "",
 		"partId": "back-risky-beast",
 		"name": "Risky Beast",
-		"defaultStats": 80,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/beast-back-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/beast-back-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/beast-back-08.png"
 	},
 	{
 		"cardId": "bird-ears-12",
@@ -2876,9 +2874,9 @@
 		"type": "Bird",
 		"part": "ears",
 		"cardName": "Risky Bird",
-		"description": "Apply {Weak} to this Axie for 2 turns.",
+		"description": "If {Initial}, deal 20 more DMG and apply {Bleed} to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 80,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -2887,9 +2885,9 @@
 		"specialGenes": "",
 		"partId": "ears-risky-bird",
 		"name": "Risky Bird",
-		"defaultStats": 80,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-ears-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-ears-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/bird-ears-12.png"
 	},
 	{
 		"cardId": "aquatic-mouth-08",
@@ -2897,9 +2895,9 @@
 		"type": "Aquatic",
 		"part": "mouth",
 		"cardName": "Risky Fish",
-		"description": "Apply {Weak} to self for 2 turns.",
+		"description": "If {Initial}, deal 20 more DMG and apply {Fear} to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 80,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -2908,9 +2906,9 @@
 		"specialGenes": "",
 		"partId": "mouth-risky-fish",
 		"name": "Risky Fish",
-		"defaultStats": 80,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-mouth-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-mouth-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-mouth-08.png"
 	},
 	{
 		"cardId": "bird-eyes-10",
@@ -3004,14 +3002,17 @@
 		"type": "Plant",
 		"part": "ears",
 		"cardName": "Sakura",
-		"description": "Target any ally. Whenever you play a card this battle, restore 10 HP to this ally.",
-		"defaultEnergy": 2,
+		"description": "{Innate}. Target any ally. Whenever you play a card this battle, restore 7 HP to this ally. {Exile}.",
+		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Power",
 		"level": 1,
-		"tags": [],
+		"tags": [
+			"Innate",
+			"Exile"
+		],
 		"specialGenes": "",
 		"partId": "ears-sakura",
 		"name": "Sakura",
@@ -3067,7 +3068,7 @@
 		"type": "Reptile",
 		"part": "horn",
 		"cardName": "Scaly Spoon",
-		"description": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+		"description": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 70,
@@ -3088,16 +3089,14 @@
 		"type": "Reptile",
 		"part": "eyes",
 		"cardName": "Scar",
-		"description": "Take 1 Reptile card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Reptile card from your draw pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-scar",
 		"name": "Scar",
@@ -3111,9 +3110,9 @@
 		"type": "Bug",
 		"part": "back",
 		"cardName": "Scarab",
-		"description": "Gain 40 Shield. Apply {Doubt} for 4 turns.",
+		"description": "Target any enemy. Apply {Doubt} for 4 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 30,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -3122,9 +3121,9 @@
 		"specialGenes": "",
 		"partId": "back-scarab",
 		"name": "Scarab",
-		"defaultStats": 30,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-back-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-back-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/bug-back-10.png"
 	},
 	{
 		"cardId": "aquatic-ears-12",
@@ -3153,9 +3152,9 @@
 		"type": "Plant",
 		"part": "mouth",
 		"cardName": "Serious",
-		"description": "Select 1 card to discard from your hand.",
+		"description": "If {Initial}, deal 20 more DMG and apply {Disarm} to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 80,
+		"defaultAttack": 70,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3164,9 +3163,9 @@
 		"specialGenes": "",
 		"partId": "mouth-serious",
 		"name": "Serious",
-		"defaultStats": 80,
+		"defaultStats": 70,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/plant-mouth-02.png"
 	},
 	{
 		"cardId": "beast-tail-06",
@@ -3237,9 +3236,9 @@
 		"type": "Aquatic",
 		"part": "tail",
 		"cardName": "Shrimp",
-		"description": "If {Initial}, this attack targets the furthest enemy.",
+		"description": "Target any enemy. Apply {Taunt} to the target and to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 40,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3248,9 +3247,9 @@
 		"specialGenes": "",
 		"partId": "tail-shrimp",
 		"name": "Shrimp",
-		"defaultStats": 65,
+		"defaultStats": 40,
 		"image": "https://www.axie.tech/images/templates/card/art/aquatic-tail-12.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/aquatic-tail-12.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/aquatic-tail-12.png"
 	},
 	{
 		"cardId": "reptile-ears-12",
@@ -3279,20 +3278,20 @@
 		"type": "Plant",
 		"part": "mouth",
 		"cardName": "Silence Whisper",
-		"description": "Target any ally.",
+		"description": "Target any ally. {Poison} on this Axie heal 1 HP per stack instead of HP loss for 6 turns.",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
-		"healing": 65,
+		"healing": 50,
 		"abilityType": "Skill",
 		"level": 1,
 		"tags": [],
 		"specialGenes": "",
 		"partId": "mouth-silence-whisper",
 		"name": "Silence Whisper",
-		"defaultStats": 65,
+		"defaultStats": 50,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/plant-mouth-10.png"
 	},
 	{
 		"cardId": "aquatic-eyes-02",
@@ -3468,7 +3467,7 @@
 		"type": "Bird",
 		"part": "tail",
 		"cardName": "Swallow",
-		"description": "If {Initial}, deal 15 more DMG.",
+		"description": "If {Initial}, lose 20 HP and destroy up to 120 Shield of the target.",
 		"defaultEnergy": 1,
 		"defaultAttack": 65,
 		"defaultDefense": 0,
@@ -3552,7 +3551,7 @@
 		"type": "Aquatic",
 		"part": "horn",
 		"cardName": "Teal Shell",
-		"description": "Target any ally. That ally gains 15 Shield for each card played before it this turn.",
+		"description": "Target any ally. That ally gains 20 Shield for each card played before it this turn.",
 		"defaultEnergy": 1,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
@@ -3573,16 +3572,14 @@
 		"type": "Aquatic",
 		"part": "eyes",
 		"cardName": "Telescope",
-		"description": "Take 1 Aquatic card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Aquatic card from your draw pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-telescope",
 		"name": "Telescope",
@@ -3705,9 +3702,9 @@
 		"type": "Reptile",
 		"part": "mouth",
 		"cardName": "Tiny Turtle",
-		"description": "Target any enemy. Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
+		"description": "If {Initial}, apply {Stunned} to the target and to self for 2 turns.",
 		"defaultEnergy": 1,
-		"defaultAttack": 50,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3716,9 +3713,9 @@
 		"specialGenes": "",
 		"partId": "mouth-tiny-turtle",
 		"name": "Tiny Turtle",
-		"defaultStats": 50,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/reptile-mouth-10.png"
 	},
 	{
 		"cardId": "reptile-mouth-02",
@@ -3726,9 +3723,9 @@
 		"type": "Reptile",
 		"part": "mouth",
 		"cardName": "Toothless Bite",
-		"description": "If {Initial}, this attack targets the furthest enemy.",
+		"description": "Targets the furthest enemy.",
 		"defaultEnergy": 1,
-		"defaultAttack": 65,
+		"defaultAttack": 60,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3737,9 +3734,9 @@
 		"specialGenes": "",
 		"partId": "mouth-toothless-bite",
 		"name": "Toothless Bite",
-		"defaultStats": 65,
+		"defaultStats": 60,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-mouth-02.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-mouth-02.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/reptile-mouth-02.png"
 	},
 	{
 		"cardId": "reptile-eyes-10",
@@ -3747,9 +3744,9 @@
 		"type": "Reptile",
 		"part": "eyes",
 		"cardName": "Topaz",
-		"description": "Deal 10 bonus DMG for each of your banished cards. (Cap at 150 bonus DMG)",
+		"description": "Deal 10 bonus DMG for each of your banished cards. (Cap at 120 bonus DMG)",
 		"defaultEnergy": 1,
-		"defaultAttack": 5,
+		"defaultAttack": 25,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackMelee",
@@ -3758,9 +3755,9 @@
 		"specialGenes": "",
 		"partId": "eyes-topaz",
 		"name": "Topaz",
-		"defaultStats": 5,
+		"defaultStats": 25,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-eyes-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-eyes-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/reptile-eyes-10.png"
 	},
 	{
 		"cardId": "bird-back-12",
@@ -3768,7 +3765,7 @@
 		"type": "Bird",
 		"part": "back",
 		"cardName": "Tri Feather",
-		"description": "Attack all enemies.",
+		"description": "Attack all enemies. Apply {Doubt} for 2 turns.",
 		"defaultEnergy": 1,
 		"defaultAttack": 25,
 		"defaultDefense": 0,
@@ -3800,7 +3797,7 @@
 		"specialGenes": "",
 		"partId": "back-tri-spikes",
 		"name": "Tri Spikes",
-		"defaultStats": 25,
+		"defaultStats": 75,
 		"image": "https://www.axie.tech/images/templates/card/art/reptile-back-04.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/reptile-back-04.png"
 	},
@@ -3884,7 +3881,7 @@
 		"specialGenes": "",
 		"partId": "tail-twin-tail",
 		"name": "Twin Tail",
-		"defaultStats": 40,
+		"defaultStats": 80,
 		"image": "https://www.axie.tech/images/templates/card/art/bug-tail-04.jpg",
 		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bug-tail-04.png"
 	},
@@ -3978,9 +3975,9 @@
 		"type": "Bird",
 		"part": "horn",
 		"cardName": "Wing Horn",
-		"description": "Deal 2 hits. If {Initial}, this attack targets the second-closest enemy.",
+		"description": "Deal 2 hits. Gain 2 {Feather} to self.",
 		"defaultEnergy": 1,
-		"defaultAttack": 35,
+		"defaultAttack": 33,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -3989,9 +3986,9 @@
 		"specialGenes": "",
 		"partId": "horn-wing-horn",
 		"name": "Wing Horn",
-		"defaultStats": 35,
+		"defaultStats": 66,
 		"image": "https://www.axie.tech/images/templates/card/art/bird-horn-10.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/bird-horn-10.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/bird-horn-10.png"
 	},
 	{
 		"cardId": "plant-tail-08",
@@ -4001,7 +3998,7 @@
 		"cardName": "Yam",
 		"description": "Attack and apply 2 {Poison} to all enemies.",
 		"defaultEnergy": 1,
-		"defaultAttack": 15,
+		"defaultAttack": 20,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "AttackRanged",
@@ -4010,9 +4007,9 @@
 		"specialGenes": "",
 		"partId": "tail-yam",
 		"name": "Yam",
-		"defaultStats": 15,
+		"defaultStats": 20,
 		"image": "https://www.axie.tech/images/templates/card/art/plant-tail-08.jpg",
-		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/plant-tail-08.png"
+		"cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/plant-tail-08.png"
 	},
 	{
 		"cardId": "beast-eyes-02",
@@ -4020,16 +4017,14 @@
 		"type": "Beast",
 		"part": "eyes",
 		"cardName": "Zeal",
-		"description": "Take 1 Beast card from your draw pile and add it to your hand. {Banish}.",
+		"description": "Take 1 Beast card from your draw pile and push it to the top of draw pile.",
 		"defaultEnergy": 0,
 		"defaultAttack": 0,
 		"defaultDefense": 0,
 		"healing": 0,
 		"abilityType": "Skill",
 		"level": 1,
-		"tags": [
-			"Banish"
-		],
+		"tags": [],
 		"specialGenes": "",
 		"partId": "eyes-zeal",
 		"name": "Zeal",

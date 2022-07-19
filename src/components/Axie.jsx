@@ -89,6 +89,7 @@ export default class Axie extends Component {
   };
 
   part = (value) => {
+    console.log(value);
     const dash = value.indexOf("-");
     const part = value.substring(dash + 1, value.indexOf("-", dash + 1));
 
@@ -136,9 +137,10 @@ export default class Axie extends Component {
 
     const charm = findCharm(charmSelected.label);
     const previousCharm = previousCharmSelected
-      ? findCharm(previousCharmSelected.label)
-      : null;
-    hpbonus[index] = charm.healthBonus;
+      && findCharm(previousCharmSelected.label);
+    
+    
+    hpbonus[index] = charm ? charm.healthBonus : 0;
 
     const cardOption = cards[index];
     const card = findCard(cardOption.value);
@@ -147,7 +149,7 @@ export default class Axie extends Component {
       ? potentialUsed.set(
           card.type.toLowerCase(),
           potentialUsed.get(card.type.toLowerCase()) +
-            charm.potentialCost -
+            (charm ? charm.potentialCost : 0) -
             (previousCharm ? previousCharm.potentialCost : 0)
         )
       : potentialUsed.set(card.type.toLowerCase(), charm.potentialCost);

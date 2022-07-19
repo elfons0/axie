@@ -323,7 +323,7 @@
   },
   {
     "id": 43,
-    "name": "Aquatic Talisman of Power IV",
+    "name": "Aquatic Charm of Power I",
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -337,7 +337,7 @@
   },
   {
     "id": 41,
-    "name": "Aquatic Talisman of Vitality IV",
+    "name": "Aquatic Charm of Vitality II",
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -351,7 +351,7 @@
   },
   {
     "id": 44,
-    "name": "Aquatic Talisman of Power V",
+    "name": "Aquatic Charm of Power II",
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -365,7 +365,7 @@
   },
   {
     "id": 42,
-    "name": "Aquatic Talisman of Vitality V",
+    "name": "Aquatic Charm of Vitality II",
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -383,7 +383,7 @@
     "type": "Aquatic",
     "isBlockchain": 1,
     "rarity": "Epic",
-    "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Bubble}.",
+    "effect": "(Enhance any Attack cards)\nAll teammates gain 1 {Bubble}.",
     "potentialCost": 4,
     "image": "bubble-paste.png",
     "attackBonus": 0,
@@ -435,7 +435,7 @@
   },
   {
     "id": 33,
-    "name": "Beast Talisman of Power IV",
+    "name": "Beast Charm of Power I",
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -449,7 +449,7 @@
   },
   {
     "id": 35,
-    "name": "Beast Talisman of Vitality IV",
+    "name": "Beast Charm of Vitality I",
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -463,7 +463,7 @@
   },
   {
     "id": 34,
-    "name": "Beast Talisman of Power V",
+    "name": "Beast Charm of Power II",
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -477,7 +477,7 @@
   },
   {
     "id": 36,
-    "name": "Beast Talisman of Vitality V",
+    "name": "Beast Charm of Vitality II",
     "type": "Beast",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -547,7 +547,7 @@
   },
   {
     "id": 59,
-    "name": "Bird Talisman of Focus IV",
+    "name": "Bird Charm of Focus I",
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -561,7 +561,7 @@
   },
   {
     "id": 57,
-    "name": "Bird Talisman of Power IV",
+    "name": "Bird Charm of Power I",
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -575,7 +575,7 @@
   },
   {
     "id": 60,
-    "name": "Bird Talisman of Focus V",
+    "name": "Bird Charm of Focus II",
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -589,7 +589,7 @@
   },
   {
     "id": 58,
-    "name": "Bird Talisman of Power V",
+    "name": "Bird Charm of Power II",
     "type": "Bird",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -659,7 +659,7 @@
   },
   {
     "id": 49,
-    "name": "Bug Talisman of Endurance IV",
+    "name": "Bug Charm of Endurance I",
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -673,7 +673,7 @@
   },
   {
     "id": 51,
-    "name": "Bug Talisman of Power IV",
+    "name": "Bug Charm of Power I",
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -687,7 +687,7 @@
   },
   {
     "id": 50,
-    "name": "Bug Talisman of Endurance V",
+    "name": "Bug Charm of Endurance II",
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -701,7 +701,7 @@
   },
   {
     "id": 52,
-    "name": "Bug Talisman of Power V",
+    "name": "Bug Charm of Power II",
     "type": "Bug",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -771,7 +771,7 @@
   },
   {
     "id": 83,
-    "name": "Dawn Talisman of Faith IV",
+    "name": "Dawn Charm of Faith I",
     "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -785,7 +785,7 @@
   },
   {
     "id": 81,
-    "name": "Dawn Talisman of Focus IV",
+    "name": "Dawn Charm of Focus I",
     "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -799,7 +799,7 @@
   },
   {
     "id": 84,
-    "name": "Dawn Talisman of Faith V",
+    "name": "Dawn Charm of Faith II",
     "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -813,7 +813,7 @@
   },
   {
     "id": 82,
-    "name": "Dawn Talisman of Focus V",
+    "name": "Dawn Charm of Focus II",
     "type": "Dawn",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -883,7 +883,7 @@
   },
   {
     "id": 91,
-    "name": "Dusk Talisman of Focus IV",
+    "name": "Dusk Charm of Focus I",
     "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -897,7 +897,7 @@
   },
   {
     "id": 89,
-    "name": "Dusk Talisman of Power IV",
+    "name": "Dusk Charm of Power I",
     "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -911,7 +911,7 @@
   },
   {
     "id": 92,
-    "name": "Dusk Talisman of Focus V",
+    "name": "Dusk Charm of Focus II",
     "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -925,7 +925,7 @@
   },
   {
     "id": 90,
-    "name": "Dusk Talisman of Power V",
+    "name": "Dusk Charm of Power II",
     "type": "Dusk",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -995,7 +995,7 @@
   },
   {
     "id": 75,
-    "name": "Mech Talisman of Endurance IV",
+    "name": "Mech Charm of Endurance I",
     "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": 73,
-    "name": "Mech Talisman of Power IV",
+    "name": "Mech Charm of Power I",
     "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -1023,7 +1023,7 @@
   },
   {
     "id": 76,
-    "name": "Mech Talisman of Endurance V",
+    "name": "Mech Charm of Endurance II",
     "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -1037,7 +1037,7 @@
   },
   {
     "id": 74,
-    "name": "Mech Talisman of Power V",
+    "name": "Mech Charm of Power II",
     "type": "Mech",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -1107,21 +1107,21 @@
   },
   {
     "id": 25,
-    "name": "Plant Talisman of Endurance IV",
+    "name": "Plant Charm of Vitality I",
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance any Shielding card)\nShield Stat +6",
+    "effect": "(Enhance any card)\nAxie's HP +12",
     "potentialCost": 2,
     "image": "plant-talisman-endurance-4.png",
     "attackBonus": 0,
-		"defenseBonus": 6,
+		"defenseBonus": 0,
 		"healingBonus": 0,
-    "healthBonus": 0
+    "healthBonus": 12
   },
   {
     "id": 27,
-    "name": "Plant Talisman of Faith IV",
+    "name": "Plant Charm of Faith I",
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -1135,21 +1135,21 @@
   },
   {
     "id": 26,
-    "name": "Plant Talisman of Endurance V",
+    "name": "Plant Charm of Vitality II",
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Epic",
-    "effect": "(Enhance any Shielding card)\nShield Stat +10",
+    "effect": "(Enhance any Shielding card)\nAxie's HP +18",
     "potentialCost": 3,
     "image": "plant-talisman-endurance-5.png",
     "attackBonus": 0,
-		"defenseBonus": 10,
+		"defenseBonus": 0,
 		"healingBonus": 0,
-    "healthBonus": 0
+    "healthBonus": 18
   },
   {
     "id": 28,
-    "name": "Plant Talisman of Faith V",
+    "name": "Plant Charm of Faith II",
     "type": "Plant",
     "isBlockchain": 1,
     "rarity": "Epic",
@@ -1233,21 +1233,21 @@
   },
   {
     "id": 67,
-    "name": "Reptile Talisman of Faith IV",
+    "name": "Reptile Charm of Endurance I",
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Rare",
-    "effect": "(Enhance a Healing card)\nHeal Stat +6",
+    "effect": "(Enhance any Shielding card)\nShield Stat +6",
     "potentialCost": 2,
     "image": "reptile-talisman-faith-4.png",
     "attackBonus": 0,
-		"defenseBonus": 0,
-		"healingBonus": 6,
+		"defenseBonus": 6,
+		"healingBonus": 0,
     "healthBonus": 0
   },
   {
     "id": 65,
-    "name": "Reptile Talisman of Vitality IV",
+    "name": "Reptile Charm of Vitality I",
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Rare",
@@ -1261,21 +1261,21 @@
   },
   {
     "id": 68,
-    "name": "Reptile Talisman of Faith V",
+    "name": "Reptile Charm of Endurance II",
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Epic",
-    "effect": "(Enhance a Healing card)\nHeal Stat +10",
+    "effect": "(Enhance any Shielding card)\nShield Stat +10",
     "potentialCost": 3,
     "image": "reptile-talisman-faith-5.png",
     "attackBonus": 0,
-		"defenseBonus": 0,
-		"healingBonus": 10,
+		"defenseBonus": 10,
+		"healingBonus": 0,
     "healthBonus": 0
   },
   {
     "id": 66,
-    "name": "Reptile Talisman of Vitality V",
+    "name": "Reptile Charm of Vitality II",
     "type": "Reptile",
     "isBlockchain": 1,
     "rarity": "Epic",

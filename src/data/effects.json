@@ -3,7 +3,7 @@
     "id": 4,
     "name": "Bubble",
     "type": "Buff",
-    "description": "Block 5 DMG/stack. Max: 3 stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+    "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
     "image": "buff_bubble.png"
   },
   {
@@ -59,7 +59,7 @@
     "id": 1,
     "name": "Rage",
     "type": "Buff",
-    "description": "DMG is increases by 2 per Rage stack. Transform into Fury Form when reaches 10 Rage stack.",
+    "description": "Single and AoE attack deal 2 bonus DMG per stack, but this unit also suffer 1 extra DMG from direct attacks. Enter Fury Form at 10 stacks.",
     "image": "buff_rage.png"
   },
   {
@@ -101,7 +101,7 @@
     "id": 15,
     "name": "Death Mark",
     "type": "Debuff",
-    "description": "Whenever opponent plays an Attack Card, the target take 13 DMG per Energy spent.",
+    "description": "Whenever your opponent plays an Attack Card, the target take 15 DMG per Energy spent.",
     "image": "debuff_death_mark.png"
   },
   {
@@ -238,6 +238,13 @@
     "image": "secret_buff.png"
   },
   {
+    "id": 41,
+    "name": "Degrade",
+    "type": "Card Property",
+    "description": "When your turn ends, if the card is still in your hand, the card disappears and a Confused card will be shuffled into your Discard pile.",
+    "image": "secret_buff.png"
+  },
+  {
     "id": 30,
     "name": "Dispel",
     "type": "Card Property",
@@ -245,10 +252,24 @@
     "image": "secret_buff.png"
   },
   {
+    "id": 42,
+    "name": "Exile",
+    "type": "Card Property",
+    "description": "After usage, the card disappears (does NOT go to the Banish Pile) for the rest of the battle.",
+    "image": "secret_buff.png"
+  },
+  {
     "id": 33,
     "name": "Initial",
     "type": "Card Property",
     "description": "The first card played in a turn.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 42,
+    "name": "Limit",
+    "type": "Card Property",
+    "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled until the end of turn.",
     "image": "secret_buff.png"
   },
   {
@@ -262,7 +283,14 @@
     "id": 39,
     "name": "Solo",
     "type": "Card Property",
-    "description": "Only 1 Axie per team can have this Effect activated.",
+    "description": "Only 1 Axie per team can have this Effect activated. If all three of your Axies equip the same Rune with Solo, only the Axie closest to the center will activate the Rune effect.",
+    "image": "secret_buff.png"
+  },
+  {
+    "id": 40,
+    "name": "Unstable",
+    "type": "Card Property",
+    "description": "After usage, the card disappears, and a Confused card will be shuffled into your Discard pile.",
     "image": "secret_buff.png"
   }
 ]

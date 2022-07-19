@@ -12,7 +12,7 @@
     "name": "Little Robin",
     "type": "Bird",
     "health": 18,
-    "description": "Teammates deal 16 more DMG. Loses 8 HP when your turn ends.",
+    "description": "Teammate's non-Multihit deal 12 bonus DMG, Multihit deal 6 bonus DMG. Loses 8 HP when your turn ends.",
     "image": "bird-eyes-10.png"
   },
   {
@@ -35,7 +35,7 @@
     "id": "plant-ears-10",
     "name": "Trunk",
     "type": "Plant",
-    "health": 60,
+    "health": 75,
     "description": "{Taunt}.",
     "image": "plant-ears-10.png"
   }
