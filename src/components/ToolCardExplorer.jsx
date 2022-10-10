@@ -138,6 +138,7 @@ export default class CardExplorer extends Component {
           {cardlist.map(({ id, name, description, cardImage }) => (
             <Card
               key={id}
+              cardId={id}
               name={name}
               description={description}
               cardImage={cardImage}

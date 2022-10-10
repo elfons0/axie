@@ -245,6 +245,12 @@ label {
   color: darkviolet;
 }
 
+.rune-description .card-description {
+  top: 0px;
+  left: 13px;
+  vertical-align: top;
+}
+
 .effect-div {
   float: left;
   height: 200px;

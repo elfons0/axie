@@ -1,57 +1,52 @@
 [
   {
-    "id": 13,
+    "id": "tool-forestbreath-02",
     "name": "Forest Breath",
     "cardDamage": 0,
     "cardShield": 0,
     "cardHeal": 50,
     "cardEnergy": "1",
     "description": "{Retain}.Target an ally. {Cleanse}.",
-    "tags": "skill,retain_effect",
-    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/tool-forestbreath-02.png"
+    "tags": "skill,retain_effect"
   },
   {
-    "id": 14,
+    "id": "tool-forestwrath-02",
     "name": "Forest Wrath",
     "cardDamage": 0,
     "cardShield": 0,
     "cardHeal": 0,
     "cardEnergy": "0",
     "description": "{Retain}. Target any ally. Next turn, reflect 25 DMG for the next attack against the target. {Banish}.",
-    "tags": "secret",
-    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/tool-forestwrath-02.png"
+    "tags": "secret"
   },
   {
-    "id": 1,
+    "id": "tool-lumbershield-02",
     "name": "Lumber Shield",
     "cardDamage": 0,
     "cardShield": 12,
     "cardHeal": 0,
     "cardEnergy": "0",
-    "description": "{Retain}. Target any ally. {Banish}.",
-    "tags": "skill,retain_effect,banish",
-    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/tool-lumbershield-02.png"
+    "description": "{Retain}. Target any ally. {Banish}. Limit: 3.",
+    "tags": "skill,retain_effect,banish"
   },
   {
-    "id": 3,
+    "id": "tool-purewater-02",
     "name": "Pure Water",
     "cardDamage": 0,
     "cardShield": 0,
     "cardHeal": 6,
     "cardEnergy": "0",
-    "description": "{Retain}. Target any ally. {Banish}.",
-    "tags": "skill,retain_effect,banish",
-    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/tool-purewater-02.png"
+    "description": "{Retain}. Target any ally. {Banish}. Limit: 3",
+    "tags": "skill,retain_effect,banish"
   },
   {
-    "id": 2,
+    "id": "tool-strawberry-02",
     "name": "Strawberry",
     "cardDamage": 0,
     "cardShield": 0,
     "cardHeal": 60,
     "cardEnergy": "0",
     "description": "{Retain}. Target any ally. {Unstable}.",
-    "tags": "skill,retain_effect,Unstable",
-    "cardImage": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/tool-strawberry-02.png"
+    "tags": "skill,retain_effect,Unstable"
   }
 ]

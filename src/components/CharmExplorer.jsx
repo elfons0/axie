@@ -165,14 +165,15 @@ export default class RuneExplorer extends Component {
           </button>
         </div>
         <div>
-          {charmlist.map(({ id, image, type,  name, effect, rarity, potentialCost }) => (
+          {charmlist.map(({ id, image, type,  name, apply, effect, rarity, potentialCost }) => (
             <Charm
               key={id}
               image={image}
               type={type}
               name={name}
               rarity={rarity}
-              description={effect}
+              apply={apply}
+              effect={effect}
               potentialCost = {potentialCost}
             />       
           ))}

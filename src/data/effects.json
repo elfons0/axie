@@ -3,7 +3,7 @@
     "id": 4,
     "name": "Bubble",
     "type": "Buff",
-    "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+    "description": "Single attack and AoE deal bonus DMG equal to 1.4% of the target current HP per stack, AoE deals 0.7%. Turn into Bubble Bomb upon reaching 4 stacks.",
     "image": "buff_bubble.png"
   },
   {
@@ -31,7 +31,7 @@
     "id": 6,
     "name": "Feather",
     "type": "Buff",
-    "description": "When Axie does an attack, consume all Feather stacks to deal 2 bonus DMG per stack and heal 2 HP per stack. Max : 10 stack.",
+    "description": "Single or AoE attacks consume all Feather stacks. Each stack deal an attack equal to 8% of the card's base DMG to a random enemy. Max: 10 stacks.",
     "image": "buff_feather.png"
   },
   {
@@ -59,7 +59,7 @@
     "id": 1,
     "name": "Rage",
     "type": "Buff",
-    "description": "Single and AoE attack deal 2 bonus DMG per stack, but this unit also suffer 1 extra DMG from direct attacks. Enter Fury Form at 10 stacks.",
+    "description": "Single and AoE attack deal 2 bonus DMG per stack. AoE attacks deal half. This unit also suffer 1 extra DMG from direct attacks. Enter {Fury} Form at 10 stacks.",
     "image": "buff_rage.png"
   },
   {
@@ -129,7 +129,7 @@
     "id": 19,
     "name": "Fragile",
     "type": "Debuff",
-    "description": "The target gains 20% less Shield from cards.",
+    "description": "The target gains 40% less Shield from cards.",
     "image": "debuff_fragile.png"
   },
   {
