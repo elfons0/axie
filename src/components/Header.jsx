@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 import logo from "../Axielogo.png";
+import pack_img from "../img/icons/feature_inventory.png"
 import card_img from "../img/icons/feature_collection.png"
 import rune_img from "../img/icons/feature_rune.png"
 import charm_img from "../img/icons/feature_charm.png"
@@ -21,6 +22,7 @@ export default class Header extends Component {
           <span className="title">Database</span>
         </p>
         <nav className="navigator">
+          <Link to="/">HOME <img src={pack_img} className="menu-img" alt="" /></Link>
           <Link to="/axiedatabase/cards">CARDS <img src={card_img} className="menu-img" alt="" /></Link>
           <Link to="/axiedatabase/runes">RUNES <img src={rune_img} className="menu-img" alt="" /></Link>
           <Link to="/axiedatabase/charms">CHARMS <img src={charm_img} className="menu-img" alt="" /></Link>

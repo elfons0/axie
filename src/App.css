@@ -66,6 +66,15 @@ body {
   float: left;
 }
 
+.wideItem {
+  width: 500px;
+  float: left;
+}
+
+.wideItem label{
+  width: 130px;
+}
+
 .select {
   width: 200px;
   float: left;
@@ -84,6 +93,7 @@ label {
   padding: 10px;
   float: left;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .Card-div {
@@ -452,6 +462,39 @@ label {
 
 .css-1insrsq-control {
   background-color: lightgray !important;
+}
+
+.textfield{
+  height: 16px;
+  border-radius: 4px;
+  padding: 10px;
+  width: 320px;
+}
+
+.wallet-div{
+  display: table-cell;
+}
+.wallet-div span {
+  margin: 10px;
+  width: 150px;
+  float: left;
+  color: white;
+}
+
+.wallet-axie{
+  float: left;
+  width: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.axies-div{
+  width: 100%;
+}
+.axieImage{
+  width: 200px;
 }
 
 @media screen and (max-width: 500px) {

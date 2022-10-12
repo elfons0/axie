@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import NewsFeed from "./components/NewsFeed";
+import Ronin from "./components/Ronin";
 import CardExplorer from "./components/CardExplorer";
 import RuneExplorer from "./components/RuneExplorer";
 import CharmExplorer from "./components/CharmExplorer";
@@ -12,6 +12,7 @@ import TeamExplorer from "./components/TeamExplorer";
 import { Routes, Route, MemoryRouter } from "react-router-dom";
 import "./App.css";
 
+
 function App() {
   const lang = window.navigator.language;
 
@@ -21,7 +22,7 @@ function App() {
         <Header />
         <div className="container">
           <Routes>
-            <Route path="/" element={<NewsFeed />} />
+            <Route path="/" element={<Ronin />} />
             <Route path="/axiedatabase/cards" element={<CardExplorer lang={lang}/>} />
             <Route path="/axiedatabase/runes" element={<RuneExplorer lang={lang} />} />
             <Route path="/axiedatabase/charms" element={<CharmExplorer lang={lang} />} />
