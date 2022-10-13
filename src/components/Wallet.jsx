@@ -20,11 +20,13 @@ export default class Wallet extends Component {
           <label>WETH</label> <span>{weth} ({(weth * wethPrice).toFixed(2)} USD)</span>
         </div>
         <div className="axies-div">
-        {axies['_items'].map(({ id, name }) => (
+        {axies['_items'].map(({ id, name, class : type, genes }) => (
           <WalletAxie
             key={id}
             id={id}
             name={name}
+            type={type}
+            genes={genes}
           />       
           ))}
         </div>
