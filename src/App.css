@@ -475,16 +475,39 @@ label {
   display: inline-block;
   padding: 30px;
 }
+
+.wallet-div label{
+  text-align: right;
+}
+
 .wallet-div span {
-  margin: 10px;
-  width: 150px;
+  margin: 10px 5px;
+  text-align: right;
+  width: 85px;
   float: left;
   color: white;
+}
+
+.token{
+  float: left;
+}
+
+.money{
+  width: 110px;  
+}
+
+.token-img{
+  float: left;
+  width: 25px;
+  top: 10px;
+  position: relative;
+  left: -10px;
 }
 
 .wallet-axie{
   float: left;
   width: 200px;
+  height: 425px;
   border: 1px solid white;
   border-radius: 10px;
   margin: 10px;
@@ -655,5 +678,13 @@ label {
 
   .textfield{
     width: 200px;
+  }
+
+  .wallet-div {
+    padding: 15px;
+  }
+
+  .wallet-div label{ 
+    margin-left: -10px;
   }
 }
