@@ -472,7 +472,8 @@ label {
 }
 
 .wallet-div{
-  display: table-cell;
+  display: inline-block;
+  padding: 30px;
 }
 .wallet-div span {
   margin: 10px;
@@ -491,7 +492,7 @@ label {
 }
 
 .axies-div{
-  width: 100%;
+  display: table-cell;
 }
 
 .axieImage{
@@ -535,6 +536,13 @@ label {
   color: white;
 }
 
+.fondolupa{
+  background-image: url(./img/icons/lupa.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding-left: 20px;
+  padding-right: revert;
+}
 
 @media screen and (max-width: 500px) {
   .card {
@@ -635,5 +643,17 @@ label {
 
   .summon-div {
     width: 150px;
+  }
+
+  .wideItem {
+    width: auto;
+  }
+  
+  .wideItem label{
+    width: auto;
+  }
+
+  .textfield{
+    width: 200px;
   }
 }

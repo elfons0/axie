@@ -40,9 +40,9 @@ export default class WalletAxie extends Component {
       <div className="wallet-axie">
         
         <img src={require('../img/icons/' + type + '.png')} alt={type} className="axieIcon" />
-        <span class="axieid">#{id}</span>
+        <span className="axieid">#{id}</span>
         <img src={imgUrl} alt={id} className="axieImage" />
-        <span class="axieName">{name}</span>
+        <span className="axieName">{name}</span>
         <ul className="axieParts">
           <li>{eyesCard.cardName}</li>
           <li>{earsCard.cardName}</li>
@@ -51,8 +51,8 @@ export default class WalletAxie extends Component {
           <li>{hornCard.cardName}</li>
           <li>{tailCard.cardName}</li>
         </ul>
-        <a class="axieLink" href={marketUrl + id} target="_blank" rel="noreferrer">View in Marketplace</a>
-        <a class="axieLink" href={marketSearch} target="_blank" rel="noreferrer">Search similar</a>
+        <a className="axieLink" href={marketUrl + id} target="_blank" rel="noreferrer">Marketplace</a>
+        <a className="axieLink fondolupa" href={marketSearch} target="_blank" rel="noreferrer">Search</a>
       </div>
     );
   }

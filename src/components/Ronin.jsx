@@ -22,8 +22,14 @@ export default class Ronin extends Component {
     this.roninWalletInfo();
   }
 
-  roninWalletInfo = () => {
+  componentDidMount() {
+    const { ronin } = this.state;
+    if(ronin){
+      this.roninWalletInfo();
+    }
+  }
 
+  roninWalletInfo = () => {
     const { ronin } = this.state;
 
     axios('https://ronin.rest/ronin/wallet/' + ronin)
