@@ -2,6 +2,13 @@ import React, { Component } from "react";
 import { AxieMixer } from '@axieinfinity/mixer'
 import { findCard } from "./Card";
 
+import eyesLogo from '../img/parts/part_eyes.png';
+import earsLogo from '../img/parts/part_ears.png';
+import backLogo from '../img/parts/part_back.png';
+import mouthLogo from '../img/parts/part_mouth.png';
+import hornLogo from '../img/parts/part_horn.png';
+import tailLogo from '../img/parts/part_tail.png';
+
 export default class WalletAxie extends Component {
   render() {
     const { id , name, type, genes } = this.props;
@@ -45,12 +52,12 @@ export default class WalletAxie extends Component {
         <img src={imgUrl} alt={id} className="axieImage" />
         <span className="axieName">{name}</span>
         <ul className="axieParts">
-          <li>{eyesCard.cardName}</li>
-          <li>{earsCard.cardName}</li>
-          <li>{mouthCard.cardName}</li>
-          <li>{backCard.cardName}</li>
-          <li>{hornCard.cardName}</li>
-          <li>{tailCard.cardName}</li>
+          <li><img src={eyesLogo} alt="eyes" className={eyesCard.type}/> {eyesCard.cardName}</li>
+          <li><img src={earsLogo} alt="eyes" className={earsCard.type}/> {earsCard.cardName}</li>
+          <li><img src={mouthLogo} alt="eyes" className={mouthCard.type}/> {mouthCard.cardName}</li>
+          <li><img src={backLogo} alt="eyes" className={backCard.type}/> {backCard.cardName}</li>
+          <li><img src={hornLogo} alt="eyes" className={hornCard.type}/> {hornCard.cardName}</li>
+          <li><img src={tailLogo} alt="eyes" className={tailCard.type}/> {tailCard.cardName}</li>
         </ul>
         <a className="axieLink" href={marketUrl + id} target="_blank" rel="noreferrer">Marketplace</a>
         <a className="axieLink fondolupa" href={marketSearch} target="_blank" rel="noreferrer">Search</a>

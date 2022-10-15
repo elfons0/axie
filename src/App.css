@@ -507,7 +507,7 @@ label {
 .wallet-axie{
   float: left;
   width: 200px;
-  height: 425px;
+  height: 500px;
   border: 1px solid white;
   border-radius: 10px;
   margin: 10px;
@@ -557,6 +557,41 @@ label {
 .axieParts li {
   text-align: left;
   color: white;
+  list-style: none;
+  margin-left: -25px;
+}
+
+.axieParts img {
+  width: 26px;
+  padding: 2px;
+  border-radius: 15px;
+  position: relative;
+  top: 8px;
+  margin-right: 5px;
+}
+
+.Bird{
+  background-color: hotpink;
+}
+
+.Aquatic{
+  background-color: aqua;
+}
+
+.Plant{
+  background-color: greenyellow;
+}
+
+.Beast{
+  background-color: orange;
+}
+
+.Reptile{
+  background-color: blueviolet;
+}
+
+.Bug{
+  background-color: crimson;
 }
 
 .fondolupa{
