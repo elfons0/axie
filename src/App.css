@@ -507,7 +507,7 @@ label {
 .wallet-axie{
   float: left;
   width: 200px;
-  height: 500px;
+  height: 470px;
   border: 1px solid white;
   border-radius: 10px;
   margin: 10px;
@@ -558,15 +558,15 @@ label {
   text-align: left;
   color: white;
   list-style: none;
-  margin-left: -25px;
+  margin-left: -30px;
 }
 
 .axieParts img {
-  width: 26px;
+  width: 21px;
   padding: 2px;
   border-radius: 15px;
   position: relative;
-  top: 8px;
+  top: 5px;
   margin-right: 5px;
 }
 
