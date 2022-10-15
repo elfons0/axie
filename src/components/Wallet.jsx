@@ -51,7 +51,7 @@ export default class Wallet extends Component {
           </div>
         </div>
         <div className="axies-div">
-        {axies['_items'].map(({ id, name, class : type, genes }) => (
+        {axies &&axies['_items'].map(({ id, name, class : type, genes }) => (
           <WalletAxie
             key={id}
             id={id}

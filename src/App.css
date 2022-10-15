@@ -681,10 +681,17 @@ label {
   }
 
   .wallet-div {
-    padding: 15px;
+    padding: 20px;
   }
 
-  .wallet-div label{ 
-    margin-left: -10px;
+  .wallet-div span {
+    float: right;
+    margin-bottom: -10px;
   }
+
+  .money{
+    width: 75px;
+    margin: 10px 0;
+  }
+
 }

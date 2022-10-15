@@ -28,7 +28,8 @@ export default class WalletAxie extends Component {
     const tailCard = findCard(tail);
 
     const marketSearch = marketUrl +
-      '?part=' + eyesCard.partId +
+      '?class=' + type +
+      '&part=' + eyesCard.partId +
       '&part=' + earsCard.partId +
       '&part=' + hornCard.partId +
       '&part=' + mouthCard.partId +
