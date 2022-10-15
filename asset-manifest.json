@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/axiedatabase/static/css/main.f3c7b7ab.css",
+    "main.css": "/axiedatabase/static/css/main.a7487761.css",
     "main.js": "/axiedatabase/static/js/main.7b6caa7b.js",
     "static/js/787.a1c6ae46.chunk.js": "/axiedatabase/static/js/787.a1c6ae46.chunk.js",
     "static/media/rune.png": "/axiedatabase/static/media/rune.cc6d50d5b0db474eb874.png",
@@ -209,12 +209,12 @@
     "static/media/buff_robin.png": "/axiedatabase/static/media/buff_robin.f1b0f6d1235a2c40b002.png",
     "static/media/ron.svg": "/axiedatabase/static/media/ron.62cf711c375bd4db319bdf93832b0d40.svg",
     "index.html": "/axiedatabase/index.html",
-    "main.f3c7b7ab.css.map": "/axiedatabase/static/css/main.f3c7b7ab.css.map",
+    "main.a7487761.css.map": "/axiedatabase/static/css/main.a7487761.css.map",
     "main.7b6caa7b.js.map": "/axiedatabase/static/js/main.7b6caa7b.js.map",
     "787.a1c6ae46.chunk.js.map": "/axiedatabase/static/js/787.a1c6ae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c7b7ab.css",
+    "static/css/main.a7487761.css",
     "static/js/main.7b6caa7b.js"
   ]
 }
