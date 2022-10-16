@@ -24,6 +24,22 @@ const classOptions = [
 
 const potentialBonus = [0, 0, 0, 1, 2, 4, 6, 8];
 
+export const getPotentialMap = (potential) => {
+  let potentialMap = new Map();
+
+  potential.map((type) => {
+    return potentialMap.has(type)
+      ? potentialMap.set(type, potentialMap.get(type) + 1)
+      : potentialMap.set(type, 1);
+  });
+
+  potentialMap.forEach((value, key) => {
+    return potentialMap.set(key, value + potentialBonus[value]);
+  });
+
+  return potentialMap;
+};
+
 export default class Axie extends Component {
   state = {
     hp: 0,
@@ -172,22 +188,6 @@ export default class Axie extends Component {
       .map((filteredRune) => new Option(filteredRune.name, filteredRune.id));
 
     this.setState({ runelist: filteredList });
-  };
-
-  getPotentialMap = (potential) => {
-    let potentialMap = new Map();
-
-    potential.map((type) => {
-      return potentialMap.has(type)
-        ? potentialMap.set(type, potentialMap.get(type) + 1)
-        : potentialMap.set(type, 1);
-    });
-
-    potentialMap.forEach((value, key) => {
-      return potentialMap.set(key, value + potentialBonus[value]);
-    });
-
-    return potentialMap;
   };
 
   potentialTaken = (total, used) => {

@@ -213,9 +213,9 @@
         "type": "Bird",
         "isBlockchain": 1,
         "rarity": "Rare",
-        "effect": "Attack cards also deal 8 DMG per Energy Cost to all Enemies.",
+        "effect": "Attack cards also deal 6 DMG per Energy Cost to all Enemies.",
         "image": "rune_bird_offensive_1.png",
-        "attackBonus": 0,
+        "attackBonus": 6,
         "defenseBonus": 0,
         "healingBonus": 0,
         "healthBonus": 0
