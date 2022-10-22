@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from 'axios'
 import Wallet from "./Wallet";
 
-import graphql from "../data/graphql.json";
+//import graphql from "../data/graphql.json";
 
 
 export default class Ronin extends Component {
@@ -43,13 +43,13 @@ export default class Ronin extends Component {
       .then((response) => {
         this.setState({ prices: response.data });
       });
-    /*
+    
     axios('https://ronin.rest/origin/game/listUserFighterOwned/' + ronin)
       .then((response) => {
         this.setState({ axies: response.data });
       });
-      */
-     
+      
+    /* 
     const params ={
       "operationName": "GetAxieBriefList",
       "variables": {
@@ -59,10 +59,11 @@ export default class Ronin extends Component {
       "query": graphql.GetAxieBriefList
     };
 
-    axios.post('https://graphql-gateway.axieinfinity.com/graphql', params)
+    axios.post('https://serveless-cors.vercel.app/api/cors?url=https://graphql-gateway.axieinfinity.com/graphql', params)
       .then((response) => {
         this.setState({ axies: response.data });
       });
+    */
       
   }
 
