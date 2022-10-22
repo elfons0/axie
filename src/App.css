@@ -75,6 +75,11 @@ body {
   width: 130px;
 }
 
+.wideItem .textfield{
+  width: 320px;
+  margin-left: 10px;
+}
+
 .select {
   width: 200px;
   float: left;
@@ -89,7 +94,6 @@ label {
 
 .reset-button {
   margin-left: 15px;
-  margin-right: 15px;
   padding: 10px;
   float: left;
   border-radius: 6px;
@@ -465,10 +469,12 @@ label {
 }
 
 .textfield{
-  height: 16px;
   border-radius: 4px;
+  border: 0px;
   padding: 10px;
-  width: 320px;
+  width: 180px;
+  height: 16px;
+  float: left;
 }
 
 .wallet-div{
@@ -524,7 +530,8 @@ label {
 }
 
 .axies-div{
-  display: table-cell;
+  display: flex;
+  flex-flow: wrap;
 }
 
 .axieImage{
@@ -738,10 +745,6 @@ label {
   
   .wideItem label{
     width: auto;
-  }
-
-  .textfield{
-    width: 200px;
   }
 
   .wallet-div {

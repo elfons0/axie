@@ -54,6 +54,7 @@ const sortOptions = [
 export default class CardExplorer extends Component {
   state = {
     cardlist: [],
+    selectedText: '',
     selectedBody: allitems,
     selectedEnergy: allitems,
     selectedPart: allitems,
@@ -61,11 +62,27 @@ export default class CardExplorer extends Component {
     selectedSort: noSort,
   };
 
+  handleChangeText = (event) => {
+    const selectedText = event.target.value;
+    const { selectedBody, selectedEnergy, selectedPart, selectedAttack, selectedSort } =
+      this.state;
+    this.setState({ selectedText });
+    this.filter(
+      selectedText,
+      selectedBody,
+      selectedEnergy,
+      selectedPart,
+      selectedAttack,
+      selectedSort
+    );
+  };
+
   handleChangeBody = (selectedBody) => {
-    const { selectedEnergy, selectedPart, selectedAttack, selectedSort } =
+    const { selectedText, selectedEnergy, selectedPart, selectedAttack, selectedSort } =
       this.state;
     this.setState({ selectedBody });
     this.filter(
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -75,10 +92,11 @@ export default class CardExplorer extends Component {
   };
 
   handleChangeEnergy = (selectedEnergy) => {
-    const { selectedBody, selectedPart, selectedAttack, selectedSort } =
+    const { selectedText, selectedBody, selectedPart, selectedAttack, selectedSort } =
       this.state;
     this.setState({ selectedEnergy });
     this.filter(
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -88,10 +106,11 @@ export default class CardExplorer extends Component {
   };
 
   handleChangePart = (selectedPart) => {
-    const { selectedBody, selectedEnergy, selectedAttack, selectedSort } =
+    const { selectedText, selectedBody, selectedEnergy, selectedAttack, selectedSort } =
       this.state;
     this.setState({ selectedPart });
     this.filter(
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -101,10 +120,11 @@ export default class CardExplorer extends Component {
   };
 
   handleChangeAttack = (selectedAttack) => {
-    const { selectedBody, selectedEnergy, selectedPart, selectedSort } =
+    const { selectedText, selectedBody, selectedEnergy, selectedPart, selectedSort } =
       this.state;
     this.setState({ selectedAttack });
     this.filter(
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -114,10 +134,11 @@ export default class CardExplorer extends Component {
   };
 
   handleChangeSort = (selectedSort) => {
-    const { selectedBody, selectedEnergy, selectedPart, selectedAttack } =
+    const { selectedText, selectedBody, selectedEnergy, selectedPart, selectedAttack } =
       this.state;
     this.setState({ selectedSort });
     this.filter(
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -129,6 +150,7 @@ export default class CardExplorer extends Component {
   reset = () => {
     this.setState({
       cardlist: cards,
+      selectedText: '',
       selectedBody: allitems,
       selectedEnergy: allitems,
       selectedPart: allitems,
@@ -138,6 +160,7 @@ export default class CardExplorer extends Component {
   };
 
   filter = (
+    selectedText,
     selectedBody,
     selectedEnergy,
     selectedPart,
@@ -146,6 +169,11 @@ export default class CardExplorer extends Component {
   ) => {
     let filteredList = cards;
 
+    if (selectedText) {
+      filteredList = filteredList.filter((card) =>
+        card.description.toLowerCase().includes(selectedText.toLowerCase())
+      );
+    }
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((card) =>
         card.cardId.includes(selectedBody.value)
@@ -200,6 +228,7 @@ export default class CardExplorer extends Component {
   render() {
     const {
       cardlist,
+      selectedText,
       selectedBody,
       selectedEnergy,
       selectedPart,
@@ -211,6 +240,16 @@ export default class CardExplorer extends Component {
       <div className="card-explorer">
         <h1> Card Explorer </h1>
         <div className="filter">
+          <div className="filterItem">
+            <label htmlFor="text">Text</label>
+            <input className="textfield"
+              id="text"
+              type="text"
+              value={selectedText}
+              onChange={this.handleChangeText}
+              />
+          </div>
+          
           <div className="filterItem">
             <label htmlFor="body">Class</label>
             <Select

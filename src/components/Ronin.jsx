@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from 'axios'
 import Wallet from "./Wallet";
+import WalletAxie from "./WalletAxie";
 
 //import graphql from "../data/graphql.json";
 
@@ -21,32 +22,49 @@ export default class Ronin extends Component {
   roninSearch = () => {
     const { ronin } = this.state;
     localStorage.setItem('ronin', ronin);
-    this.roninWalletInfo();
+    this.roninWalletInfo(ronin);
+    this.tokenInfo();
   }
 
-  componentDidMount() {
+  axieSearch = () => {
     const { ronin } = this.state;
-    if(ronin){
-      this.roninWalletInfo();
-    }
+    localStorage.setItem('ronin', ronin);
+    this.axiesInfo(ronin);
   }
 
-  roninWalletInfo = () => {
-    const { ronin } = this.state;
+  componentDidMount() {    
+    const storedWallet = localStorage.getItem('wallet');
+    const storedPrices = localStorage.getItem('prices');
+    const storedAxies = localStorage.getItem('axies');
 
+    this.setState({ 
+      wallet: JSON.parse(storedWallet),
+      prices: JSON.parse(storedPrices),
+      axies: JSON.parse(storedAxies)
+     });
+  }
+
+  roninWalletInfo = (ronin) => {
     axios('https://ronin.rest/ronin/wallet/' + ronin)
       .then((response) => {
         this.setState({ wallet: response.data });
-      });
-        
+        localStorage.setItem('wallet', JSON.stringify(response.data));
+      });  
+  }
+
+  tokenInfo = () => {
     axios('https://ronin.rest/misc/prices')
       .then((response) => {
         this.setState({ prices: response.data });
-      });
-    
+        localStorage.setItem('prices', JSON.stringify(response.data));
+      });    
+  }
+
+  axiesInfo = (ronin) => {    
     axios('https://ronin.rest/origin/game/listUserFighterOwned/' + ronin)
       .then((response) => {
-        this.setState({ axies: response.data });
+        this.setState({ axies: response.data });        
+        localStorage.setItem('axies', JSON.stringify(response.data));
       });
       
     /* 
@@ -64,7 +82,6 @@ export default class Ronin extends Component {
         this.setState({ axies: response.data });
       });
     */
-      
   }
 
   render() {
@@ -90,7 +107,11 @@ export default class Ronin extends Component {
           </div>
           <button className="reset-button" 
             onClick={this.roninSearch}>
-            Search
+            Update Wallet info
+          </button>
+          <button className="reset-button" 
+            onClick={this.axieSearch}>
+            Update Axie info
           </button>
         </div>
         {wallet && (
@@ -102,6 +123,20 @@ export default class Ronin extends Component {
             prices={prices}
             axies={axies}
           />
+        )}
+        
+        {axies && (
+          <div className="axies-div">
+            {axies['_items'].map(({ id, name, class : type, genes }) => (
+              <WalletAxie
+              key={id}
+              id={id}
+              name={name}
+              type={type}
+              genes={genes}
+              />       
+            ))}
+          </div>
         )}
       </div>
     );
