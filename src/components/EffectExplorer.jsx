@@ -75,7 +75,7 @@ export default class RuneExplorer extends Component {
             Reset
           </button>
         </div>
-        <div>
+        <div className="flex-div">
           {runelist.map(({ id, image, type,  name, description }) => (
             <Effect
               key={id}

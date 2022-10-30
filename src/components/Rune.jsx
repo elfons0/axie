@@ -2,6 +2,12 @@ import React, { Component } from "react";
 
 import runeCard from "../img/runes/sample_rune.png";
 
+import runes from "../data/runes.json";
+
+export const findRune = (name) => {
+  return runes.find((rune) => rune.name.includes(name));
+};
+
 export default class Rune extends Component {
   render() {
     const { image, type, name, description, rarity } = this.props;

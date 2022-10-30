@@ -21,7 +21,7 @@ export default class TeamExplorer extends Component {
     const { hpbase, teamrunes } = this.state;
 
     return (
-      <div className="team-explorer">
+      <div className="flex-div">
         <Axie
           position="0"
           hpbase={hpbase}

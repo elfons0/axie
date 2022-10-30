@@ -266,7 +266,7 @@
     "image": "secret_buff.png"
   },
   {
-    "id": 42,
+    "id": 43,
     "name": "Limit",
     "type": "Card Property",
     "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled until the end of turn.",

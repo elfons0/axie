@@ -4,14 +4,16 @@ import Tooltip from "react-tooltip-lite";
 
 import runes from "../data/runes.json";
 import AxiePart from "./AxiePart";
-import { findCard, partsCards } from "./Card";
+import { findCard, findCardByPart, partsCards } from "./Card";
 import { findCharm } from "./Charm";
 
+import axios from 'axios'
+
 const AXIE_HP = 320;
-const HEART_OCEAN = 22;
+const GAIA_EMBRACE = 24;
 
 const classOptions = [
-  { value: "Aquatic", label: "Aqua" },
+  { value: "Aquatic", label: "Aquatic" },
   { value: "Beast", label: "Beast" },
   { value: "Bird", label: "Bird" },
   { value: "Bug", label: "Bug" },
@@ -19,7 +21,7 @@ const classOptions = [
   { value: "Dusk", label: "Dusk" },
   { value: "Mech", label: "Mech" },
   { value: "Plant", label: "Plant" },
-  { value: "Peptile", label: "Reptile" },
+  { value: "Reptile", label: "Reptile" },
 ];
 
 const potentialBonus = [0, 0, 0, 1, 2, 4, 6, 8];
@@ -42,9 +44,9 @@ export const getPotentialMap = (potential) => {
 
 export default class Axie extends Component {
   state = {
+    axieId: "",
     hp: 0,
     hpbonus: [0, 0, 0, 0, 0, 0],
-    bonus: [0, 0, 0],
     type: "",
     rune: "",
     runedescr: "",
@@ -79,24 +81,17 @@ export default class Axie extends Component {
     const { position, handleUpdateHp, teamrunes, handleUpdateRunes } =
       this.props;
 
-    let { bonus } = this.state;
-
     const runePicked = this.getRune(rune.label);
 
-    // Heart of the Ocean rune
-    if (teamrunes.includes(HEART_OCEAN)) {
+    // Gaia's Embrace rune
+    if (teamrunes.includes(GAIA_EMBRACE)) {
       handleUpdateHp(AXIE_HP + 50);
     } else {
       handleUpdateHp(AXIE_HP);
     }
 
-    bonus[0] = runePicked ? runePicked.attackBonus : 0;
-    bonus[1] = runePicked ? runePicked.defenseBonus : 0;
-    bonus[2] = runePicked ? runePicked.healingBonus : 0;
-
     this.setState({
       hp: runePicked ? runePicked.healthBonus : 0,
-      bonus,
       rune,
       runedescr: runePicked ? runePicked.effect : "",
     });
@@ -105,7 +100,6 @@ export default class Axie extends Component {
   };
 
   part = (value) => {
-    console.log(value);
     const dash = value.indexOf("-");
     const part = value.substring(dash + 1, value.indexOf("-", dash + 1));
 
@@ -194,13 +188,69 @@ export default class Axie extends Component {
     return used > total ? <b>{used}</b> : used;
   };
 
+  handleChangeId = (event) => {
+    const axieId = event.target.value;
+    this.setState({ axieId });
+  };
+
+  axieSearch = () => {
+    const { axieId } = this.state;
+    axios('https://ronin.rest/ronin/axie/' + axieId)
+      .then((response) => {
+        this.loadAxie(response.data);        
+      });
+  }
+
+  loadAxie = (axieData) =>{
+
+    let classType = axieData.genes.cls;
+    classType = classType.charAt(0).toUpperCase() +  classType.substring(1);
+
+    const classOption = new Option(classType, classType);
+    this.handleChangeType(classOption);
+
+    this.loadAxiePart(axieData, 'horn');
+    this.loadAxiePart(axieData, 'eyes');
+    this.loadAxiePart(axieData, 'ears');
+    this.loadAxiePart(axieData, 'mouth');
+    this.loadAxiePart(axieData, 'back');
+    this.loadAxiePart(axieData, 'tail');
+  }
+
+  loadAxiePart = (axieData, part) => {
+    const partCard  = findCardByPart(axieData.genes[part].d.partId);
+    const partOption = new Option(partCard.name, partCard.cardId);
+    this.handleCard(partOption);
+  }
+
+  axieSave = (slotName) => {
+    const { type, rune, cards, charms } = this.state;
+    const axieData = {type, rune, cards, charms};
+
+    localStorage.setItem(slotName, axieData);
+  }
+
+  axieLoad = (slotName) => {
+    const axieData = localStorage.getItem(slotName);
+
+    this.setState({ 
+      type: axieData.type, 
+      rune: axieData.rune, 
+      cards: axieData.cards, 
+      charms: axieData.charms,
+    });
+
+    // handleChangeType(type);
+    // handleChangeRune(rune);
+  }
+
   render() {
     const { position, hpbase } = this.props;
 
     const {
+      axieId,
       hp,
       hpbonus,
-      bonus,
       type,
       rune,
       runedescr,
@@ -235,7 +285,7 @@ export default class Axie extends Component {
       (card) => new Option(card.name, card.cardId)
     );
 
-    const potentialMap = this.getPotentialMap(potential);
+    const potentialMap = getPotentialMap(potential);
 
     return (
       <div className="axie" key={position}>
@@ -248,170 +298,191 @@ export default class Axie extends Component {
             }[position]
           }
         </h1>
-        <table className="axie-status">
-          <tbody>
-            <tr>
-              <th>Health:</th>
-              <td>
-                <span className="axie-hp">
-                  {hpbase +
-                    hp +
-                    hpbonus.reduce((partialSum, i) => partialSum + i, 0)}{" "}
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <th>Class:</th>
-              <td>
-                <Select
-                  id="body"
-                  className="select"
-                  value={type}
-                  onChange={this.handleChangeType}
-                  options={classOptions}
-                />
-              </td>
-              <td>
-                {type ? (
-                  <img
-                    src={require("../img/icons/" + type.value + ".png")}
-                    alt={type.label}
-                    className="axie-class-icon"
+        <div>
+          <table className="axie-status">
+            <tbody>
+              <tr>
+                <th>Health:</th>
+                <td>
+                  <span className="axie-hp">
+                    {hpbase +
+                      hp +
+                      hpbonus.reduce((partialSum, i) => partialSum + i, 0)}{" "}
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th>Class:</th>
+                <td>
+                  <Select
+                    id="body"
+                    className="select"
+                    value={type}
+                    onChange={this.handleChangeType}
+                    options={classOptions}
                   />
-                ) : (
-                  ""
-                )}
-              </td>
-            </tr>
-            <tr>
-              <th>Rune:</th>
-              <td>
-                <Select
-                  id="rune"
-                  onChange={this.handleChangeRune}
-                  className="select"
-                  value={rune}
-                  options={runelist}
-                />
-              </td>
-              <td>
-                {rune ? (
-                  <Tooltip
-                    key={position + rune.label}
-                    className="tooltip"
-                    content={runedescr}
-                  >
+                </td>
+                <td>
+                  {type ? (
                     <img
-                      src={require("../img/runes/" +
-                        this.getRuneImg(rune.label))}
-                      alt={rune.label}
+                      src={require("../img/icons/" + type.value + ".png")}
+                      alt={type.label}
                       className="axie-class-icon"
                     />
-                  </Tooltip>
-                ) : (
-                  ""
-                )}
-              </td>
-            </tr>
-            <tr>
-              <th colSpan={3}>
-                <hr />
-              </th>
-            </tr>
-            <AxiePart
-              part="horn"
-              options={horncards}
-              handleCard={this.handleCard}
-              selected={cards[0]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[0]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <AxiePart
-              part="eyes"
-              options={eyescards}
-              handleCard={this.handleCard}
-              selected={cards[1]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[1]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <AxiePart
-              part="ears"
-              options={earscards}
-              handleCard={this.handleCard}
-              selected={cards[2]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[2]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <AxiePart
-              part="mouth"
-              options={mouthcards}
-              handleCard={this.handleCard}
-              selected={cards[3]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[3]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <AxiePart
-              part="back"
-              options={backcards}
-              handleCard={this.handleCard}
-              selected={cards[4]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[4]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <AxiePart
-              part="tail"
-              options={tailcards}
-              handleCard={this.handleCard}
-              selected={cards[5]}
-              handleCharm={this.handleCharm}
-              charmSelected={charms[5]}
-              bonus={bonus}
-              potentialMap={potentialMap}
-            />
-            <tr>
-              <th colSpan={3}>
-                <hr />
-              </th>
-            </tr>
-            <tr>
-              <th>Potential:</th>
-              <td>
-                {[...potentialMap.keys()].map((key) => {
-                  return (
-                    <span className="potential-points">
+                  ) : (
+                    ""
+                  )}
+                </td>
+              </tr>
+              <tr>
+                <th>Rune:</th>
+                <td>
+                  <Select
+                    id="rune"
+                    onChange={this.handleChangeRune}
+                    className="select"
+                    value={rune}
+                    options={runelist}
+                  />
+                </td>
+                <td>
+                  {rune ? (
+                    <Tooltip
+                      key={position + rune.label}
+                      className="tooltip"
+                      content={runedescr}
+                    >
                       <img
-                        src={require("../img/icons/" +
-                          key.charAt(0).toUpperCase() +
-                          key.substring(1) +
-                          ".png")}
-                        alt={key}
+                        src={require("../img/runes/" +
+                          this.getRuneImg(rune.label))}
+                        alt={rune.label}
                         className="axie-class-icon"
                       />
-                      {potentialMap.get(key) + " "}(
-                      {potentialUsed.get(key)
-                        ? this.potentialTaken(
-                            potentialMap.get(key),
-                            potentialUsed.get(key)
-                          )
-                        : 0}
-                      )
-                    </span>
-                  );
-                })}
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                    </Tooltip>
+                  ) : (
+                    ""
+                  )}
+                </td>
+              </tr>
+              <tr>
+                <th colSpan={3}>
+                  <hr />
+                </th>
+              </tr>
+              <AxiePart
+                part="horn"
+                options={horncards}
+                handleCard={this.handleCard}
+                selected={cards[0]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[0]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <AxiePart
+                part="eyes"
+                options={eyescards}
+                handleCard={this.handleCard}
+                selected={cards[1]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[1]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <AxiePart
+                part="ears"
+                options={earscards}
+                handleCard={this.handleCard}
+                selected={cards[2]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[2]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <AxiePart
+                part="mouth"
+                options={mouthcards}
+                handleCard={this.handleCard}
+                selected={cards[3]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[3]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <AxiePart
+                part="back"
+                options={backcards}
+                handleCard={this.handleCard}
+                selected={cards[4]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[4]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <AxiePart
+                part="tail"
+                options={tailcards}
+                handleCard={this.handleCard}
+                selected={cards[5]}
+                handleCharm={this.handleCharm}
+                charmSelected={charms[5]}
+                type={type}
+                runeSelected={rune}
+                potentialMap={potentialMap}
+              />
+              <tr>
+                <th colSpan={3}>
+                  <hr />
+                </th>
+              </tr>
+              <tr>
+                <th>Potential:</th>
+                <td colSpan={2} className="potential-cell">
+                  {[...potentialMap.keys()].map((key) => {
+                    return (
+                      <span className="potential-points">
+                        <img
+                          src={require("../img/icons/" +
+                            key.charAt(0).toUpperCase() +
+                            key.substring(1) +
+                            ".png")}
+                          alt={key}
+                          className="axie-class-icon"
+                        />
+                        {potentialMap.get(key) + " "}(
+                        {potentialUsed.get(key)
+                          ? this.potentialTaken(
+                              potentialMap.get(key),
+                              potentialUsed.get(key)
+                            )
+                          : 0}
+                        )
+                      </span>
+                    );
+                  })}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="axie-control">
+          <input className="textfield"
+            type="text"
+            value={axieId}
+            placeholder="Axie ID"
+            onChange={this.handleChangeId}
+            />
+          <button className="reset-button" 
+            onClick={this.axieSearch}>
+            Load Cards
+          </button>
+
+        </div>
       </div>
     );
   }

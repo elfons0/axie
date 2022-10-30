@@ -10,7 +10,7 @@ const noSort = { value: "none", label: "(none)" };
 
 const bodyOptions = [
   allitems,
-  { value: "aquatic", label: "Aqua" },
+  { value: "aquatic", label: "Aquatic" },
   { value: "beast", label: "Beast" },
   { value: "bird", label: "Bird" },
   { value: "bug", label: "Bug" },
@@ -312,7 +312,7 @@ export default class CardExplorer extends Component {
           </button>
         </div>
         
-        <div>
+        <div className="flex-div">
           {cardlist.map(({ cardId, name, description }) => (
             <Card
               key={cardId}

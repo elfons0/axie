@@ -126,7 +126,7 @@ export default class Ronin extends Component {
         )}
         
         {axies && (
-          <div className="axies-div">
+          <div className="flex-div">
             {axies['_items'].map(({ id, name, class : type, genes }) => (
               <WalletAxie
               key={id}

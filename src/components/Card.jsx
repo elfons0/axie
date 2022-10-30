@@ -16,6 +16,10 @@ export const findCard = (cardId) => {
   return cards.find((card) => card.cardId.includes(cardId));
 };
 
+export const findCardByPart = (partId) => {
+  return cards.find((card) => card.partId.includes(partId));
+};
+
 export default class Card extends Component {
   render() {
     const { cardId, name, description } = this.props;

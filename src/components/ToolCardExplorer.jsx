@@ -134,7 +134,7 @@ export default class CardExplorer extends Component {
             Reset
           </button>
         </div>
-        <div>
+        <div className="flex-div">
           {cardlist.map(({ id, name, description, cardImage }) => (
             <Card
               key={id}

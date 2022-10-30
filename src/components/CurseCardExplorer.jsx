@@ -10,7 +10,7 @@ export default class CardExplorer extends Component {
     return (
       <div className="curse-explorer">
         <h1> Curse Card Explorer </h1>
-        <div>
+        <div className="flex-div">
           {cards.map(({ id, name, description }) => (
             <Card
               key={id}

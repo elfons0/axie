@@ -12,7 +12,7 @@ export default class SummonExplorer extends Component {
       <div className="summon-explorer">
         <h1> Summon Explorer </h1>
 
-        <div>
+        <div className="flex-div">
           {summons.map(({ id, image, type,  name, description }) => (
             <Summon
               key={id}

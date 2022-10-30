@@ -10,7 +10,7 @@ const allitems = { value: "all", label: "(all)" };
 const bodyOptions = [
   allitems,
   { value: "Neutral", label: "Neutral" },
-  { value: "Aquatic", label: "Aqua" },
+  { value: "Aquatic", label: "Aquatic" },
   { value: "Beast", label: "Beast" },
   { value: "Bird", label: "Bird" },
   { value: "Bug", label: "Bug" },
@@ -164,7 +164,7 @@ export default class RuneExplorer extends Component {
             Reset
           </button>
         </div>
-        <div>
+        <div className="flex-div">
           {charmlist.map(({ id, image, type,  name, apply, effect, rarity, potentialCost }) => (
             <Charm
               key={id}

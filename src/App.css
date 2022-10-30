@@ -58,6 +58,7 @@ body {
   display: table-cell;
   min-height: 65px;
   z-index: 10;
+  width: 100%;
   margin: auto;
 }
 
@@ -84,6 +85,7 @@ body {
   width: 200px;
   float: left;
   color: #0a212c;
+  height: 42px;
 }
 
 label {
@@ -101,7 +103,6 @@ label {
 }
 
 .Card-div {
-  float: left;
   height: 330px;
   width: 210px;
   padding: 10px;
@@ -149,6 +150,11 @@ label {
 .tooltip {
   display: inline;
   color: yellow;
+  cursor: pointer;
+}
+
+.team-tooltip {
+  display: inline;
   cursor: pointer;
 }
 
@@ -209,7 +215,6 @@ label {
 }
 
 .rune-div {
-  float: left;
   height: 300px;
   width: 200px;
   padding: 10px;
@@ -266,7 +271,6 @@ label {
 }
 
 .effect-div {
-  float: left;
   height: 200px;
   width: 170px;
   padding: 10px;
@@ -375,7 +379,6 @@ label {
 }
 
 .summon-div {
-  float: left;
   height: 200px;
   width: 170px;
   padding: 10px;
@@ -403,15 +406,9 @@ label {
   padding: 5px;
 }
 
-.team-explorer {
-  max-width: 1080px;
-  margin: auto;
-}
-
 .axie {
   margin: 20px;
-  width: 320px;
-  float: left;
+  width: 400px;
 }
 
 .axie-hp {
@@ -449,6 +446,10 @@ label {
   color: green;
 }
 
+.potential-cell {
+  height: 94px;
+}
+
 .potential-points {
   font-size: 16pt;
   margin: 8px;
@@ -464,6 +465,10 @@ label {
   color: red;
 }
 
+.axie-control{
+  padding: 30px;
+}
+
 .css-1insrsq-control {
   background-color: lightgray !important;
 }
@@ -473,7 +478,7 @@ label {
   border: 0px;
   padding: 10px;
   width: 180px;
-  height: 16px;
+  height: 18px;
   float: left;
 }
 
@@ -511,7 +516,6 @@ label {
 }
 
 .wallet-axie{
-  float: left;
   width: 200px;
   height: 510px;
   border: 1px solid white;
@@ -529,9 +533,11 @@ label {
   color: white;
 }
 
-.axies-div{
+.flex-div{
   display: flex;
   flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .axieImage{
