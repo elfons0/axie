@@ -10,22 +10,22 @@ const noSort = { value: "none", label: "(none)" };
 
 const bodyOptions = [
   allitems,
-  { value: "aquatic", label: "Aquatic" },
-  { value: "beast", label: "Beast" },
-  { value: "bird", label: "Bird" },
-  { value: "bug", label: "Bug" },
-  { value: "plant", label: "Plant" },
-  { value: "reptile", label: "Reptile" },
+  { value: "Aquatic", label: "Aquatic" },
+  { value: "Beast", label: "Beast" },
+  { value: "Bird", label: "Bird" },
+  { value: "Bug", label: "Bug" },
+  { value: "Plant", label: "Plant" },
+  { value: "Reptile", label: "Reptile" },
 ];
 
 const partsOptions = [
   allitems,
-  { value: "back", label: "Back" },
-  { value: "horn", label: "Horn" },
-  { value: "mouth", label: "Mouth" },
-  { value: "tail", label: "Tail" },
-  { value: "ears", label: "Ears" },
-  { value: "eyes", label: "Eyes" },
+  { value: "Back", label: "Back" },
+  { value: "Horn", label: "Horn" },
+  { value: "Mouth", label: "Mouth" },
+  { value: "Tail", label: "Tail" },
+  { value: "Ears", label: "Ears" },
+  { value: "Eyes", label: "Eyes" },
 ];
 
 const energyOptions = [
@@ -176,17 +176,17 @@ export default class CardExplorer extends Component {
     }
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((card) =>
-        card.cardId.includes(selectedBody.value)
+        card.partClass.includes(selectedBody.value)
       );
     }
     if (selectedEnergy.value !== "all") {
       filteredList = filteredList.filter(
-        (card) => Number(card.defaultEnergy) === Number(selectedEnergy.value)
+        (card) => Number(card.energy) === Number(selectedEnergy.value)
       );
     }
     if (selectedPart.value !== "all") {
       filteredList = filteredList.filter(
-        (card) => card.part === selectedPart.value
+        (card) => card.partType === selectedPart.value
       );
     }
     if (selectedAttack.value !== "all") {
@@ -198,14 +198,14 @@ export default class CardExplorer extends Component {
     switch (selectedSort.value) {
       case "attack":
         filteredList = filteredList.filter((card) =>
-        card.defaultAttack > 0).sort((a, b) =>
-          a.defaultAttack < b.defaultAttack ? 1 : -1
+        card.attack > 0).sort((a, b) =>
+          a.attack < b.attack ? 1 : -1
         );
         break;
       case "defense":
         filteredList = filteredList.filter((card) =>
-        card.defaultDefense > 0).sort((a, b) =>
-          a.defaultDefense < b.defaultDefense ? 1 : -1
+        card.defense > 0).sort((a, b) =>
+          a.defense < b.defense ? 1 : -1
         );
         break;
       case "healing":
@@ -313,10 +313,12 @@ export default class CardExplorer extends Component {
         </div>
         
         <div className="flex-div">
-          {cardlist.map(({ cardId, name, description }) => (
+          {cardlist.map(({ id, partClass, partType, partValue, name, description }) => (
             <Card
-              key={cardId}
-              cardId={cardId}
+              key={id}
+              partClass={partClass}
+              partType={partType}
+              partValue={partValue}
               name={name}
               description={description}
             />

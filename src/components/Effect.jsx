@@ -15,7 +15,7 @@ export const replaceEffect = (cardId, description, init, end) => {
   let tooltipText = [];
 
   let fulltext = description;
-
+/*
   let index_ini = fulltext.indexOf(init);
   let index_fin, effect, effectText;
   while (index_ini >= 0) {
@@ -31,7 +31,7 @@ export const replaceEffect = (cardId, description, init, end) => {
     fulltext = fulltext.substring(index_fin + 1);
     index_ini = fulltext.indexOf(init);
   }
-
+*/
   plainText.push(fulltext);
 
   let htmlOutput = [];

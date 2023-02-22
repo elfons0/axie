@@ -5,6 +5,19 @@ import runes from "../data/runes.json";
 import Rune from "./Rune";
 import ScrollButton from "./ScrollButton";
 
+/*
+const url = 'https://api-gateway.skymavis.com/origin/v2/community/runes';
+const options = {
+  method: 'GET',
+  headers: {accept: 'application/json', 'X-API-Key': 'S7SNDcxjzIZr9hUZ42l2PtRASr3yMx5H'}
+};
+
+fetch(url, options)
+  .then(res => res.json())
+  .then(json => console.log(json))
+  .catch(err => console.error('error:' + err));
+*/
+
 const allitems = { value: "all", label: "(all)" };
 
 const bodyOptions = [
@@ -23,62 +36,90 @@ const bodyOptions = [
 
 const rarityOptions = [
   allitems,
-  { value: "Common", label: "Common" },  
+  { value: "Common", label: "Common" },
   { value: "Rare", label: "Rare" },
   { value: "Epic", label: "Epic" },
-  { value: "Mystic", label: "Mystic" }
+  { value: "Mystic", label: "Mystic" },
 ];
+
+const seasonOptions = [
+  { value: "Season 2", label: "Season 2" },
+  { value: "Season 1", label: "Season 1" },
+  { value: "Season 0", label: "Season 0" },
+  { value: "Season Alpha", label: "Season Alpha" },
+];
+
+const currentSeason = "Season 2";
+const currentSeasonItem = { value: currentSeason, label: currentSeason };
 
 export default class RuneExplorer extends Component {
   state = {
     runelist: [],
     selectedBody: allitems,
-    selectedRarity: allitems
+    selectedRarity: allitems,
+    selectedSeason: currentSeasonItem,
   };
 
   handleChangeBody = (selectedBody) => {
-    const {selectedRarity} = this.state;
+    const { selectedRarity, selectedSeason } = this.state;
     this.setState({ selectedBody });
-    this.filter(
-      selectedBody,
-      selectedRarity
-    );
+    this.filter(selectedBody, selectedRarity, selectedSeason);
   };
 
   handleChangeRarity = (selectedRarity) => {
-    const {selectedBody} = this.state;
+    const { selectedBody, selectedSeason } = this.state;
     this.setState({ selectedRarity });
-    this.filter(
-      selectedBody,
-      selectedRarity
-    );
+    this.filter(selectedBody, selectedRarity, selectedSeason);
+  };
+
+  handleChangeSeason = (selectedSeason) => {
+    const { selectedBody, selectedRarity } = this.state;
+    this.setState({ selectedSeason });
+    this.filter(selectedBody, selectedRarity, selectedSeason);
+  };
+
+  startingRunes = () => {
+    return runes
+      .filter(
+        (rune) =>
+          rune.craftable &&
+          rune.season.name.includes(currentSeason)
+      )
+
+      .sort((a, b) => (a.item.displayOrder > b.item.displayOrder ? 1 : -1));
   };
 
   reset = () => {
     this.setState({
-      runelist: runes,
+      runelist: this.startingRunes(),
       selectedBody: allitems,
-      selectedRarity: allitems
+      selectedRarity: allitems,
+      selectedSeason: currentSeasonItem,
     });
   };
 
-  filter = (
-    selectedBody, selectedRarity
-  ) => {
-    let filteredList = runes;
+  filter = (selectedBody, selectedRarity, selectedSeason) => {
+    let filteredList = runes
+      .filter(
+        (rune) =>
+          rune.craftable &&
+          rune.season.name.includes(currentSeason)
+      )
+
+      .sort((a, b) => (a.item.displayOrder > b.item.displayOrder ? 1 : -1));
 
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((rune) =>
-        rune.type.includes(selectedBody.value)
+        rune.class.includes(selectedBody.value)
       );
     }
 
     if (selectedRarity.value !== "all") {
       filteredList = filteredList.filter((rune) =>
-        rune.rarity.includes(selectedRarity.value)
+        rune.item.rarity.includes(selectedRarity.value)
       );
     }
-  
+
     this.setState({ runelist: filteredList });
   };
 
@@ -87,11 +128,8 @@ export default class RuneExplorer extends Component {
   }
 
   render() {
-    const {
-      runelist,
-      selectedBody,
-      selectedRarity,
-    } = this.state;
+    const { runelist, selectedBody, selectedRarity, selectedSeason } =
+      this.state;
 
     return (
       <div className="rune-explorer">
@@ -119,20 +157,31 @@ export default class RuneExplorer extends Component {
               isSearchable={false}
             />
           </div>
+          <div className="filterItem">
+            <label htmlFor="season">Season</label>
+            <Select
+              id="season"
+              className="select"
+              value={selectedSeason}
+              onChange={this.handleChangeSeason}
+              options={seasonOptions}
+              isSearchable={false}
+            />
+          </div>
           <button className="reset-button" onClick={this.reset}>
             Reset
           </button>
         </div>
         <div className="flex-div">
-          {runelist.map(({ id, image, type,  name, effect, rarity }) => (
+          {runelist.map(({ rune, class: type, item }) => (
             <Rune
-              key={id}
-              image={image}
+              key={rune}
+              image={item.imageUrl}
               type={type}
-              name={name}
-              rarity={rarity}
-              description={effect}
-            />       
+              name={item.name}
+              rarity={item.rarity}
+              description={item.description}
+            />
           ))}
         </div>
         <ScrollButton />

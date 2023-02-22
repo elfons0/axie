@@ -103,13 +103,13 @@ label {
 }
 
 .Card-div {
-  height: 330px;
-  width: 210px;
+  height: 410px;
+  width: 270px;
   padding: 10px;
 }
 
 .card {
-  width: 210px;
+  width: 270px;
   margin: 5px;
   z-index: -1;
 }
@@ -127,10 +127,10 @@ label {
 .card-title {
   position: relative;
   color: white;
-  top: -143px;
-  left: 87px;
-  width: 115px;
-  font-size: 10pt;
+  top: -180px;
+  left: 110px;
+  width: 150px;
+  font-size: 11pt;
   font-weight: bold;
   text-align: left;
 }
@@ -138,12 +138,12 @@ label {
 .card-description {
   position: relative;
   color: white;
-  top: -137px;
-  left: 39px;
+  top: -140px;
+  left: 49px;
   font-size: 9pt;
-  width: 165px;
-  vertical-align: middle;
-  height: 100px;
+  width: 210px;
+  vertical-align: top;
+  height: 80px;
   display: table-cell;
 }
 
@@ -665,7 +665,7 @@ label {
   .card-title {
     top: -107px;
     left: 61px;
-    font-size: 8pt;
+    font-size: 6pt;
     width: 100px;
   }
 

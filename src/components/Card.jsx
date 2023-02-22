@@ -4,7 +4,7 @@ import { replaceEffect } from "./Effect";
 import cards from "../data/origincards.json";
 
 export const getCardImage = (cardId) => {
-  const version = '20220928';
+  const version = '20230111';
   return 'https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-' + version + '/' + cardId +'.png';
 }
 
@@ -22,7 +22,10 @@ export const findCardByPart = (partId) => {
 
 export default class Card extends Component {
   render() {
-    const { cardId, name, description } = this.props;
+    const {partClass, partType, partValue, name, description} = this.props;
+
+    const paddedPartValuue = partValue.toString().padStart(2,0);
+    const cardId = `${partClass}-${partType}-${paddedPartValuue}-00`.toLocaleLowerCase();
 
     const htmlDescription = replaceEffect(cardId, description, "{", "}");
 

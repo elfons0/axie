@@ -35,13 +35,13 @@ export default class WalletAxie extends Component {
     const tailCard = findCard(tail);
 
     const marketSearch = marketUrl +
-      '?class=' + type +
-      '&part=' + eyesCard.partId +
-      '&part=' + earsCard.partId +
-      '&part=' + hornCard.partId +
-      '&part=' + mouthCard.partId +
-      '&part=' + backCard.partId +
-      '&part=' + tailCard.partId +
+      '?classes=' + type +
+      '&parts=' + eyesCard.partId +
+      '&parts=' + earsCard.partId +
+      '&parts=' + hornCard.partId +
+      '&parts=' + mouthCard.partId +
+      '&parts=' + backCard.partId +
+      '&parts=' + tailCard.partId +
       '&auctionTypes=Sale';
  
 
