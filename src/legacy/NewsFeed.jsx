@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import news from "../data/news.json";
-import Post from "./Post";
+import Post from "../components/Post";
 
 export default class NewsFeed extends Component {
   render() {

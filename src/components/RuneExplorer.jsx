@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Select from "react-select";
 
+import config from "../data/config.json";
 import runes from "../data/runes.json";
 import Rune from "./Rune";
 import ScrollButton from "./ScrollButton";
@@ -49,8 +50,7 @@ const seasonOptions = [
   { value: "Season Alpha", label: "Season Alpha" },
 ];
 
-const currentSeason = "Season 2";
-const currentSeasonItem = { value: currentSeason, label: currentSeason };
+const currentSeasonItem = { value: config.currentSeason, label: config.currentSeason };
 
 export default class RuneExplorer extends Component {
   state = {
@@ -78,20 +78,19 @@ export default class RuneExplorer extends Component {
     this.filter(selectedBody, selectedRarity, selectedSeason);
   };
 
-  startingRunes = () => {
-    return runes
+  startingRunes = (season) => {
+    return runes._items
       .filter(
         (rune) =>
           rune.craftable &&
-          rune.season.name.includes(currentSeason)
+          rune.season?.name === season
       )
-
       .sort((a, b) => (a.item.displayOrder > b.item.displayOrder ? 1 : -1));
   };
 
   reset = () => {
     this.setState({
-      runelist: this.startingRunes(),
+      runelist: this.startingRunes(config.currentSeason),
       selectedBody: allitems,
       selectedRarity: allitems,
       selectedSeason: currentSeasonItem,
@@ -99,14 +98,7 @@ export default class RuneExplorer extends Component {
   };
 
   filter = (selectedBody, selectedRarity, selectedSeason) => {
-    let filteredList = runes
-      .filter(
-        (rune) =>
-          rune.craftable &&
-          rune.season.name.includes(currentSeason)
-      )
-
-      .sort((a, b) => (a.item.displayOrder > b.item.displayOrder ? 1 : -1));
+    let filteredList = this.startingRunes(selectedSeason.value);
 
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((rune) =>

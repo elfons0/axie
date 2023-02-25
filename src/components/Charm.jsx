@@ -12,7 +12,7 @@ export const findCharm = (name) => {
 
 export default class Charm extends Component {
   render() {
-    const { id, image, type, name, apply, effect, rarity, potentialCost } = this.props;
+    const {id, image, type, name, effect, rarity, potentialCost } = this.props;
 
     const runeRarity = "rune-title rune-" + rarity;
 
@@ -21,11 +21,10 @@ export default class Charm extends Component {
     return (
       <div className="rune-div">
         <img src={runeCard} alt="" className="runeCard" />
-        <img src={require('../img/charms/' + image)} alt={name} className="rune" />
-        <img src={require('../img/icons/' + type + '.png')} alt={type} className="runeicon" />
+        <img src={require('../img/icons/' + type + '.png')} alt={type} className="charmicon" />
+        <img src={image} alt={name} className="charm" />
         <div className={runeRarity}>{name}</div>
-        <div className="rune-description" >
-          {apply}<br/>
+        <div className="charm-description" >
           {htmlDescription}
         </div>        
         <div className="potentialCost">{potentialCost}</div>

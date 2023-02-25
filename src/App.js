@@ -11,6 +11,7 @@ import TeamExplorer from "./components/TeamExplorer";
 
 import { Routes, Route, MemoryRouter } from "react-router-dom";
 import "./App.css";
+import "./App_mobile.css";
 
 
 function App() {

@@ -149,7 +149,7 @@ export default class CardExplorer extends Component {
 
   reset = () => {
     this.setState({
-      cardlist: cards,
+      cardlist: cards._items,
       selectedText: '',
       selectedBody: allitems,
       selectedEnergy: allitems,
@@ -167,7 +167,7 @@ export default class CardExplorer extends Component {
     selectedAttack,
     selectedSort
   ) => {
-    let filteredList = cards;
+    let filteredList = cards._items;
 
     if (selectedText) {
       filteredList = filteredList.filter((card) =>

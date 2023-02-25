@@ -1,0 +1,124 @@
+@media screen and (max-width: 500px) {
+  .card {
+    width: 150px;
+  }
+
+  .Card-div {
+    width: 150px;
+    height: 230px;
+  }
+
+  .card-description {
+    top: -85px;
+    left: 35px;
+    font-size: 6pt;
+    width: 110px;
+    height: 100px;
+  }
+
+  .card-title {
+    top: -105px;
+    left: 61px;
+    font-size: 6pt;
+    width: 100px;
+  }
+
+  .runeCard {
+    width: 160px;
+  }
+
+  .rune {
+    width: 65px;
+    top: -125px;
+    left: 24px;
+  }
+
+  .rune-div {
+    width: 160px;
+    height: 230px;
+  }
+
+  .rune-description {
+    top: -85px;
+    left: 5px;
+    font-size: 7pt;
+    width: 160px;
+    height: 100px;
+  }
+
+  .rune-title {
+    top: -120px;
+    left: 25px;
+    font-size: 8pt;
+    width: 125px;
+  }
+
+  .runeicon {
+    width: 35px;
+    position: relative;
+    top: -179px;
+    left: -73px;
+  }
+
+  .title {
+    font-size: 28pt;
+    position: relative;
+    top: 15px;
+  }
+
+  .navigator a {
+    margin: 15px;
+  }
+
+  .menu-img {
+    height: 20px;
+  }
+
+  .effect-div {
+    width: 160px;
+  }
+
+  .effect-description {
+    width: 160px;
+  }
+
+  .potentialCost {
+    position: relative;
+    font-size: 20pt;
+    top: -315px;
+    left: 30px;
+    -webkit-text-stroke: 1pt black;
+  }
+
+  .goTop {
+    width: 45px;
+    height: 45px;
+  }
+
+  .summon-div {
+    width: 150px;
+  }
+
+  .wideItem {
+    width: auto;
+  }
+  
+  .wideItem label{
+    width: auto;
+  }
+
+  .wallet-div {
+    padding: 10px;
+  }
+
+  .wallet-div span {
+    float: right;
+    margin-bottom: -10px;
+  }
+
+  .money{
+    width: 75px;
+    margin: 10px 0;
+  }
+
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Select from "react-select";
 
+import config from "../data/config.json";
 import charms from "../data/charms.json";
 import Charm from "./Charm";
 import ScrollButton from "./ScrollButton";
@@ -38,47 +39,81 @@ const potentialOptions = [
   { value: "5", label: "5" }
 ];
 
+const seasonOptions = [
+  { value: "Season 2", label: "Season 2" },
+  { value: "Season 1", label: "Season 1" },
+  { value: "Season 0", label: "Season 0" },
+  { value: "Season Alpha", label: "Season Alpha" },
+];
+
+const currentSeasonItem = { value: config.currentSeason, label: config.currentSeason };
+
 export default class RuneExplorer extends Component {
   state = {
     charmlist: [],
     selectedBody: allitems,
     selectedRarity: allitems,
-    selectedPotential: allitems
+    selectedPotential: allitems,
+    selectedSeason: currentSeasonItem,
   };
 
   handleChangeBody = (selectedBody) => {
-    const {selectedRarity, selectedPotential} = this.state;
+    const {selectedRarity, selectedPotential, selectedSeason} = this.state;
     this.setState({ selectedBody });
     this.filter(
       selectedBody,
       selectedRarity,
-      selectedPotential
+      selectedPotential, 
+      selectedSeason
     );
   };
 
   handleChangeRarity = (selectedRarity) => {
-    const {selectedBody, selectedPotential} = this.state;
+    const {selectedBody, selectedPotential, selectedSeason} = this.state;
     this.setState({ selectedRarity });
     this.filter(
       selectedBody,
       selectedRarity,
-      selectedPotential
+      selectedPotential, 
+      selectedSeason
     );
   };
 
   handleChangePotential = (selectedPotential) => {
-    const {selectedBody, selectedRarity} = this.state;
+    const {selectedBody, selectedRarity, selectedSeason} = this.state;
     this.setState({ selectedPotential });
     this.filter(
       selectedBody,
       selectedRarity,
-      selectedPotential
+      selectedPotential, 
+      selectedSeason
     );
+  };
+
+  handleChangeSeason = (selectedSeason) => {
+    const {selectedBody, selectedRarity, selectedPotential} = this.state;
+    this.setState({ selectedSeason });
+    this.filter(
+      selectedBody,
+      selectedRarity,
+      selectedPotential, 
+      selectedSeason
+    );
+  };
+
+  startingCharms = (season) => {
+    return charms._items    
+      .filter(
+        (charm) =>
+          charm.craftable &&
+          charm.season?.name === season
+      )
+      .sort((a, b) => (a.item.displayOrder > b.item.displayOrder ? 1 : -1));
   };
 
   reset = () => {
     this.setState({
-      charmlist: charms,
+      charmlist: this.startingCharms(config.currentSeason),
       selectedBody: allitems,
       selectedRarity: allitems,
       selectedPotential: allitems
@@ -86,25 +121,25 @@ export default class RuneExplorer extends Component {
   };
 
   filter = (
-    selectedBody, selectedRarity, selectedPotential
+    selectedBody, selectedRarity, selectedPotential, selectedSeason
   ) => {
-    let filteredList = charms;
+    let filteredList = this.startingCharms(selectedSeason.value);
 
     if (selectedBody.value !== "all") {
       filteredList = filteredList.filter((charm) =>
-      charm.type.includes(selectedBody.value)
+      charm.class.includes(selectedBody.value)
       );
     }
 
     if (selectedRarity.value !== "all") {
       filteredList = filteredList.filter((charm) =>
-        charm.rarity.includes(selectedRarity.value)
+        charm.item.rarity.includes(selectedRarity.value)
       );
     }
 
     if (selectedPotential.value !== "all") {
       filteredList = filteredList.filter((charm) =>
-      Number(charm.potentialCost) === Number(selectedPotential.value)
+      Number(charm.potentialPoint) === Number(selectedPotential.value)
       );
     }
   
@@ -120,7 +155,8 @@ export default class RuneExplorer extends Component {
       charmlist,
       selectedBody,
       selectedRarity,
-      selectedPotential
+      selectedPotential,
+      selectedSeason
     } = this.state;
 
     return (
@@ -160,21 +196,31 @@ export default class RuneExplorer extends Component {
               isSearchable={false}
             />
           </div>
+          <div className="filterItem">
+            <label htmlFor="season">Season</label>
+            <Select
+              id="season"
+              className="select"
+              value={selectedSeason}
+              onChange={this.handleChangeSeason}
+              options={seasonOptions}
+              isSearchable={false}
+            />
+          </div>
           <button className="reset-button" onClick={this.reset}>
             Reset
           </button>
         </div>
         <div className="flex-div">
-          {charmlist.map(({ id, image, type,  name, apply, effect, rarity, potentialCost }) => (
+          {charmlist.map(({code, potentialPoint, class: type, item }) => (
             <Charm
-              key={id}
-              image={image}
+              key={code}
+              image={item.imageUrl}
               type={type}
-              name={name}
-              rarity={rarity}
-              apply={apply}
-              effect={effect}
-              potentialCost = {potentialCost}
+              name={item.name}
+              rarity={item.rarity}
+              effect={item.description}
+              potentialCost={potentialPoint}
             />       
           ))}
         </div>

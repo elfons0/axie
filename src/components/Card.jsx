@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { replaceEffect } from "./Effect";
 
+import config from "../data/config.json";
 import cards from "../data/origincards.json";
 
 export const getCardImage = (cardId) => {
-  const version = '20230111';
-  return 'https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-' + version + '/' + cardId +'.png';
+  return 'https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-' + config.cardVersion + '/' + cardId +'.png';
 }
 
 export const partsCards = (part) => {
